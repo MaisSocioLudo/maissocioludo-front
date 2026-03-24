@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { PiBookBold, PiCaretLeftBold, PiCaretRightBold, PiHashBold } from "react-icons/pi";
 import { Metadata } from "next";
+import Banner from "./(components)/banner";
 
 export const metadata: Metadata = {
   title: "+SocioLudo - Página inicial",
@@ -30,18 +31,23 @@ const cartas = [
   {
     src: "/imagens/cartas/Carta31.jpg",
     alt: "Carta temática Durkheim",
-    titulo: "Durkheim",
+    titulo: "Karl Marx",
   },
   {
     src: "/imagens/cartas/Carta37.jpg",
     alt: "Carta temática Karl Marx",
-    titulo: "Karl Marx",
+    titulo: "Max Weber",
   },
 ];
 
 export default function Home() {
   return (
+    <>
     <div className="px-4 md:px-8 lg:px-12 py-8">
+      <div className="mb-10">
+        <Banner />
+      </div>
+      
       <div id="sobre" className="flex flex-col gap-12">
         <section id="socioludo" className="scroll-mt-24">
           <div className="flex items-center gap-2 mb-4">
@@ -152,5 +158,6 @@ export default function Home() {
         </section>
       </div>
     </div>
+    </>
   );
 }

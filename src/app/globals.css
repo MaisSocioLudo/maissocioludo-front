@@ -3,7 +3,12 @@
 :root {
   --background: #ffffff;
   --foreground: #000000;
+  --color-vermelho: #C02A3A;
+  --color-verde: #2DAB5C;
+  --color-azul: #0267B2;
+  --color-amarelo: #F7B608;
 }
+
  inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
