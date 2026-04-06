@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Navbar from "../components/Navbar";
+import Navbar from "@/components/Navbar";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -12,6 +12,14 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
+
+
+export async function generateMetadata({
+}): Promise<Metadata> {
+  return {
+    title: `Conheça o SocioLudo | +SocioLudo`,
+  };
+}
 
 export default function RootLayout({
   children,
@@ -26,9 +34,8 @@ export default function RootLayout({
         <header>
           <Navbar color="vermelho" />
         </header>
-        <div className="p-10">
-          {children}
-        </div>
+
+        {children}
       </body>
     </html>
   );

@@ -1,0 +1,213 @@
+{
+  "title": "Introdução à Sociologia",
+  "description": "Oi",
+  "menu": [
+    { "id": "referencias", "label": "REFERÊNCIAS" },
+    { "id": "conceitos", "label": "CONCEITOS" },
+    { "id": "indicacoes", "label": "INDICAÇÕES" }
+  ],
+  "sections": [
+    {
+      "id": "conceitos",
+      "title": "Introdução à Sociologia",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "A Sociologia tem como objeto de estudo os fenômenos sociais, ou seja, as relações que os indivíduos estabelecem entre si, gerando normas de comportamento, formando grupos e elaborando ideias sobre esses grupos."
+        },
+        {
+          "type": "paragraph",
+          "content": "Sua principal preocupação está na origem desses fenômenos, levantando questionamentos como:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Qual é a natureza dos vínculos sociais em diferentes tipos de sociedade?",
+            "Quais são as justificativas das diferenciações e desigualdades sociais?",
+            "Quais são as funções de certas instituições sociais para a totalidade de uma sociedade?",
+            "Quais valores orientam as ações humanas em determinados contextos sociais?",
+            "Quais são os efeitos da vida econômica sobre a vida social?",
+            "Quais são os efeitos da cultura sobre a economia?"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": "Para responder a esses questionamentos, assim como qualquer outra ciência, a Sociologia utiliza um método científico a fim de analisar os fenômenos sociais. Diferentemente do que muitas pessoas acreditam, a Sociologia não tem relação com as ideias presentes no senso comum; muito pelo contrário, um de seus objetivos como disciplina é desconstruir preconceitos, desinformações e estereótipos nele presentes."
+        },
+        {
+          "type": "paragraph",
+          "content": "No livro “A Imaginação Sociológica”, escrito por Charles Wright Mills (1916 - 1962), o autor tem como objetivo explicar a importância da disciplina. Por meio dessa obra, ele cunhou o conceito de Imaginação Sociológica que consiste na capacidade do indivíduo de conectar suas experiências pessoais ao contexto social e histórico."
+        },
+        {
+          "type": "paragraph",
+          "content": "Como exemplo, problemas relacionados à autoimagem e à autoestima, muitas vezes vistos como inseguranças individuais, são frequentemente influenciados pela mídia e pelas redes sociais, que impõem padrões irrealistas e culturalmente construídos. Ao destrincharmos esse problema, percebe-se que a baixa autoestima não é apenas uma questão individual, mas também um fenômeno social que afeta milhares de pessoas. Desenvolver essa capacidade de análise, a citada anteriormente, imaginação sociológica, permite compreender melhor a relação entre indivíduo e sociedade, tornando os sujeitos mais críticos e conscientes de sua realidade."
+        },
+        {
+          "type": "paragraph",
+          "content": "Agora que você já sabe o que é a Sociologia e o que ela estuda, vamos compreender alguns dos conceitos introdutórios:"
+        },
+        {
+          "type": "heading",
+          "content": "Senso Comum"
+        },
+        {
+          "type": "paragraph",
+          "content": "O senso comum é caracterizado por opiniões pessoais que reforçam estereótipos, ou seja, que generalizam casos específicos como se fossem universais. Afirmações com base no senso comum reproduzem, em geral, ideias sem fundamentação científica, como “todo político é corrupto” ou “o povo brasileiro é preguiçoso”."
+        },
+        {
+          "type": "heading",
+          "content": "Socialização"
+        },
+        {
+          "type": "paragraph",
+          "content": "Para a sociologia, a socialização é o processo responsável pela integração dos indivíduos na sociedade. Tal processo se dá através da interação com os demais membros da sociedade, essa interação é responsável pela formação de ideais, opiniões, formas de agir, entre diversos outros traços comportamentais e ideológicos dos indivíduos. Nesse contexto, os indivíduos também aprendem os chamados papéis sociais, que correspondem ao conjunto de comportamentos esperados de um indivíduo de acordo com a posição que ocupa na sociedade, como ser estudante, filho ou trabalhador."
+        },
+        {
+          "type": "paragraph",
+          "content": "Existem 2 tipos de socialização: a primária e a secundária."
+        },
+        {
+          "type": "subheading",
+          "content": "Socialização primária:"
+        },
+        {
+          "type": "paragraph",
+          "content": "Ela ocorre durante a infância, em que os principais agentes socializadores são os nossos familiares, mas esse processo também pode ocorrer nas creches. Nesse momento, a criança tem contato com a sua língua, aprende as relações sociais e organização da sociedade na qual ela está inserida. Além disso, é nesse estágio em que são interiorizados normas e valores."
+        },
+        {
+          "type": "subheading",
+          "content": "Socialização Secundária:"
+        },
+        {
+          "type": "paragraph",
+          "content": "Esse processo é aquele no qual os indivíduos entram em contato com outros ambientes fora do ciclo familiar, como, por exemplo, ao ingressarem nos primeiros anos do ensino fundamental. Nesse momento, os agentes socializadores passam a incluir grupos de amigos, instituições religiosas e as redes sociais. É nesse contexto que pode ocorrer a ruptura dos valores internalizados na socialização primária, pois, ao “furar a bolha” e entrar em contato com outras perspectivas além da família, o indivíduo adquire suas próprias opiniões, que podem ou não corresponder às de seus familiares."
+        },
+        {
+          "type": "paragraph",
+          "content": "Logo, podemos dizer que os indivíduos são um “produto social”, visto que suas ações estão condicionadas à forma como eles foram socializados na sociedade."
+        },
+        {
+          "type": "heading",
+          "content": "Instituições sociais"
+        },
+        {
+          "type": "paragraph",
+          "content": "As instituições sociais são estruturas organizadas que regulam a vida em sociedade, como a família, a escola, o Estado e a religião. Elas estabelecem normas e orientam o comportamento dos indivíduos, contribuindo para a manutenção da ordem social. Cada instituição tem uma função específica, mas todas atuam de forma interligada."
+        },
+        {
+          "type": "subheading",
+          "content": "A família"
+        },
+        {
+          "type": "paragraph",
+          "content": "A família é a primeira instituição social com a qual os indivíduos têm contato. Ela é responsável por ensinar as primeiras normas, valores e formas de comportamento, orientando os indivíduos em seus primeiros passos na sociedade. Essa instituição baseia-se, principalmente, na afetividade, o que facilita a internalização das regras que serão levadas para o convívio social."
+        },
+        {
+          "type": "subheading",
+          "content": "A religião"
+        },
+        {
+          "type": "paragraph",
+          "content": "A religião é uma instituição social com a qual grande parte da população tem contato ao longo da vida. Ela estabelece normas morais e sociais que orientam o comportamento dos indivíduos dentro de determinada cultura, desempenhando, assim, um papel importante na organização da vida em sociedade. Por atuar além do ambiente familiar e apresentar regras mais amplas, é considerada uma instituição de socialização secundária."
+        },
+        {
+          "type": "subheading",
+          "content": "A escola"
+        },
+        {
+          "type": "paragraph",
+          "content": "A escola é uma instituição de socialização secundária por excelência. Ela é responsável por transmitir ao indivíduo normas sociais, valores e conhecimentos formais que irão orientá-lo ao longo da vida. Além disso, contribui para a formação cidadã e para a preparação do indivíduo para outras esferas sociais, como o trabalho e a participação no Estado."
+        },
+        {
+          "type": "subheading",
+          "content": "O Estado"
+        },
+        {
+          "type": "paragraph",
+          "content": "O Estado é uma instituição social complexa, responsável por organizar a sociedade por meio de normas e leis. Ele reúne e sistematiza regras que orientam o funcionamento da vida coletiva, garantindo a ordem social. Para que o indivíduo se integre plenamente ao Estado, é necessário que tenha passado pelos processos de socialização anteriores, como aqueles promovidos pela família e pela escola. No Estado, predominam relações mais impessoais e um modo de organização baseado em regras formais."
+        },
+        {
+          "type": "heading",
+          "content": "Estratificação Social"
+        },
+        {
+          "type": "paragraph",
+          "content": "É o modo como as diversas sociedades estão organizadas em estratos ou camadas sociais. Em outras palavras, trata-se da forma como os indivíduos se distribuem em diferentes posições dentro de uma sociedade. Esses critérios podem ser econômicos, políticos, sociais e culturais."
+        },
+        {
+          "type": "paragraph",
+          "content": "Podemos utilizar, como exemplo, as sociedades feudais, que eram organizadas, respectivamente, em clero, nobreza e servos. Essa divisão forma uma pirâmide hierárquica, na qual uma classe se sobrepõe às demais."
+        },
+        {
+          "type": "paragraph",
+          "content": "A estratificação social é estruturada com base em múltiplas variáveis. As principais são renda e ocupação, mas, como apontou Max Weber, além do fator econômico, o status (prestígio) e o poder (capacidade de influência) também compõem esse arranjo e contribuem para a hierarquização das posições sociais."
+        },
+        {
+          "type": "heading",
+          "content": "Mobilidade Social"
+        },
+        {
+          "type": "paragraph",
+          "content": "É a possibilidade de um indivíduo mudar de posição social, de status ou poder. Diferentemente das sociedades feudais, em que era impossível ascender ou descender socialmente. No entanto, nas sociedades capitalistas essa ideia é possível, abrindo espaço para duas possibilidades de mudança de classe: mobilidade social vertical e horizontal."
+        },
+        {
+          "type": "subheading",
+          "content": "Mobilidade social vertical"
+        },
+        {
+          "type": "paragraph",
+          "content": "Ela ocorre quando há uma mudança de posição social, seja uma ascensão ou queda na hierarquia social Em outras palavras, o indivíduo melhora ou piora sua condição socioeconômica."
+        },
+        {
+          "type": "paragraph",
+          "content": "Exemplo: uma pessoa que ingressa no ensino superior, forma-se e passa a exercer uma profissão mais bem remunerada, melhorando sua posição social; ou um indivíduo que perde o emprego e sofre uma queda em seu padrão de vida."
+        },
+        {
+          "type": "paragraph",
+          "content": "No entanto, é importante repensar até que ponto essa forma de ascensão é realmente possível ou se não passa de uma falsa esperança. Diante das diversas desigualdades presentes no sistema capitalista, seria mesmo possível mudar de classe?"
+        },
+        {
+          "type": "paragraph",
+          "content": "Muitas vezes, essa mudança é associada a duas principais vias: o acesso à educação e a ideia de “ganhar na loteria”. A primeira é a mais comum, porém, mesmo sendo mais frequente, a classe trabalhadora enfrenta diversas dificuldades, como a falta de oportunidades para ingressar em uma universidade e, principalmente, para se manter nela. Já a segunda possibilidade é ainda mais improvável, uma vez que depende exclusivamente da sorte."
+        },
+        {
+          "type": "subheading",
+          "content": "Mobilidade Social Horizontal"
+        },
+        {
+          "type": "paragraph",
+          "content": "Acontece quando o indivíduo muda de posição sem alterar significativamente seu status social. Ou seja, há mudança, mas sem subir ou descer na hierarquia."
+        },
+        {
+          "type": "paragraph",
+          "content": "Exemplo: uma pessoa que troca de emprego, mas continua com salário e prestígio semelhantes, ou alguém que muda de cidade mantendo o mesmo padrão de vida."
+        },
+        {
+          "type": "paragraph",
+          "content": "Dessa forma, a mobilidade social horizontal demonstra que nem toda mudança na vida dos indivíduos implica alteração na sua posição na hierarquia social."
+        }
+      ]
+    },
+    {
+      "id": "referencias",
+      "title": "Referências bibliográficas",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "COSTA, Ricardo Cesar Rocha da; OLIVEIRA, Luís Fernando de. Sociologia para jovens do século XXI. 4. ed. São Paulo: Imperial Novo Milênio, 2016.",
+            "MEUCCI, Simone. Introdução à Sociologia. Curitiba: Editora UFPR, 2024. (Coleção Ciências Sociais na Educação Básica, v. 1).",
+            "OLIVEIRA, Luiz Fernandes de; COSTA, Ricardo Cesar Rocha da. Sociologia para jovens do século XXI: volume único. 1. ed. São Paulo: Editora do Brasil, 2024.",
+            "PORFÍRIO, Francisco. \"Instituições sociais\"; Brasil Escola. Disponível em: https://brasilescola.uol.com.br/sociologia/instituicoes-sociais.htm. Acesso em 30 de março de 2026.",
+            "REZENDE, Milka. \"Mobilidade social\"; Brasil Escola. Disponível em: https://brasilescola.uol.com.br/sociologia/mobilidade-social.htm. Acesso em 30 de março de 2026."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "indicacoes",
+      "title": "Indicações",
+      "blocks": []
+    }
+  ]
+}

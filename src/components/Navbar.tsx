@@ -1,15 +1,23 @@
+'use client';
+
 import Image from 'next/image';
 import Link from 'next/link';
-import React from 'react';
+import React, { useState } from 'react';
 
 type NavItem = {
   label: string;
   href: string;
 };
 
+type NavbarColor = 'azul' | 'vermelho' | 'verde' | 'amarelo';
+
+type NavbarProps = {
+  color?: NavbarColor;
+};
+
 const navItems: NavItem[] = [
   { label: 'Baixar', href: '/download' },
-  { label: 'Página Inicial', href: '/' },
+  { label: 'Página Inicial', href: '../' },
   { label: 'Contato', href: '/contato' },
 ];
 
@@ -20,72 +28,150 @@ const colorMap: Record<NavbarColor, string> = {
   amarelo: 'var(--color-amarelo)',
 };
 
-type NavbarColor = 'azul' | 'vermelho' | 'verde' | 'amarelo';
-
-type NavbarProps = {
-  color?: NavbarColor;
-};
-
 const Navbar: React.FC<NavbarProps> = ({ color = 'azul' }) => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <header
       style={{
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'flex-end',
-        gap: '20px',
         backgroundColor: colorMap[color],
-        height: '70px',
-        paddingRight: '40px',
         position: 'relative',
+        zIndex: 1000,
       }}
     >
-      {/* LOGO */}
       <div
-        style={{
-          position: 'absolute',
-          left: '20px',
-          top: '-10px',
-          zIndex: 1,
-        }}
-      >
-        <Link href="./">
-          <Image
-            alt="logo"
-            height={200}
-            width={200}
-            aria-hidden={true}
-            src="/imagens/navlogo.png"
+        style={{ display: 'flex', alignItems: 'center', justifyContent: 'flex-end', gap: '20px', backgroundColor: colorMap[color], height: '70px', paddingRight: '40px', position: 'relative', }} >
+
+        {!menuOpen && <>
+          {/* LOGO */} <div style={{ position: 'absolute', left: '20px', top: '-10px', zIndex: 1, }} >
+            <Link href="../"> <Image alt="logo" height={200} width={200} aria-hidden={true} src="/imagens/navlogo.png" />
+            </Link>
+          </div>
+        </>}
+
+        {/* BOTÃO MOBILE */}
+        <button
+          onClick={() => setMenuOpen(!menuOpen)}
+          aria-label="Abrir menu"
+          style={{
+            display: 'none',
+            background: 'transparent',
+            border: 'none',
+            cursor: 'pointer',
+            flexDirection: 'column',
+            gap: '5px',
+          }}
+          className="navbar-mobile-button"
+        >
+          <span
+            style={{
+              width: '26px',
+              height: '3px',
+              backgroundColor: 'white',
+              borderRadius: '2px',
+              display: 'block',
+            }}
           />
-        </Link>
+          <span
+            style={{
+              width: '26px',
+              height: '3px',
+              backgroundColor: 'white',
+              borderRadius: '2px',
+              display: 'block',
+            }}
+          />
+          <span
+            style={{
+              width: '26px',
+              height: '3px',
+              backgroundColor: 'white',
+              borderRadius: '2px',
+              display: 'block',
+            }}
+          />
+        </button>
+
+        {/* NAV DESKTOP */}
+        <nav className="navbar-desktop">
+          <ul
+            style={{
+              display: 'flex',
+              listStyle: 'none',
+              margin: 0,
+              padding: 0,
+              gap: '20px',
+            }}
+          >
+            {navItems.map((item) => (
+              <li key={item.href}>
+                <Link
+                  href={item.href}
+                  style={{
+                    color: 'white',
+                    textDecoration: 'none',
+                    fontWeight: 'bold',
+                    fontSize: '16px',
+                  }}
+                >
+                  {item.label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </nav>
       </div>
 
-      {/* NAV */}
-      <nav style={{ zIndex: 2 }}>
-        <ul
+      {/* MENU MOBILE */}
+      {menuOpen && (
+        <nav
+          className="navbar-mobile-menu"
           style={{
-            display: 'flex',
-            listStyle: 'none',
-            margin: 0,
-            padding: 0,
+            display: 'none',
+            flexDirection: 'column',
+            backgroundColor: colorMap[color],
+            padding: '12px 16px 20px',
+            borderTop: '1px solid rgba(255,255,255,0.2)',
           }}
         >
           {navItems.map((item) => (
-            <li key={item.href} style={{ marginRight: '20px' }}>
-              <a
-                href={item.href}
-                style={{
-                  color: 'white',
-                  textDecoration: 'none',
-                  fontWeight: 'bold',
-                }}
-              >
-                {item.label}
-              </a>
-            </li>
+            <Link
+              key={item.href}
+              href={item.href}
+              onClick={() => setMenuOpen(false)}
+              style={{
+                color: 'white',
+                textDecoration: 'none',
+                fontWeight: 'bold',
+                padding: '12px 0',
+                borderBottom: '1px solid rgba(255,255,255,0.15)',
+              }}
+            >
+              {item.label}
+            </Link>
           ))}
-        </ul>
-      </nav>
+        </nav>
+      )}
+
+      <style jsx>{`
+        .navbar-desktop {
+          display: block;
+        }
+
+        @media (max-width: 768px) {
+          .navbar-desktop {
+            display: none;
+          }
+
+          .navbar-mobile-button {
+            display: flex !important;
+          }
+
+          .navbar-mobile-menu {
+            display: flex !important;
+          }
+        }
+      `}</style>
     </header>
   );
 };

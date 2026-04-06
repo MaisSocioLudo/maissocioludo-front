@@ -1,163 +1,247 @@
+"use client";
+
 import Image from "next/image";
-import { PiBookBold, PiCaretLeftBold, PiCaretRightBold, PiHashBold } from "react-icons/pi";
-import { Metadata } from "next";
+import Link from "next/link";
+import { useMemo, useState } from "react";
+import {
+  PiBookBold,
+  PiCaretLeftBold,
+  PiCaretRightBold,
+  PiHashBold,
+} from "react-icons/pi";
+
 import Banner from "./(components)/banner";
+import { temas } from "./temas/temas";
+import { Metadata } from "next";
 
-export const metadata: Metadata = {
-  title: "+SocioLudo - Página inicial",
-};
-
-const cartas = [
-  {
-    src: "/imagens/cartas/Carta.jpg",
-    alt: "Carta temática Gênero e dominação masculina",
-    titulo: "Gênero e dominação masculina",
-  },
-  {
-    src: "/imagens/cartas/Carta7.jpg",
-    alt: "Carta temática Gênero e diversidade sexual",
-    titulo: "Gênero e diversidade sexual",
-  },
-  {
-    src: "/imagens/cartas/Carta13.jpg",
-    alt: "Carta temática Trabalho",
-    titulo: "Trabalho",
-  },
-  {
-    src: "/imagens/cartas/Carta19.jpg",
-    alt: "Carta temática Racismo",
-    titulo: "Racismo",
-  },
-  {
-    src: "/imagens/cartas/Carta31.jpg",
-    alt: "Carta temática Durkheim",
-    titulo: "Karl Marx",
-  },
-  {
-    src: "/imagens/cartas/Carta37.jpg",
-    alt: "Carta temática Karl Marx",
-    titulo: "Max Weber",
-  },
-];
+const TEMAS_POR_PAGINA = 6;
 
 export default function Home() {
+  const [paginaAtual, setPaginaAtual] = useState(1);
+
+  const totalPaginas = Math.ceil(temas.length / TEMAS_POR_PAGINA);
+
+  const temasPaginados = useMemo(() => {
+    const inicio = (paginaAtual - 1) * TEMAS_POR_PAGINA;
+    const fim = inicio + TEMAS_POR_PAGINA;
+
+    return temas.slice(inicio, fim);
+  }, [paginaAtual]);
+
+  const paginas = Array.from({ length: totalPaginas }, (_, index) => index + 1);
+
+  function irParaPagina(pagina: number) {
+    if (pagina < 1 || pagina > totalPaginas) return;
+    setPaginaAtual(pagina);
+  }
+
+  function paginaAnterior() {
+    if (paginaAtual > 1) {
+      setPaginaAtual((prev) => prev - 1);
+    }
+  }
+
+  function proximaPagina() {
+    if (paginaAtual < totalPaginas) {
+      setPaginaAtual((prev) => prev + 1);
+    }
+  }
+
   return (
-    <>
-    <div className="px-4 md:px-8 lg:px-12 py-8">
-      <div className="mb-10">
-        <Banner />
-      </div>
-      
-      <div id="sobre" className="flex flex-col gap-12">
-        <section id="socioludo" className="scroll-mt-24">
-          <div className="flex items-center gap-2 mb-4">
-            <PiHashBold className="text-[30px] text-[#C02A3A]" />
-            <h1 className="font-bold text-[30px]">
-              <a href="#socioludo">O que é o SocioLudo</a>
-            </h1>
-          </div>
+    <main className="relative overflow-hidden">
+      <div className="relative mx-auto max-w-7xl px-4 py-8 md:px-8 lg:px-12 lg:py-10">
+        <div className="mb-12">
+          <Banner />
+        </div>
 
-          <div className="space-y-4 text-[17px] leading-8 text-zinc-700">
-            <p>
-              O SocioLudo Digital é um serious game criado para tornar o ensino
-              de Sociologia mais dinâmico e acessível, buscando se afastar do
-              modelo tradicional de ensino.
-            </p>
+        <div id="sobre" className="flex flex-col gap-10">
+          <section
+            id="socioludo"
+            className="scroll-mt-24 rounded-[32px] border border-white/70 bg-white/80 p-6 shadow-[0_15px_50px_rgba(0,0,0,0.06)] backdrop-blur-md md:p-8"
+          >
+            <div className="mb-6 flex items-center gap-3">
+              <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-[#C02A3A]/10 text-[#C02A3A]">
+                <PiHashBold className="text-[24px]" />
+              </div>
 
-            <p>
-              O projeto surgiu a partir da desvalorização da disciplina após a
-              contrarreforma do Ensino Médio e tem como objetivo reaproximar os
-              estudantes da Sociologia por meio de uma aprendizagem mais
-              interativa e lúdica.
-            </p>
+              <div>
+                <p className="text-sm font-semibold uppercase tracking-[0.18em] text-[#C02A3A]">
+                  Apresentação
+                </p>
+                <h1 className="text-2xl font-black text-zinc-900 md:text-3xl">
+                  <a href="#socioludo">O que é o SocioLudo</a>
+                </h1>
+              </div>
+            </div>
 
-            <p>
-              No jogo, o estudante aprende a partir da própria experiência:
-              quando erra uma pergunta, recebe uma explicação sobre o tema,
-              transformando o erro em oportunidade de aprendizado. O SocioLudo
-              também utiliza a competitividade de forma positiva, incentivando
-              os alunos a se engajarem mais no conteúdo.
-            </p>
+            <div className="grid gap-8 lg:grid-cols-[1.2fr_0.8fr] lg:items-start">
+              <div className="space-y-4 text-[16px] leading-8 text-zinc-700 md:text-[17px]">
+                <p>
+                  O <strong>SocioLudo Digital</strong> é um serious game criado
+                  para tornar o ensino de Sociologia mais dinâmico, acessível e
+                  interessante, buscando se afastar do modelo tradicional de
+                  ensino.
+                </p>
 
-            <p>
-              Inicialmente criado em versão de tabuleiro, o jogo foi adaptado
-              para o formato digital para reduzir custos e ampliar o acesso,
-              especialmente em escolas públicas. A versão digital é gratuita,
-              funciona sem internet e atualmente conta com 348 questões,
-              organizadas por temas e níveis de dificuldade, permitindo que
-              professores adaptem o jogo aos conteúdos trabalhados em sala de
-              aula.
-            </p>
-          </div>
-        </section>
+                <p>
+                  O projeto surgiu a partir da desvalorização da disciplina após
+                  a contrarreforma do Ensino Médio e tem como objetivo
+                  reaproximar os estudantes da Sociologia por meio de uma
+                  aprendizagem mais interativa e lúdica.
+                </p>
 
-        <section id="temas" className="scroll-mt-24">
-          <div className="flex items-center gap-2 mb-4">
-            <PiBookBold className="text-[30px] text-[#C02A3A]" />
-            <h1 className="font-bold text-[30px]">
-              <a href="#temas">Temas abordados</a>
-            </h1>
-          </div>
+                <p>
+                  No jogo, o estudante aprende a partir da própria experiência:
+                  quando erra uma pergunta, recebe uma explicação sobre o tema,
+                  transformando o erro em oportunidade de aprendizado. O
+                  SocioLudo também utiliza a competitividade de forma positiva,
+                  incentivando os alunos a se engajarem mais no conteúdo.
+                </p>
 
-          <p className="text-[17px] leading-8 text-zinc-700 mb-6">
-            Explore os <b>18 temas</b> disponíveis no SocioLudo, organizados para apoiar o aprendizado de forma dinâmica e interativa.
-          </p>
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
-            {cartas.map((carta) => (
-              <div
-                key={carta.src}
-                className="mx-auto w-full max-w-[140px] group"
-              >
-                <div className="overflow-hidden rounded-2xl border border-zinc-200 bg-white transition">
-                  <div className="relative w-full aspect-[750/1039] bg-zinc-100">
-                    <Image
-                      src={carta.src}
-                      alt={carta.alt}
-                      fill
-                      className="object-cover transition duration-300 group-hover:scale-125"
-                      sizes="140px"
-                      priority={carta.src === "/imagens/cartas/Carta.jpg"}
-                    />
+                <p>
+                  Inicialmente criado em versão de tabuleiro, o jogo foi
+                  adaptado para o formato digital para reduzir custos e ampliar
+                  o acesso, especialmente em escolas públicas. A versão digital
+                  é gratuita, funciona sem internet e atualmente conta com
+                  <strong> 348 questões</strong>, organizadas por temas e níveis
+                  de dificuldade.
+                </p>
+              </div>
+
+              <div className="grid gap-4 sm:grid-cols-3 lg:grid-cols-1">
+                <div className="rounded-3xl border border-zinc-200 bg-zinc-50 p-5">
+                  <p className="text-3xl font-black text-[#C02A3A]">348</p>
+                  <p className="mt-1 text-sm font-medium text-zinc-600">
+                    questões disponíveis
+                  </p>
+                </div>
+
+                <div className="rounded-3xl border border-zinc-200 bg-zinc-50 p-5">
+                  <p className="text-3xl font-black text-[var(--color-azul)]">
+                    18
+                  </p>
+                  <p className="mt-1 text-sm font-medium text-zinc-600">
+                    temas trabalhados
+                  </p>
+                </div>
+
+                <div className="rounded-3xl border border-zinc-200 bg-zinc-50 p-5">
+                  <p className="text-3xl font-black text-[var(--color-verde)]">
+                    Offline
+                  </p>
+                  <p className="mt-1 text-sm font-medium text-zinc-600">
+                    acesso gratuito e sem internet
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section
+            id="temas"
+            className="scroll-mt-24 rounded-[32px] border border-white/70 bg-white/80 p-6 shadow-[0_15px_50px_rgba(0,0,0,0.06)] backdrop-blur-md md:p-8"
+          >
+            <div className="mb-8 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
+              <div>
+                <div className="mb-3 flex items-center gap-3">
+                  <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-[#C02A3A]/10 text-[#C02A3A]">
+                    <PiBookBold className="text-[24px]" />
+                  </div>
+
+                  <div>
+                    <p className="text-sm font-semibold uppercase tracking-[0.18em] text-[#C02A3A]">
+                      Conteúdo
+                    </p>
+                    <h1 className="text-2xl font-black text-zinc-900 md:text-3xl">
+                      <a href="#temas">Temas abordados</a>
+                    </h1>
                   </div>
                 </div>
 
-                <p className="mt-1 text-center text-sm font-medium leading-5 text-zinc-700">
-                  {carta.titulo}
+                <p className="max-w-2xl text-[16px] leading-7 text-zinc-600 md:text-[17px]">
+                  Explore os <strong>{temas.length} temas</strong> disponíveis
+                  no SocioLudo, organizados para apoiar o aprendizado de forma
+                  dinâmica, visual e interativa.
                 </p>
               </div>
-            ))}
-          </div>
 
-          <div className="mt-2 flex items-center justify-center gap-2">
-            <button
-              className="flex h-10 w-10 items-center justify-center rounded-xl border border-zinc-200 bg-white text-zinc-500 shadow-sm transition hover:bg-zinc-100"
-              aria-label="Página anterior"
-            >
-              <PiCaretLeftBold size={18} />
-            </button>
+              <div className="rounded-2xl border border-zinc-200 bg-zinc-50 px-4 py-2 text-sm font-semibold text-zinc-600">
+                Página {paginaAtual} de {totalPaginas}
+              </div>
+            </div>
 
-            <button className="h-10 min-w-[40px] rounded-xl bg-[#C02A3A] px-4 font-semibold text-white shadow-sm">
-              1
-            </button>
+            <div className="grid grid-cols-2 gap-5 sm:grid-cols-3 lg:grid-cols-6">
+              {temasPaginados.map((tema) => (
 
-            <button className="h-10 min-w-[40px] rounded-xl border border-zinc-200 bg-white px-4 font-semibold text-zinc-700 shadow-sm transition hover:bg-zinc-100">
-              2
-            </button>
+                <div key={`${tema.id}`} className="group">
+                  <div className="overflow-hidden rounded-[24px] border border-zinc-200 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl">
+                    <div className="relative aspect-[750/1039] w-full bg-zinc-100">
+                      <Link href={"/estudos/" + (tema.id)}>
+                        <Image
+                          src={"/imagens/cartas/" + tema.id + ".jpg"}
+                          alt={tema.id}
+                          fill
+                          className="object-cover transition duration-500 group-hover:scale-110 hover:cursor-pointer"
+                          sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 140px"
+                          priority={paginaAtual === 1}
+                        />
+                      </Link>
 
-            <button className="h-10 min-w-[40px] rounded-xl border border-zinc-200 bg-white px-4 font-semibold text-zinc-700 shadow-sm transition hover:bg-zinc-100">
-              3
-            </button>
+                      <div className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-black/55 via-black/10 to-transparent" />
+                    </div>
+                  </div>
 
-            <button
-              className="flex h-10 w-10 items-center justify-center rounded-xl border border-zinc-200 bg-white text-zinc-500 shadow-sm transition hover:bg-zinc-100"
-              aria-label="Próxima página"
-            >
-              <PiCaretRightBold size={18} />
-            </button>
-          </div>
-        </section>
+                  <p className="mt-3 text-center text-sm font-bold leading-5 text-zinc-800">
+                    {tema.nome}
+                  </p>
+                </div>
+              ))}
+            </div>
+
+            <div className="mt-8 flex items-center justify-center gap-2">
+              <button
+                type="button"
+                onClick={paginaAnterior}
+                disabled={paginaAtual === 1}
+                className="flex h-11 w-11 items-center justify-center rounded-2xl border border-zinc-200 bg-white text-zinc-500 shadow-sm transition hover:-translate-y-0.5 hover:bg-zinc-100 disabled:cursor-not-allowed disabled:opacity-50 disabled:hover:translate-y-0"
+                aria-label="Página anterior"
+              >
+                <PiCaretLeftBold size={18} />
+              </button>
+
+              {paginas.map((pagina) => {
+                const ativa = pagina === paginaAtual;
+
+                return (
+                  <button
+                    key={pagina}
+                    type="button"
+                    onClick={() => irParaPagina(pagina)}
+                    aria-current={ativa ? "page" : undefined}
+                    className={
+                      ativa
+                        ? "h-11 min-w-[44px] rounded-2xl bg-[#C02A3A] px-4 font-bold text-white shadow-md"
+                        : "h-11 min-w-[44px] rounded-2xl border border-zinc-200 bg-white px-4 font-bold text-zinc-700 shadow-sm transition hover:-translate-y-0.5 hover:bg-zinc-100"
+                    }
+                  >
+                    {pagina}
+                  </button>
+                );
+              })}
+
+              <button
+                type="button"
+                onClick={proximaPagina}
+                disabled={paginaAtual === totalPaginas}
+                className="flex h-11 w-11 items-center justify-center rounded-2xl border border-zinc-200 bg-white text-zinc-500 shadow-sm transition hover:-translate-y-0.5 hover:bg-zinc-100 disabled:cursor-not-allowed disabled:opacity-50 disabled:hover:translate-y-0"
+                aria-label="Próxima página"
+              >
+                <PiCaretRightBold size={18} />
+              </button>
+            </div>
+          </section>
+        </div>
       </div>
-    </div>
-    </>
+    </main>
   );
 }
