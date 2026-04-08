@@ -2,9 +2,11 @@
   "title": "Introdução à Sociologia",
   "description": "Oi",
   "menu": [
-    { "id": "referencias", "label": "REFERÊNCIAS" },
-    { "id": "conceitos", "label": "CONCEITOS" },
-    { "id": "indicacoes", "label": "INDICAÇÕES" }
+    { "id": "referencias", "label": "Referências" },
+    { "id": "indicacoes", "label": "Indicações" },
+    { "id": "sensocomum", "label": "Senso comum"},
+    { "id": "socializacao", "label": "Socialização"}
+    
   ],
   "sections": [
     {
@@ -48,6 +50,7 @@
         },
         {
           "type": "heading",
+          "id": "sensocomum",
           "content": "Senso Comum"
         },
         {
@@ -56,6 +59,7 @@
         },
         {
           "type": "heading",
+          "id": "socializacao",
           "content": "Socialização"
         },
         {

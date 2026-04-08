@@ -10,28 +10,30 @@ export function TemaBlockRenderer({ block, color }: Props) {
   switch (block.type) {
     case "heading":
       return (
-        <h3 className="text-2xl font-black text-zinc-900">
-          {block.content}
+        <h3 id={block.id} className="text-3xl font-black text-zinc-900">
+          <a href={"#" + block.id}>
+            {block.content}
+          </a>
         </h3>
       );
 
     case "subheading":
       return (
-        <h4 className="mt-6 text-lg font-black uppercase tracking-wide" style={{ color }}>
+        <h4 id={block.id} className="mt-6 text-lg font-black uppercase tracking-wide" style={{ color }}>
           {block.content}
         </h4>
       );
 
     case "paragraph":
       return (
-        <p className="text-[17px] leading-8 text-zinc-700">
+        <p id={block.id} className="text-[17px] leading-8 text-zinc-700">
           {block.content}
         </p>
       );
 
     case "list":
       return (
-        <ul className="space-y-3 pl-5 text-[17px] leading-8 text-zinc-700 list-disc">
+        <ul id={block.id} className="space-y-3 pl-5 text-[17px] leading-8 text-zinc-700 list-disc">
           {block.items.map((item) => (
             <li key={item}>{item}</li>
           ))}
