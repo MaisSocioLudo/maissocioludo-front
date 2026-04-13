@@ -4,7 +4,7 @@ html {
   scroll-behavior: smooth; 
 }
 
-@keyframes highlight {
+/* @keyframes highlight {
   0% {
     color: #000000
   }
@@ -15,7 +15,7 @@ html {
 
 :target {
   animation: highlight 1s ease-in-out;
-}
+} */
 
 @theme {
   --background: #ffffff;

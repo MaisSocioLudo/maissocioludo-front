@@ -33,6 +33,7 @@ const Navbar: React.FC<NavbarProps> = ({ color = 'azul' }) => {
 
   return (
     <header
+      id={"nav"}
       style={{
         backgroundColor: colorMap[color],
         position: 'relative',

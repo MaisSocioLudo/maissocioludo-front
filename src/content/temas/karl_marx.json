@@ -1,27 +1,7 @@
 {
-  "title": "Introdução à Sociologia",
+  "title": "Karl Marx",
   "description": "",
   "menu": [
-    {
-      "id": "senso_comum",
-      "label": "Senso comum"
-    },
-    {
-      "id": "socializacao",
-      "label": "Socialização"
-    },
-    {
-      "id": "instituicoes_sociais",
-      "label": "Instituições sociais"
-    },
-    {
-      "id": "estratificacao_social",
-      "label": "Estratificação Social"
-    },
-    {
-      "id": "mobilidade_social",
-      "label": "Mobilidade Social"
-    },
     {
       "id": "indicacoes",
       "label": "Indicações"
@@ -34,15 +14,15 @@
   "sections": [
     {
       "id": "conceitos",
-      "title": "Introdução à Sociologia",
+      "title": "Karl Marx",
       "blocks": [
         {
           "type": "paragraph",
-          "content": "A Sociologia tem como objeto de estudo os fenômenos sociais, ou seja, as relações que os indivíduos estabelecem entre si, gerando normas de comportamento, formando grupos e elaborando ideias sobre esses grupos."
+          "content": "Karl Marx nasceu na Alemanha e faleceu em Londres, na Inglaterra, aos 65 anos. Seu principal objeto de estudo foi a sociedade capitalista de sua época. Diferentemente de outros pensadores, Marx não se preocupava apenas em compreender a sociedade, mas também em transformá-la, buscando analisar as desigualdades e propor mudanças estruturais."
         },
         {
           "type": "paragraph",
-          "content": "Sua principal preocupação está na origem desses fenômenos, levantando questionamentos como:"
+          "content": "É importante destacar que Marx não foi o criador do socialismo, já que esse modelo já existia antes dele. No entanto, juntamente com Friedrich Engels, desenvolveu o chamado <b>socialismo científico</b>. Diferentemente do socialismo utópico - que defendia mudanças baseadas na boa vontade das classes dominantes - o socialismo científico utiliza um método de análise chamado materialismo histórico para compreender as leis que regem a história humana e a economia."
         },
         {
           "type": "list",
@@ -73,7 +53,7 @@
         },
         {
           "type": "heading",
-          "id": "senso_comum",
+          "id": "sensocomum",
           "content": "Senso Comum"
         },
         {

@@ -132,7 +132,7 @@ export default async function TemaPage({ params }: Props) {
 
       {/* Botão voltar ao topo */}
       <a
-        href="#top"
+        href="#nav"
         className="fixed bottom-6 right-6 flex h-12 w-12 items-center justify-center rounded-full bg-black text-white shadow-lg transition hover:scale-110"
         aria-label="Voltar ao topo"
       >

@@ -12,6 +12,13 @@ export const temas: Tema[] = [
     cor: "#eab91f",
     introducao: "Uma breve descrição",
   },
+  {
+    id: "karl_marx",
+    nome: "Karl Marx",
+    cor: "#c52128",
+    introducao: "Uma breve descrição",
+  },
+
 ];
 
 export function getTemaById(id: string) {

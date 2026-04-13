@@ -10,7 +10,7 @@ import {
 const items = [
   {
     title: "Estudar temas",
-    description: "Explore os conteúdos e aprenda de forma interativa.",
+    description: "Explore os conteúdos presentes no SocioLudo.",
     href: "#temas",
     icon: PiBookOpenTextFill,
     bg: "bg-[var(--color-verde)]",

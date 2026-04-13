@@ -159,9 +159,8 @@ export default function Home() {
                 </div>
 
                 <p className="max-w-2xl text-[16px] leading-7 text-zinc-600 md:text-[17px]">
-                  Explore os <strong>{temas.length} temas</strong> disponíveis
-                  no SocioLudo, organizados para apoiar o aprendizado de forma
-                  dinâmica, visual e interativa.
+                  Explore os textos explicativos dos <strong>{temas.length} temas</strong> disponíveis
+                  no SocioLudo.
                 </p>
               </div>
 
@@ -172,31 +171,34 @@ export default function Home() {
 
             <div className="grid grid-cols-2 gap-5 sm:grid-cols-3 lg:grid-cols-6">
               {temasPaginados.map((tema) => (
+                <>
+                  <Link href={"/estudos/" + (tema.id)}>
+                    <div key={`${tema.id}`} className="group">
+                      <div className="overflow-hidden rounded-[24px] border border-zinc-200 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl">
+                        <div className="relative aspect-[750/1039] w-full bg-zinc-100">
 
-                <div key={`${tema.id}`} className="group">
-                  <div className="overflow-hidden rounded-[24px] border border-zinc-200 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl">
-                    <div className="relative aspect-[750/1039] w-full bg-zinc-100">
-                      <Link href={"/estudos/" + (tema.id)}>
-                        <Image
-                          src={"/imagens/cartas/" + tema.id + ".jpg"}
-                          alt={tema.id}
-                          fill
-                          className="object-cover transition duration-500 group-hover:scale-110 hover:cursor-pointer"
-                          sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 140px"
-                          priority={paginaAtual === 1}
-                        />
-                      </Link>
+                          <Image
+                            src={"/imagens/cartas/" + tema.id + ".jpg"}
+                            alt={tema.id}
+                            fill
+                            className="object-cover transition duration-500 group-hover:scale-110 hover:cursor-pointer"
+                            sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 140px"
+                            priority={paginaAtual === 1}
+                          />
 
-                      <div className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-black/55 via-black/10 to-transparent" />
+
+                          <div className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-black/55 via-black/10 to-transparent" />
+                        </div>
+                      </div>
+
+                      <p className="mt-3 text-center text-sm font-bold leading-5 text-zinc-800">
+                        {tema.nome}
+                      </p>
                     </div>
-                  </div>
-
-                  <p className="mt-3 text-center text-sm font-bold leading-5 text-zinc-800">
-                    {tema.nome}
-                  </p>
-                </div>
+                  </Link>
+                </>
               ))}
-            </div>
+            </div >
 
             <div className="mt-8 flex items-center justify-center gap-2">
               <button
