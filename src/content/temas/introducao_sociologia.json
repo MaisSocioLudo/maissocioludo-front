@@ -1,36 +1,6 @@
 {
   "title": "Introdução à Sociologia",
   "description": "",
-  "menu": [
-    {
-      "id": "senso_comum",
-      "label": "Senso comum"
-    },
-    {
-      "id": "socializacao",
-      "label": "Socialização"
-    },
-    {
-      "id": "instituicoes_sociais",
-      "label": "Instituições sociais"
-    },
-    {
-      "id": "estratificacao_social",
-      "label": "Estratificação Social"
-    },
-    {
-      "id": "mobilidade_social",
-      "label": "Mobilidade Social"
-    },
-    {
-      "id": "indicacoes",
-      "label": "Indicações"
-    },
-    {
-      "id": "referencias",
-      "label": "Referências Bibliográficas"
-    }
-  ],
   "sections": [
     {
       "id": "conceitos",
@@ -57,19 +27,19 @@
         },
         {
           "type": "paragraph",
-          "content": "Para responder a esses questionamentos, assim como qualquer outra ciência, a Sociologia utiliza um método científico a fim de analisar os fenômenos sociais. Diferentemente do que muitas pessoas acreditam, a Sociologia não tem relação com as ideias presentes no senso comum; muito pelo contrário, um de seus objetivos como disciplina é desconstruir preconceitos, desinformações e estereótipos nele presentes."
+          "content": "Para responder a esses questionamentos, assim como qualquer outra ciência, a Sociologia utiliza um método científico a fim de analisar os fenômenos sociais. Diferentemente do que muitas pessoas acreditam, a Sociologia não tem relação com as ideias presentes no <b>senso comum</b>; muito pelo contrário, um de seus objetivos como disciplina é desconstruir preconceitos, desinformações e estereótipos nele presentes."
         },
         {
           "type": "paragraph",
-          "content": "No livro “A Imaginação Sociológica”, escrito por Charles Wright Mills (1916 - 1962), o autor tem como objetivo explicar a importância da disciplina. Por meio dessa obra, ele cunhou o conceito de Imaginação Sociológica que consiste na capacidade do indivíduo de conectar suas experiências pessoais ao contexto social e histórico."
+          "content": "No livro “A Imaginação Sociológica”, escrito por Charles Wright Mills (1916 - 1962), o autor tem como objetivo explicar a importância da disciplina. Por meio dessa obra, ele cunhou o conceito de <b>Imaginação Sociológica</b> que consiste na capacidade do indivíduo de conectar suas experiências pessoais ao contexto social e histórico."
         },
         {
           "type": "paragraph",
-          "content": "Como exemplo, problemas relacionados à autoimagem e à autoestima, muitas vezes vistos como inseguranças individuais, são frequentemente influenciados pela mídia e pelas redes sociais, que impõem padrões irrealistas e culturalmente construídos. Ao destrincharmos esse problema, percebe-se que a baixa autoestima não é apenas uma questão individual, mas também um fenômeno social que afeta milhares de pessoas. Desenvolver essa capacidade de análise, a citada anteriormente, imaginação sociológica, permite compreender melhor a relação entre indivíduo e sociedade, tornando os sujeitos mais críticos e conscientes de sua realidade."
+          "content": "Como exemplo, problemas relacionados à autoimagem e à autoestima, muitas vezes vistos como inseguranças individuais, são frequentemente influenciados pela mídia e pelas redes sociais, que impõem padrões irreais e culturalmente construídos. Ao destrincharmos esse problema, percebe-se que a baixa autoestima não é apenas uma questão individual, mas também um fenômeno social que afeta milhares de pessoas. Desenvolver essa capacidade de análise, a citada anteriormente, imaginação sociológica, permite compreender melhor a relação entre indivíduo e sociedade, tornando os sujeitos mais críticos e conscientes de sua realidade."
         },
         {
           "type": "paragraph",
-          "content": "Agora que você já sabe o que é a Sociologia e o que ela estuda, vamos compreender alguns dos conceitos introdutórios:"
+          "content": "<b>Agora que você já sabe o que é a Sociologia e o que ela estuda, vamos compreender alguns dos conceitos introdutórios:</b>"
         },
         {
           "type": "heading",
@@ -87,7 +57,7 @@
         },
         {
           "type": "paragraph",
-          "content": "Para a sociologia, a socialização é o processo responsável pela integração dos indivíduos na sociedade. Tal processo se dá através da interação com os demais membros da sociedade, essa interação é responsável pela formação de ideais, opiniões, formas de agir, entre diversos outros traços comportamentais e ideológicos dos indivíduos. Nesse contexto, os indivíduos também aprendem os chamados papéis sociais, que correspondem ao conjunto de comportamentos esperados de um indivíduo de acordo com a posição que ocupa na sociedade, como ser estudante, filho ou trabalhador."
+          "content": "Para a sociologia, a socialização é o processo responsável pela integração dos indivíduos na sociedade. Tal processo se dá através da interação com os demais membros da sociedade, essa interação é responsável pela formação de ideais, opiniões, formas de agir, entre diversos outros traços comportamentais e ideológicos dos indivíduos. Nesse contexto, os indivíduos também aprendem os chamados <b>papéis sociais</b>, que correspondem ao conjunto de comportamentos esperados de um indivíduo de acordo com a posição que ocupa na sociedade, como ser estudante, filho ou trabalhador."
         },
         {
           "type": "paragraph",

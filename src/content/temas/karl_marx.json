@@ -1,16 +1,6 @@
 {
   "title": "Karl Marx",
   "description": "",
-  "menu": [
-    {
-      "id": "indicacoes",
-      "label": "Indicações"
-    },
-    {
-      "id": "referencias",
-      "label": "Referências Bibliográficas"
-    }
-  ],
   "sections": [
     {
       "id": "conceitos",
@@ -18,183 +8,139 @@
       "blocks": [
         {
           "type": "paragraph",
-          "content": "Karl Marx nasceu na Alemanha e faleceu em Londres, na Inglaterra, aos 65 anos. Seu principal objeto de estudo foi a sociedade capitalista de sua época. Diferentemente de outros pensadores, Marx não se preocupava apenas em compreender a sociedade, mas também em transformá-la, buscando analisar as desigualdades e propor mudanças estruturais."
+          "content": "Karl Marx nasceu na Alemanha e faleceu em Londres, na Inglaterra, aos 65 anos. Seu principal objeto de estudo foi a <b>sociedade capitalista</b> de sua época. Diferentemente de outros pensadores, Marx não se preocupava apenas em compreender a sociedade, mas também em <b>transformá-la</b>, buscando analisar as desigualdades e propor mudanças estruturais."
         },
         {
           "type": "paragraph",
-          "content": "É importante destacar que Marx não foi o criador do socialismo, já que esse modelo já existia antes dele. No entanto, juntamente com Friedrich Engels, desenvolveu o chamado <b>socialismo científico</b>. Diferentemente do socialismo utópico - que defendia mudanças baseadas na boa vontade das classes dominantes - o socialismo científico utiliza um método de análise chamado materialismo histórico para compreender as leis que regem a história humana e a economia."
-        },
-        {
-          "type": "list",
-          "items": [
-            "Qual é a natureza dos vínculos sociais em diferentes tipos de sociedade?",
-            "Quais são as justificativas das diferenciações e desigualdades sociais?",
-            "Quais são as funções de certas instituições sociais para a totalidade de uma sociedade?",
-            "Quais valores orientam as ações humanas em determinados contextos sociais?",
-            "Quais são os efeitos da vida econômica sobre a vida social?",
-            "Quais são os efeitos da cultura sobre a economia?"
-          ]
+          "content": "É importante destacar que Marx não foi o criador do socialismo, já que esse modelo já existia antes dele. No entanto, juntamente com Friedrich Engels, desenvolveu o chamado <b>socialismo científico</b>. Diferentemente do <b>socialismo utópico</b> - que defendia mudanças baseadas na boa vontade das classes dominantes - o socialismo científico utiliza um método de análise chamado <b>materialismo histórico</b> para compreender as leis que regem a história humana e a economia."
         },
         {
           "type": "paragraph",
-          "content": "Para responder a esses questionamentos, assim como qualquer outra ciência, a Sociologia utiliza um método científico a fim de analisar os fenômenos sociais. Diferentemente do que muitas pessoas acreditam, a Sociologia não tem relação com as ideias presentes no senso comum; muito pelo contrário, um de seus objetivos como disciplina é desconstruir preconceitos, desinformações e estereótipos nele presentes."
-        },
-        {
-          "type": "paragraph",
-          "content": "No livro “A Imaginação Sociológica”, escrito por Charles Wright Mills (1916 - 1962), o autor tem como objetivo explicar a importância da disciplina. Por meio dessa obra, ele cunhou o conceito de Imaginação Sociológica que consiste na capacidade do indivíduo de conectar suas experiências pessoais ao contexto social e histórico."
-        },
-        {
-          "type": "paragraph",
-          "content": "Como exemplo, problemas relacionados à autoimagem e à autoestima, muitas vezes vistos como inseguranças individuais, são frequentemente influenciados pela mídia e pelas redes sociais, que impõem padrões irrealistas e culturalmente construídos. Ao destrincharmos esse problema, percebe-se que a baixa autoestima não é apenas uma questão individual, mas também um fenômeno social que afeta milhares de pessoas. Desenvolver essa capacidade de análise, a citada anteriormente, imaginação sociológica, permite compreender melhor a relação entre indivíduo e sociedade, tornando os sujeitos mais críticos e conscientes de sua realidade."
-        },
-        {
-          "type": "paragraph",
-          "content": "Agora que você já sabe o que é a Sociologia e o que ela estuda, vamos compreender alguns dos conceitos introdutórios:"
+          "content": "Entre suas principais obras, destacam-se o livro <b>O Capital</b>, no qual analisa o funcionamento do sistema capitalista e a exploração do trabalho, e o <b>Manifesto Comunista</b>, que apresenta as ideias centrais do comunismo e convoca a classe trabalhadora à luta por seus direitos. Essas obras são fundamentais para a compreensão das desigualdades sociais e das dinâmicas do capitalismo."
         },
         {
           "type": "heading",
-          "id": "sensocomum",
-          "content": "Senso Comum"
+          "id": "visao_marxista_da_sociedade",
+          "content": "Visão marxista da sociedade"
         },
         {
           "type": "paragraph",
-          "content": "O senso comum é caracterizado por opiniões pessoais que reforçam estereótipos, ou seja, que generalizam casos específicos como se fossem universais. Afirmações com base no senso comum reproduzem, em geral, ideias sem fundamentação científica, como “todo político é corrupto” ou “o povo brasileiro é preguiçoso”."
+          "content": "Um dos principais pilares da teoria marxista é a ideia de que a sociedade capitalista está dividida em duas classes sociais fundamentais: a <b>burguesia</b> e o <b>proletariado</b>."
+        },
+        {
+          "type": "paragraph",
+          "content": "A <b>burguesia</b> é a classe detentora dos <b>meios de produção</b>; por isso, Marx a denominou como a classe dos proprietários, responsável por controlar a produção material da sociedade. No entanto, essa produção material é realizada pelos não proprietários, o <b>proletariado</b> - classe composta pelos trabalhadores que vendem sua força de trabalho para garantir sua sobrevivência."
+        },
+        {
+          "type": "paragraph",
+          "content": "Marx analisa essa relação como uma forma de <b>exploração</b>, visto que a riqueza produzida pelos trabalhadores é apropriada pela burguesia na forma de <b>lucro</b>."
+        },
+        {
+          "type": "paragraph",
+          "content": "A partir da análise dessa exploração, ele desenvolveu conceitos importantes que buscam explicar o funcionamento do sistema capitalista, bem como as desigualdades e contradições nele presentes, como a <b>mais-valia</b>, a <b>luta de classes</b> e a <b>consciência de classe</b>, entre outros."
+        },
+        {
+          "type": "paragraph",
+          "content": "Ao perceber essa desigualdade entre as classes, ele defendeu que a superação da exploração só seria possível por meio da ação coletiva do proletariado, que deveria se organizar para transformar as relações de produção existentes. Assim, seria possível a construção de uma <b>sociedade igualitária</b>, na qual os meios de produção deixariam de ser <b>propriedade privada</b> e passariam a ser coletivos, eliminando a divisão em classes sociais e, consequentemente, as formas de exploração."
         },
         {
           "type": "heading",
-          "id": "socializacao",
-          "content": "Socialização"
+          "id": "materialismo",
+          "content": "Materialismo"
         },
         {
           "type": "paragraph",
-          "content": "Para a sociologia, a socialização é o processo responsável pela integração dos indivíduos na sociedade. Tal processo se dá através da interação com os demais membros da sociedade, essa interação é responsável pela formação de ideais, opiniões, formas de agir, entre diversos outros traços comportamentais e ideológicos dos indivíduos. Nesse contexto, os indivíduos também aprendem os chamados papéis sociais, que correspondem ao conjunto de comportamentos esperados de um indivíduo de acordo com a posição que ocupa na sociedade, como ser estudante, filho ou trabalhador."
-        },
-        {
-          "type": "paragraph",
-          "content": "Existem 2 tipos de socialização: a primária e a secundária."
-        },
-        {
-          "type": "subheading",
-          "content": "Socialização primária:"
-        },
-        {
-          "type": "paragraph",
-          "content": "Ela ocorre durante a infância, em que os principais agentes socializadores são os nossos familiares, mas esse processo também pode ocorrer nas creches. Nesse momento, a criança tem contato com a sua língua, aprende as relações sociais e organização da sociedade na qual ela está inserida. Além disso, é nesse estágio em que são interiorizados normas e valores."
-        },
-        {
-          "type": "subheading",
-          "content": "Socialização Secundária:"
-        },
-        {
-          "type": "paragraph",
-          "content": "Esse processo é aquele no qual os indivíduos entram em contato com outros ambientes fora do ciclo familiar, como, por exemplo, ao ingressarem nos primeiros anos do ensino fundamental. Nesse momento, os agentes socializadores passam a incluir grupos de amigos, instituições religiosas e as redes sociais. É nesse contexto que pode ocorrer a ruptura dos valores internalizados na socialização primária, pois, ao “furar a bolha” e entrar em contato com outras perspectivas além da família, o indivíduo adquire suas próprias opiniões, que podem ou não corresponder às de seus familiares."
-        },
-        {
-          "type": "paragraph",
-          "content": "Logo, podemos dizer que os indivíduos são um “produto social”, visto que suas ações estão condicionadas à forma como eles foram socializados na sociedade."
+          "content": "O <b>materialismo marxista</b> (<b>materialismo histórico-dialético</b>) é a teoria que defende que a produção material dos indivíduos molda suas histórias e constrói suas relações sociais, ou seja, toda a nossa história e nossas relações sociais são fruto do <b>trabalho</b>. Sendo assim, Karl Marx identificou o trabalho como a <b>essência da vida humana</b>, pois é por meio dele que os indivíduos transformam a natureza, produzem sua existência e estabelecem relações sociais."
         },
         {
           "type": "heading",
-          "id": "instituicoes_sociais",
-          "content": "Instituições sociais"
+          "id": "relacoes_sociais_de_producao",
+          "content": "Relações sociais de produção"
         },
         {
           "type": "paragraph",
-          "content": "As instituições sociais são estruturas organizadas que regulam a vida em sociedade, como a família, a escola, o Estado e a religião. Elas estabelecem normas e orientam o comportamento dos indivíduos, contribuindo para a manutenção da ordem social. Cada instituição tem uma função específica, mas todas atuam de forma interligada."
-        },
-        {
-          "type": "subheading",
-          "content": "A família"
-        },
-        {
-          "type": "paragraph",
-          "content": "A família é a primeira instituição social com a qual os indivíduos têm contato. Ela é responsável por ensinar as primeiras normas, valores e formas de comportamento, orientando os indivíduos em seus primeiros passos na sociedade. Essa instituição baseia-se, principalmente, na afetividade, o que facilita a internalização das regras que serão levadas para o convívio social."
-        },
-        {
-          "type": "subheading",
-          "content": "A religião"
-        },
-        {
-          "type": "paragraph",
-          "content": "A religião é uma instituição social com a qual grande parte da população tem contato ao longo da vida. Ela estabelece normas morais e sociais que orientam o comportamento dos indivíduos dentro de determinada cultura, desempenhando, assim, um papel importante na organização da vida em sociedade. Por atuar além do ambiente familiar e apresentar regras mais amplas, é considerada uma instituição de socialização secundária."
-        },
-        {
-          "type": "subheading",
-          "content": "A escola"
-        },
-        {
-          "type": "paragraph",
-          "content": "A escola é uma instituição de socialização secundária por excelência. Ela é responsável por transmitir ao indivíduo normas sociais, valores e conhecimentos formais que irão orientá-lo ao longo da vida. Além disso, contribui para a formação cidadã e para a preparação do indivíduo para outras esferas sociais, como o trabalho e a participação no Estado."
-        },
-        {
-          "type": "subheading",
-          "content": "O Estado"
-        },
-        {
-          "type": "paragraph",
-          "content": "O Estado é uma instituição social complexa, responsável por organizar a sociedade por meio de normas e leis. Ele reúne e sistematiza regras que orientam o funcionamento da vida coletiva, garantindo a ordem social. Para que o indivíduo se integre plenamente ao Estado, é necessário que tenha passado pelos processos de socialização anteriores, como aqueles promovidos pela família e pela escola. No Estado, predominam relações mais impessoais e um modo de organização baseado em regras formais."
+          "content": "Em todas as sociedades, por meio do trabalho, os indivíduos se relacionam entre si e, coletivamente, constroem a vida em sociedade, no que Marx chamou de <b>relações sociais de produção</b>. Segundo ele, essas relações possuem características específicas que variam ao longo da história e de acordo com cada tipo de sociedade. Além disso, são estabelecidas em meio a <b>contradições</b> e <b>conflitos</b> entre os diferentes grupos sociais."
         },
         {
           "type": "heading",
-          "id": "estratificacao_social",
-          "content": "Estratificação Social"
+          "id": "classe_social",
+          "content": "Classe social"
         },
         {
           "type": "paragraph",
-          "content": "É o modo como as diversas sociedades estão organizadas em estratos ou camadas sociais. Em outras palavras, trata-se da forma como os indivíduos se distribuem em diferentes posições dentro de uma sociedade. Esses critérios podem ser econômicos, políticos, sociais e culturais."
+          "content": "A divisão em <b>classes sociais</b> é uma característica da sociedade capitalista. Para Marx, esses grupos são diferenciados, principalmente, pela sua relação com os <b>meios de produção</b>."
         },
         {
           "type": "paragraph",
-          "content": "Podemos utilizar, como exemplo, as sociedades feudais, que eram organizadas, respectivamente, em clero, nobreza e servos. Essa divisão forma uma pirâmide hierárquica, na qual uma classe se sobrepõe às demais."
+          "content": "A classe dos proprietários, os <b>burgueses</b>, sempre estarão em busca do <b>lucro</b>, que para obtê-lo será necessário explorar a mão de obra da classe não proprietária. Já a classe trabalhadora, o <b>proletariado</b>, buscará melhores condições de vida e salários dignos para garantir a sua sobrevivência."
         },
         {
           "type": "paragraph",
-          "content": "A estratificação social é estruturada com base em múltiplas variáveis. As principais são renda e ocupação, mas, como apontou Max Weber, além do fator econômico, o status (prestígio) e o poder (capacidade de influência) também compõem esse arranjo e contribuem para a hierarquização das posições sociais."
+          "content": "Dessa forma, Karl Marx define que os interesses dessas classes são <b>antagônicos</b>. Isto é, os objetivos das classes são tão distintos que entram em conflito, pois a estrutura capitalista se baseia na exploração de uma classe pela outra."
         },
         {
           "type": "heading",
-          "id": "mobilidade_social",
-          "content": "Mobilidade Social"
+          "id": "mais_valia",
+          "content": "Mais-valia"
         },
         {
           "type": "paragraph",
-          "content": "É a possibilidade de um indivíduo mudar de posição social, de status ou poder. Diferentemente das sociedades feudais, em que era impossível ascender ou descender socialmente. No entanto, nas sociedades capitalistas essa ideia é possível, abrindo espaço para duas possibilidades de mudança de classe: mobilidade social vertical e horizontal."
-        },
-        {
-          "type": "subheading",
-          "content": "Mobilidade social vertical"
+          "content": "A <b>mais-valia</b> representa a parte não paga do trabalho que é apropriada pela burguesia na forma de lucro. O proletariado vende sua força de trabalho e é remunerado por meio de <b>salário</b>. No entanto, o valor que recebe não corresponde à totalidade da riqueza que produz."
         },
         {
           "type": "paragraph",
-          "content": "Ela ocorre quando há uma mudança de posição social, seja uma ascensão ou queda na hierarquia social Em outras palavras, o indivíduo melhora ou piora sua condição socioeconômica."
+          "content": "Por isso, a mais-valia não é apenas o trabalho mal pago nem o lucro total dos empresários, mas sim a <b>parte do valor produzido que não é repassada ao trabalhador</b>."
         },
         {
           "type": "paragraph",
-          "content": "Exemplo: uma pessoa que ingressa no ensino superior, forma-se e passa a exercer uma profissão mais bem remunerada, melhorando sua posição social; ou um indivíduo que perde o emprego e sofre uma queda em seu padrão de vida."
+          "content": "<b>Exemplo:</b> uma costureira trabalha em uma fábrica onde produz dez blusas por dia, mas recebe apenas o valor correspondente a uma, enquanto o lucro das outras nove fica com o empresário."
+        },
+        {
+          "type": "heading",
+          "id": "luta_de_classes",
+          "content": "Luta de classes"
         },
         {
           "type": "paragraph",
-          "content": "No entanto, é importante repensar até que ponto essa forma de ascensão é realmente possível ou se não passa de uma falsa esperança. Diante das diversas desigualdades presentes no sistema capitalista, seria mesmo possível mudar de classe?"
+          "content": "A <b>luta de classes</b> representa o antagonismo entre as classes. Para Marx, as condições econômicas e a luta de classes são <b>agentes transformadores da sociedade</b>."
         },
         {
           "type": "paragraph",
-          "content": "Muitas vezes, essa mudança é associada a duas principais vias: o acesso à educação e a ideia de “ganhar na loteria”. A primeira é a mais comum, porém, mesmo sendo mais frequente, a classe trabalhadora enfrenta diversas dificuldades, como a falta de oportunidades para ingressar em uma universidade e, principalmente, para se manter nela. Já a segunda possibilidade é ainda mais improvável, uma vez que depende exclusivamente da sorte."
-        },
-        {
-          "type": "subheading",
-          "content": "Mobilidade Social Horizontal"
+          "content": "A classe dominante nunca deseja que a situação mude, pois se encontra em uma situação privilegiada. Já os trabalhadores têm que lutar por melhores condições de vida. Segundo Marx, é essa luta que transformaria a história e a estrutura da sociedade. Sendo assim, a ascensão do proletariado faria surgir uma <b>sociedade sem classes</b> e livre de desigualdades."
         },
         {
           "type": "paragraph",
-          "content": "Acontece quando o indivíduo muda de posição sem alterar significativamente seu status social. Ou seja, há mudança, mas sem subir ou descer na hierarquia."
+          "content": "Isto seria alcançado pela união da classe trabalhadora organizada em torno de um <b>projeto político revolucionário</b>."
+        },
+        {
+          "type": "heading",
+          "id": "consciencia_de_classe",
+          "content": "Consciência de classe"
         },
         {
           "type": "paragraph",
-          "content": "Exemplo: uma pessoa que troca de emprego, mas continua com salário e prestígio semelhantes, ou alguém que muda de cidade mantendo o mesmo padrão de vida."
+          "content": "A <b>consciência de classe</b> é a percepção de um indivíduo sobre sua posição na estrutura social, ou seja, é a identificação do proletariado como <b>classe explorada</b>. Assim que o indivíduo se dá conta dessa exploração, ele percebe que seus problemas e dificuldades fazem parte de <b>questões coletivas</b>, e não de limitações individuais."
         },
         {
           "type": "paragraph",
-          "content": "Dessa forma, a mobilidade social horizontal demonstra que nem toda mudança na vida dos indivíduos implica alteração na sua posição na hierarquia social."
+          "content": "A exploração é a marca que une os proletários em torno de um objetivo comum: <b>acabar com o sistema de exploração vigente</b> e transformar a organização da sociedade, superando as divisões de classe."
+        },
+        {
+          "type": "heading",
+          "id": "ideologia_segundo_marx",
+          "content": "Ideologia segundo Marx"
+        },
+        {
+          "type": "paragraph",
+          "content": "Para Karl Marx e Friedrich Engels, a <b>ideologia</b> é um <b>instrumento de dominação</b> utilizado por uma classe sobre a outra. Ela se manifesta por meio da cultura, dos valores e das instituições, com o objetivo de propagar os interesses da <b>classe dominante</b>, gerando uma <b>falsa consciência da realidade</b>."
+        },
+        {
+          "type": "paragraph",
+          "content": "Dessa forma, por meio da ideologia, a classe dominante consegue dificultar que o proletariado desenvolva <b>consciência de classe</b>. Assim, os trabalhadores podem acabar defendendo interesses que não os favorecem, contribuindo para a manutenção do poder da burguesia."
+        },
+        {
+          "type": "paragraph",
+          "content": "Podemos citar como exemplo os debates sobre o fim da escala de trabalho <b>6x1</b>, em que muitos trabalhadores se posicionam contra mudanças que poderiam beneficiá-los, muitas vezes influenciados por discursos que priorizam os interesses empresariais. Nesse caso, é possível observar como a ideologia atua ao fazer com que indivíduos defendam ideias que reforçam sua própria condição de exploração."
         }
       ]
     },
@@ -211,10 +157,10 @@
           "type": "list",
           "items": [
             "COSTA, Ricardo Cesar Rocha da; OLIVEIRA, Luís Fernando de. Sociologia para jovens do século XXI. 4. ed. São Paulo: Imperial Novo Milênio, 2016.",
-            "MEUCCI, Simone. Introdução à Sociologia. Curitiba: Editora UFPR, 2024. (Coleção Ciências Sociais na Educação Básica, v. 1).",
-            "OLIVEIRA, Luiz Fernandes de; COSTA, Ricardo Cesar Rocha da. Sociologia para jovens do século XXI: volume único. 1. ed. São Paulo: Editora do Brasil, 2024.",
-            "PORFÍRIO, Francisco. \"Instituições sociais\"; Brasil Escola. Disponível em: https://brasilescola.uol.com.br/sociologia/instituicoes-sociais.htm. Acesso em 30 de março de 2026.",
-            "REZENDE, Milka. \"Mobilidade social\"; Brasil Escola. Disponível em: https://brasilescola.uol.com.br/sociologia/mobilidade-social.htm. Acesso em 30 de março de 2026."
+            "OLIVEIRA, Luiz Fernandes de; COSTA, Ricardo Cesar Rocha da. Sociologia para jovens do século XXI. 1. ed. São Paulo: Editora do Brasil, 2024.",
+            "PORFÍRIO, Francisco. \"Karl Marx\"; Brasil Escola. Disponível em: https://brasilescola.uol.com.br/sociologia/karl-marx.htm. Acesso em 29 de março de 2026.",
+            "PORFÍRIO, Francisco. \"Consciência de classe\"; Brasil Escola. Disponível em: https://brasilescola.uol.com.br/sociologia/consciencia-de-classe.htm. Acesso em 30 de março de 2026.",
+            "GODOY, William. \"A ideologia para Marx\"; Filosofia na Escola. Disponível em: https://filosofianaescola.com/politica/a-ideologia-para-marx/. Acesso em 30 de março de 2026."
           ]
         }
       ]
