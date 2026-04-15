@@ -17,6 +17,10 @@ html {
   animation: highlight 1s ease-in-out;
 } */
 
+button:hover {
+  cursor: pointer;  
+}
+
 @theme {
   --background: #ffffff;
   --foreground: #000000;

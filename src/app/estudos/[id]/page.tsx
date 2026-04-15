@@ -5,7 +5,9 @@ import type { Metadata } from "next";
 import { getTemaById, temas } from "@/app/temas/temas";
 import { getTemaContent } from "@/app/temas/tema-content-loader";
 import { TemaBlockRenderer } from "./(components)/tema-render";
-import { PiArrowUpBold, PiHashBold } from "react-icons/pi";
+import { PiArrowUpBold, PiBookBold, PiBookBookmarkBold, PiBookmarksBold, PiBookOpenBold, PiCigaretteBold, PiFilmSlateBold, PiHashBold, PiHeadsetBold, PiListBold } from "react-icons/pi";
+import { TemaMenuModal } from "./(components)/tema-menu-modal";
+import Link from "next/link";
 
 type Props = {
   params: Promise<{ id: string }>;
@@ -53,6 +55,8 @@ export default async function TemaPage({ params }: Props) {
                   </h1>
                 </div>
 
+
+                {/* 
                 {content.menu?.length ? (
                   <div className="mt-5 flex flex-wrap justify-start gap-2 sm:mt-6">
                     {content.menu.map((item) => (
@@ -73,9 +77,43 @@ export default async function TemaPage({ params }: Props) {
                       </a>
                     ))}
                   </div>
-                ) : null}
+                ) : null} */}
               </div>
+
+              <div className="mt-5 flex flex-wrap items-center gap-3 sm:mt-6">
+                <TemaMenuModal tema={tema.nome} items={content.menu ?? []} color={tema.cor} />
+
+                <Link href="#indicacoes">
+                  <button
+                    type="button"
+                    className="
+        inline-flex items-center gap-2 rounded-full bg-white px-4 py-3
+        text-sm font-extrabold uppercase tracking-wide text-zinc-800 shadow-sm
+        transition hover:-translate-y-0.5 sm:px-5
+      "
+                  >
+                    <PiFilmSlateBold style={{ color: tema.cor }} size={18} />
+                    <span>Indicações</span>
+                  </button>
+                </Link>
+
+                <Link href="#referencias">
+                  <button
+                    type="button"
+                    className="
+        inline-flex items-center gap-2 rounded-full bg-white px-4 py-3
+        text-sm font-extrabold uppercase tracking-wide text-zinc-800 shadow-sm
+        transition hover:-translate-y-0.5 sm:px-5
+      "
+                  >
+                    <PiBookmarksBold style={{ color: tema.cor }} size={18} />
+                    <span>Referências bibliográficas</span>
+                  </button>
+                </Link>
+              </div>
+
             </div>
+
 
             <div className="flex justify-center lg:justify-end">
               <div className="relative h-[180px] w-[180px] overflow-hidden rounded-[22px] shadow-[6px_6px_0px_rgba(0,0,0,1)] sm:h-[220px] sm:w-[220px] sm:shadow-[8px_8px_0px_rgba(0,0,0,1)]">
@@ -139,12 +177,20 @@ export default async function TemaPage({ params }: Props) {
             </section>
           ) : null}
         </div>
+
       </section>
 
+      {/* <div className="fixed bottom-4 right-4">
+        {content.menu?.length ? (
+          <TemaMenuModal items={content.menu} color={tema.cor} />
+        ) : null}
+      </div> */}
+
       <a
-        href="#top"
+        href="#nav"
         className="fixed bottom-4 right-4 z-50 flex h-11 w-11 items-center justify-center rounded-full bg-black text-white shadow-lg transition hover:scale-110 sm:bottom-6 sm:right-6 sm:h-12 sm:w-12"
         aria-label="Voltar ao topo"
+  
       >
         <PiArrowUpBold size={20} />
       </a>
