@@ -1,0 +1,36 @@
+{
+  "title": "Arquivo vazio",
+  "description": "",
+  "sections": [
+    {
+      "id": "conceitos",
+      "title": "INICIO",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": ""
+        },
+        {
+          "type": "heading",
+          "id": "Teste",
+          "content": "Teste"
+        }
+      ]
+    },
+    {
+      "id": "indicacoes",
+      "title": "Indicações",
+      "blocks": []
+    },
+    {
+      "id": "referencias",
+      "title": "Referências bibliográficas",
+      "blocks": [
+        {
+          "type": "list",
+          "items": []
+        }
+      ]
+    }
+  ]
+}

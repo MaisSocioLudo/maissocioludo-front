@@ -1,4 +1,3 @@
-// src/data/tema-content-loader.ts
 import { readFile } from "fs/promises";
 import path from "path";
 import type { TemaContent } from "@/types/tema-content";
@@ -47,8 +46,23 @@ export async function getTemaContent(id: string): Promise<TemaContent> {
     `${safeId}.json`
   );
 
-  const file = await readFile(filePath, "utf-8");
-  const content = JSON.parse(file) as TemaContent;
+  let content: TemaContent;
+
+  try {
+    const file = await readFile(filePath, "utf-8");
+    content = JSON.parse(file) as TemaContent;
+  } catch (error) {
+    // Se o arquivo não for encontrado, carrega o 'vazio.json'
+    const fallbackFilePath = path.join(
+      process.cwd(),
+      "src",
+      "content",
+      "temas",
+      "vazio.json"
+    );
+    const fallbackFile = await readFile(fallbackFilePath, "utf-8");
+    content = JSON.parse(fallbackFile) as TemaContent;
+  }
 
   return {
     ...content,

@@ -43,7 +43,7 @@ export default function Banner() {
               Plataforma educativa de Sociologia
             </div>
 
-            <h1 className="mt-5 text-4xl font-black uppercase leading-tight tracking-tight text-[var(--color-cinza)] sm:text-5xl lg:text-6xl">
+            <h1 className="mt-5 text-4xl font-black uppercase leading-tight tracking-tight text-[var(--color-cinza)] text-[50px] lg:text-6xl">
               +SocioLudo
             </h1>
 
