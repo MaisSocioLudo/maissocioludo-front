@@ -5,7 +5,7 @@ import type { Metadata } from "next";
 import { getTemaById, temas } from "@/app/temas/temas";
 import { getTemaContent } from "@/app/temas/tema-content-loader";
 import { TemaBlockRenderer } from "./(components)/tema-render";
-import { PiArrowUpBold, PiBookBold, PiBookBookmarkBold, PiBookmarksBold, PiBookOpenBold, PiCigaretteBold, PiFilmSlateBold, PiHashBold, PiHeadsetBold, PiListBold } from "react-icons/pi";
+import { PiArrowUpBold, PiFilmSlateBold, PiBookmarksBold } from "react-icons/pi";
 import { TemaMenuModal } from "./(components)/tema-menu-modal";
 import Link from "next/link";
 
@@ -25,9 +25,29 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     return { title: "Tema não encontrado | SocioLudo" };
   }
 
+  const imageUrl = `/imagens/cartas/${tema.id}.jpg`;
+
   return {
     title: `${tema.nome} | +SocioLudo`,
-    description: "Saiba mais sobre " + tema.nome,
+    description: `Saiba mais sobre ${tema.nome}`,
+    openGraph: {
+      title: `${tema.nome} | +SocioLudo`,
+      description: `Saiba mais sobre ${tema.nome}`,
+      images: [
+        {
+          url: imageUrl,
+          width: 1200,
+          height: 630,
+          alt: tema.nome,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${tema.nome} | +SocioLudo`,
+      description: `Saiba mais sobre ${tema.nome}`,
+      images: [imageUrl],
+    },
   };
 }
 
@@ -54,30 +74,6 @@ export default async function TemaPage({ params }: Props) {
                     {content.hero?.title ?? tema.nome}
                   </h1>
                 </div>
-
-
-                {/* 
-                {content.menu?.length ? (
-                  <div className="mt-5 flex flex-wrap justify-start gap-2 sm:mt-6">
-                    {content.menu.map((item) => (
-                      <a
-                        key={item.id}
-                        href={`#${item.id}`}
-                        className="
-                  relative flex items-center justify-center gap-1
-                  rounded-full bg-white
-                  px-3 py-2
-                  text-left text-[11px] font-extrabold uppercase tracking-wide text-zinc-800
-                  shadow-sm transition hover:-translate-y-0.5
-                  sm:px-5 sm:py-3 sm:text-sm
-                "
-                      >
-                        <PiHashBold style={{ color: tema.cor }} />
-                        <span>{item.label}</span>
-                      </a>
-                    ))}
-                  </div>
-                ) : null} */}
               </div>
 
               <div className="mt-5 flex flex-wrap items-center gap-3 sm:mt-6">
@@ -86,11 +82,7 @@ export default async function TemaPage({ params }: Props) {
                 <Link href="#indicacoes">
                   <button
                     type="button"
-                    className="
-        inline-flex items-center gap-2 rounded-full bg-white px-4 py-3
-        text-sm font-extrabold uppercase tracking-wide text-zinc-800 shadow-sm
-        transition hover:-translate-y-0.5 sm:px-5
-      "
+                    className="inline-flex items-center gap-2 rounded-full bg-white px-4 py-3 text-sm font-extrabold uppercase tracking-wide text-zinc-800 shadow-sm transition hover:-translate-y-0.5 sm:px-5"
                   >
                     <PiFilmSlateBold style={{ color: tema.cor }} size={18} />
                     <span>Indicações</span>
@@ -100,20 +92,14 @@ export default async function TemaPage({ params }: Props) {
                 <Link href="#referencias">
                   <button
                     type="button"
-                    className="
-        inline-flex items-center gap-2 rounded-full bg-white px-4 py-3
-        text-sm font-extrabold uppercase tracking-wide text-zinc-800 shadow-sm
-        transition hover:-translate-y-0.5 sm:px-5
-      "
+                    className="inline-flex items-center gap-2 rounded-full bg-white px-4 py-3 text-sm font-extrabold uppercase tracking-wide text-zinc-800 shadow-sm transition hover:-translate-y-0.5 sm:px-5"
                   >
                     <PiBookmarksBold style={{ color: tema.cor }} size={18} />
                     <span>Referências bibliográficas</span>
                   </button>
                 </Link>
               </div>
-
             </div>
-
 
             <div className="flex justify-center lg:justify-end">
               <div className="relative h-[180px] w-[180px] overflow-hidden rounded-[22px] shadow-[6px_6px_0px_rgba(0,0,0,1)] sm:h-[220px] sm:w-[220px] sm:shadow-[8px_8px_0px_rgba(0,0,0,1)]">
@@ -177,20 +163,12 @@ export default async function TemaPage({ params }: Props) {
             </section>
           ) : null}
         </div>
-
       </section>
-
-      {/* <div className="fixed bottom-4 right-4">
-        {content.menu?.length ? (
-          <TemaMenuModal items={content.menu} color={tema.cor} />
-        ) : null}
-      </div> */}
 
       <a
         href="#nav"
         className="fixed bottom-4 right-4 z-50 flex h-11 w-11 items-center justify-center rounded-full bg-black text-white shadow-lg transition hover:scale-110 sm:bottom-6 sm:right-6 sm:h-12 sm:w-12"
         aria-label="Voltar ao topo"
-  
       >
         <PiArrowUpBold size={20} />
       </a>
