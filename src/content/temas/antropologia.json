@@ -1,0 +1,65 @@
+{
+  "title": "Antropologia",
+  "description": "",
+  "sections": [
+    {
+      "id": "inicio",
+      "title": "O que é a Antropologia?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "A palavra <b>Antropologia</b> tem origem grega: deriva da junção de <i>anthropos</i> (ser humano) e logos (razão, estudo ou ciência). Portanto, em sua definição mais literal, ela é a ciência que estuda o ser humano."
+        },
+        {
+          "type": "paragraph",
+          "content": "No entanto, para as Ciências Sociais, o seu objetivo vai muito além da biologia. A Antropologia é a ciência que busca a compreensão da diversidade das manifestações culturais humanas, investigando como diferentes povos, em diferentes épocas e lugares, organizam suas vidas, criam seus valores e dão sentido ao mundo."
+        },
+        {
+          "type": "heading",
+          "id": "Conceitos",
+          "content": "Conceitos"
+        },
+        {
+          "type": "paragraph",
+          "content": "Para decifrar a riqueza das culturas humanas sem qualquer tipo de discriminação, a Antropologia desenvolveu uma série de conceitos e métodos fundamentais. O ponto de partida é a <b>alteridade</b>, que significa o exercício de reconhecer, respeitar e se colocar no lugar do outro, percebendo que a diferença não é um defeito, mas apenas outra forma de existir. Ligado a ela está o <b>relativismo cultural</b>, uma postura teórica e moral que defende que nenhuma cultura possui valores universais e superiores; cada hábito ou crença só pode ser julgado e compreendido dentro do seu próprio contexto."
+        },
+        {
+          "type": "paragraph",
+          "content": "Toda essa engrenagem funciona por meio de <b>símbolos</b>, que são os significados abstratos que uma sociedade atribui às coisas, como uma bandeira, um idioma ou um gesto, e que dão sentido à vida coletiva. "
+        },
+        {
+          "type": "paragraph",
+          "content": "Quando olhamos para a formação dos grupos humanos, a Antropologia substitui o antigo e incorreto conceito biológico de \"raça\" pelos termos <b>etnia</b> e <b>etnicidade</b>. Enquanto a etnia refere-se a um grupo de pessoas que compartilham uma mesma história, língua, território e tradições culturais, a etnicidade é o sentimento de pertencimento e a identidade política que surge desse compartilhamento."
+        },
+        {
+          "type": "heading",
+          "id": "metodo_etnografico",
+          "content": "Método Etnográfico"
+        },
+        {
+          "type": "paragraph",
+          "content": "Para estudar essas dinâmicas sociais de perto, os cientistas utilizam o <b>método etnográfico</b> (ou etnografia). O antropólogo realiza o \"trabalho de campo\": ele viaja, mora com a comunidade estudada, observa o cotidiano e participa de suas atividades (a chamada observação participante) para registrar a cultura sob o ponto de vista dos próprios nativos."
+        },
+        {
+          "type": "paragraph",
+          "content": "Um dos frutos mais fascinantes desse método na América do Sul foi o conceito de <b>perspectivismo ameríndio</b>, desenvolvido por antropólogos como Eduardo Viveiros de Castro. Ao estudar povos indígenas da Amazônia, percebeu-se que, para muitas dessas culturas, os animais, as plantas e os espíritos também possuem uma alma humana e sua própria \"cultura\". A diferença entre nós e eles não estaria no espírito, mas no corpo. Esse conceito revoluciona a ciência ao mostrar que a própria divisão ocidental entre \"Natureza\" e \"Cultura\" não é universal, abrindo nossa mente para formas completamente novas de enxergar o universo."
+        }
+      ]
+    },
+    {
+      "id": "indicacoes",
+      "title": "Indicações",
+      "blocks": []
+    },
+    {
+      "id": "referencias",
+      "title": "Referências bibliográficas",
+      "blocks": [
+        {
+          "type": "list",
+          "items": []
+        }
+      ]
+    }
+  ]
+}

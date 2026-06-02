@@ -38,12 +38,12 @@ export const temas: Tema[] = [
   {
     id: "sociedade_informacional",
     nome: "Sociedade Informacional",
-    cor: "#2DAB5C"
+    cor: "#F7B608"
   },
-    {
+  {
     id: "ideologia",
     nome: "Ideologia",
-    cor: "#2DAB5C"
+    cor: "#F7B608"
   },
   {
     id: "antropologia",
@@ -66,7 +66,7 @@ export const temas: Tema[] = [
     nome: "Religiosidade",
     cor: "#2DAB5C"
   },
-    {
+  {
     id: "sociologia_ambiental",
     nome: "Sociologia Ambiental",
     cor: "#2DAB5C"
