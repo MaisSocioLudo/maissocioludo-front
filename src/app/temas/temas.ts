@@ -40,6 +40,11 @@ export const temas: Tema[] = [
     nome: "Sociedade Informacional",
     cor: "#2DAB5C"
   },
+    {
+    id: "ideologia",
+    nome: "Ideologia",
+    cor: "#2DAB5C"
+  },
   {
     id: "antropologia",
     nome: "Antropologia",
@@ -60,6 +65,16 @@ export const temas: Tema[] = [
     id: "religiosidade",
     nome: "Religiosidade",
     cor: "#2DAB5C"
+  },
+    {
+    id: "sociologia_ambiental",
+    nome: "Sociologia Ambiental",
+    cor: "#2DAB5C"
+  },
+  {
+    id: "capitalismo",
+    nome: "Capitalismo",
+    cor: "#0267B2"
   },
   {
     id: "diversidade_sexual",
