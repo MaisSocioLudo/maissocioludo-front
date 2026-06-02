@@ -18,6 +18,10 @@ O **SocioLudo Digital** é uma versão computacional de um jogo didático voltad
 
 Este site foi desenvolvido como uma extensão pedagógica do jogo, funcionando como um **repositório web de materiais didáticos gratuitos e acessíveis**. Nele, os estudantes podem consultar textos de apoio relacionados aos temas presentes nas perguntas do SocioLudo Digital.
 
+## Preview
+
+![Preview do MaisSocioLudo](./public/preview.jpg)
+
 ## Objetivo do site
 
 O objetivo principal do site é oferecer um ambiente digital de apoio ao aprendizado, permitindo que os alunos aprofundem os conteúdos trabalhados durante as partidas do jogo.
