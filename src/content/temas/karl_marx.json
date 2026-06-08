@@ -147,7 +147,26 @@
     {
       "id": "indicacoes",
       "title": "Indicações",
-      "blocks": []
+      "blocks": [
+        {
+          "type": "highlight",
+          "icon": "filme",
+          "title": "Que horas ela volta?",
+          "content": "O filme aborda as desigualdades sociais e as relações de classe presentes na sociedade brasileira, evidenciando diferenças de oportunidades e privilégios entre grupos sociais distintos. A obra possibilita reflexões sobre as divisões de classe analisadas por Karl Marx."
+        },
+        {
+          "type": "highlight",
+          "icon": "musica",
+          "title": "Até quando esperar - Plebe Rude",
+          "content": "A letra questiona a má distribuição de riqueza e a resignação popular diante das desigualdades sociais, sintetizada no refrão “até quando esperar a plebe ajoelhar esperando a ajuda de Deus?”. A música expressa indignação diante das injustiças sociais e pode ser relacionada aos conceitos marxistas de luta de classes e consciência de classe."
+        },
+        {
+          "type": "highlight",
+          "icon": "livro",
+          "title": "O manifesto comunista - Karl Marx e Friedrich Engels",
+          "content": "Publicado em 1848, o livro apresenta os principais fundamentos do pensamento marxista, abordando temas como a luta de classes, a exploração do trabalho e a crítica ao capitalismo. A obra defende a organização da classe trabalhadora para a transformação da sociedade."
+        }
+      ]
     },
     {
       "id": "referencias",

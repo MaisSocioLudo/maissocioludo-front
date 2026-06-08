@@ -131,7 +131,7 @@ export default async function TemaPage({ params }: Props) {
                 {section.title}
               </h2>
 
-              <div className="space-y-4 sm:space-y-5">
+                <div className={`space-y-2`}>
                 {section.blocks.map((block, index) => (
                   <TemaBlockRenderer
                     key={block.id ?? `${section.id}-${index}`}
