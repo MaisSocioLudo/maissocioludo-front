@@ -1,0 +1,159 @@
+{
+  "title": "Karl Marx",
+  "description": "",
+  "sections": [
+    {
+      "id": "inicio",
+      "title": "Quem foi Max Weber?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "Max Weber foi um sociólogo e economista alemão, além de um dos fundadores da sociologia moderna. Nasceu em 1864, na cidade de Erfurt, na Alemanha. De origem burguesa, cresceu em um ambiente intelectual, com o pai advogado e político, e a mãe influenciando a sua educação protestante."
+        },
+        {
+          "type": "paragraph",
+          "content": "Seu trabalho mais conhecido foi o da sociologia da religião, mas seus estudos são amplamente revisitados. Influenciado pela filosofia do pensamento alemão do séc. XIX, se aprofundou em temas como ação social, Estado moderno e juízo de possibilidade. Seu ponto de partida é que todo indivíduo é dotado de capacidade e vontade para assumir uma posição consciente no mundo. É o que entenderemos melhor nos textos a seguir."
+        },
+        {
+          "type": "heading",
+          "id": "acaosocial_tipoideal_juizodepossibilidade",
+          "content": "Ação social, tipo ideal e juízo de possibilidade"
+        },
+        {
+          "type": "paragraph",
+          "content": "O pensamento clássico de Weber é que todo indivíduo é dotado de capacidade e vontade para assumir uma posição consciente no mundo. Para ele, não era possível estudar a sociedade em conjunto, pois essa capacidade, somada a diversidade das realidades humanas, tornava as pessoas muito complexas."
+        },
+        {
+          "type": "paragraph",
+          "content": "O que ele definiu como solução foi estudar os humanos através da ação social, que é quando o indivíduo antes de tomar uma decisão, leva em conta o modo que os outros indivíduos agem e pensam. Para ele, todas as ações dos indivíduos têm um sentido, logo, ao compreender a ação de vários indivíduos, seria possível compreender a sociedade como um todo. A fim de organizar os significados dessas ações, ele formulou uma classificação que separa as ações sociais em quatro tipos: tradicional, afetivo, racional relacionado a valores e racional relacionado a fins."
+        },
+        {
+          "type": "paragraph",
+          "content": "<b>Ação tradicional</b> - É realizada por hábito, sem grandes reflexões sobre sua origem ou significado. Exemplo: Cumprimentar as pessoas ao chegar em um local."
+        },
+        {
+          "type": "paragraph",
+          "content": "<b>Ação afetiva</b> - É motivada por variadas emoções, como alegria e tristeza. É caracterizada pela imprevisibilidade e intensidade, ou seja, um impulso que não é racional. Exemplo: Brigas no trânsito."
+        },
+        {
+          "type": "paragraph",
+          "content": "<b>Ação racional relacionada a VALORES</b> - É baseada em crenças sobre princípio ético, dignidade, religião, política ou moral. O indivíduo age guiado pelo “dever”, sem buscar um benefício material. Exemplo: Jejum por motivos religiosos e o exercício da caridade."
+        },
+        {
+          "type": "paragraph",
+          "content": "<b>Ação racional relacionada a FINS</b> - É uma conduta consciente, em que o indivíduo calcula ações e consequências para alcançar um objetivo. Exemplo: Uma pesquisa científica que busca desde o princípio chegar a certo resultado."
+        },
+        {
+          "type": "paragraph",
+          "content": "No entanto, Weber percebe que, na prática, os quatro tipos ideais de ação nem sempre aparecem separados. As motivações das pessoas costumam misturar tradição, emoção, convicções e a tentativa de prever as consequências. Por isso, como o próprio nome sugere, os <b>tipos ideais</b> servem apenas como aproximações idealizadas da realidade, para ver qual elemento predomina numa situação."
+        },
+        {
+          "type": "paragraph",
+          "content": "Ele também nota que ninguém age sozinho: antes de decidir, cada pessoa avalia o que os outros provavelmente farão, este é o chamado <b>juízo de possibilidade</b>. Essas expectativas recíprocas fazem com que comportamentos se tornem repetidos e previsíveis. Quando muitas pessoas passam a esperar e a agir do mesmo jeito, surgem normas, instituições e regras sociais."
+        },
+        {
+          "type": "paragraph",
+          "content": "Assim, para Weber, as estruturas sociais nascem da combinação entre os motivos individuais (os tipos ideais) e o juízo de possibilidade."
+        },
+        {
+          "type": "heading",
+          "id": "estado_moderno",
+          "content": "Estado Moderno"
+        },
+        {
+          "type": "paragraph",
+          "content": "Max Weber é o sociólogo com mais produções sobre o Estado. O autor estudou como as sociedades modernas, particularmente a alemã, a estadunidense e a inglesa, se tornaram mais burocráticas com o objetivo de se tornarem mais eficientes."
+        },
+        {
+          "type": "paragraph",
+          "content": "Weber caracteriza o Estado por dois elementos principais: <b>o aparato administrativo destinado à prestação de serviços e o exercício do monopólio legítimo da força</b>."
+        },
+        {
+          "type": "paragraph",
+          "content": "Para ele, o monopólio da violência significa que apenas o Estado pode empregar força para garantir o cumprimento de normas e leis. Essa pressão ocorre através de instituições, como a polícia, o exército e as prisões. O território é o que delimita o espaço onde esse poder se exerce."
+        },
+        {
+          "type": "paragraph",
+          "content": "Já o aparato administrativo destinado à prestação de serviços, segundo Weber, reúne o conjunto de agentes públicos, instituições e infraestrutura necessários para que o Estado funcione: servidores, órgãos, edifícios, normas e procedimentos legais que organizam o trabalho estatal. Esse conjunto opera por meio de rotinas e regras impessoais, a chamada <b>burocracia</b>, cujo objetivo é tornar a administração previsível e eficiente, garantindo que serviços públicos sejam oferecidos de forma regular e igualitária, independentemente de preferências pessoais. Para Weber, essa racionalização administrativa é um instrumento técnico que possibilita a ação contínua do Estado, não apenas um mal burocrático, mas a forma mais adequada de organizar grandes tarefas coletivas."
+        },
+        {
+          "type": "paragraph",
+          "content": "A aceitação do poder estatal depende da legitimidade, que Weber classifica em três tipos ideais:"
+        },
+        {
+          "type": "paragraph",
+          "content": "<b>Dominação tradicional</b> - Baseada em costumes e em autoridade hereditária, como  a figura de um rei."
+        },
+        {
+          "type": "paragraph",
+          "content": "<b>Dominação carismática</b> - Fundada na devoção a qualidades excepcionais de um líder, como um líder revolucionário, por exemplo."
+        },
+        {
+          "type": "paragraph",
+          "content": "<b>Dominação racional-legal</b> - Fundamentada em normas e cargos impessoais, exemplificada por um presidente eleito por voto e que governa por meio de leis. A autoridade racional-legal é a que sustenta a burocracia e o Estado moderno, porém Weber adverte para os riscos: a burocracia, apesar de ser um elemento essencial da impessoalidade do Estado Moderno, pode tornar a administração rígida e desumanizada, levando à ineficiência e a um controle rígido."
+        },
+        {
+          "type": "paragraph",
+          "content": "Em suma, para Weber o Estado moderno combina um aparato administrativo profissionalizado, que presta serviços segundo regras impessoais, com o monopólio legítimo da força, e sua estabilidade depende tanto da eficiência burocrática quanto da legitimidade que os governados conferem ao poder."
+        },
+        {
+          "type": "heading",
+          "id": "religiao",
+          "content": "Religião"
+        },
+        {
+          "type": "paragraph",
+          "content": "Em sua obra mais famosa, “A Ética Protestante e o Espírito do Capitalismo” (1905), Max Weber buscou entender como as crenças religiosas podiam mudar as atitudes das pessoas e, consequentemente, transformar a economia de um país. Para ele, a religião não era apenas um fator de união social, mas um poderoso motor de transformações históricas."
+        },
+        {
+          "type": "paragraph",
+          "content": "Na Idade Média (sociedade feudal), sob a forte influência da Igreja Católica tradicional, o trabalho braçal não era exatamente visto com orgulho. Em muitas interpretações da época, o trabalho era quase um castigo decorrente do \"pecado original\". O comércio e a acumulação de riquezas (lucro) era frequentemente condenado como um pecado. O ideal de vida virtuosa estava ligado à contemplação espiritual e à pobreza."
+        },
+        {
+          "type": "paragraph",
+          "content": "Tudo mudou a partir do século XVI com a <b>Reforma Protestante</b>. Weber percebeu que algumas vertentes do protestantismo, especialmente o Calvinismo, operaram uma verdadeira revolução cultural ao propagar uma visão extremamente positiva do trabalho."
+        },
+        {
+          "type": "paragraph",
+          "content": "Para Weber, um fator fundamental para essa transformação foi a <b>visão de que o trabalho era uma vocação</b>. Os protestantes passaram a defender que Deus queria que as pessoas o glorificassem por meio do cumprimento rigoroso e diário de suas tarefas no mundo comum. O trabalho profissional passou a ser visto como um dever moral e uma missão divina. Além disso, <b>a doutrina da predestinação</b> também auxiliou nessa mudança. Os calvinistas acreditavam que Deus já havia escolhido, desde o nascimento, quem seria salvo e quem seria condenado. Como ninguém sabia o seu destino real, as pessoas buscavam \"sinais\" de que eram abençoadas. O sucesso no trabalho, a prosperidade financeira de uma empresa e uma vida sem excessos começaram a ser interpretados como sinais do favor de Deus."
+        },
+        {
+          "type": "paragraph",
+          "content": "Weber conclui que essa \"ética\" puritana acabou alimentando o próprio espírito do capitalismo moderno. Com o tempo, o capitalismo se consolidou de tal forma que a motivação religiosa inicial perdeu força, mas a valorização intensa do trabalho e a busca pelo sucesso profissional continuaram firmes como bases da nossa sociedade atual."
+        }
+      ]
+    },
+    {
+      "id": "indicacoes",
+      "title": "Indicações",
+      "blocks": [
+        {
+          "type": "highlight",
+          "icon": "filme",
+          "title": "Fome de Poder (The Founder - Filme)",
+          "content": "É a história da ascensão do McDonald's e o exemplo perfeito para explicar a Ação Social Racional com Relação a Fins e o Espírito do Capitalismo. O protagonista, Ray Kroc, calcula friamente cada passo, focado exclusivamente na eficiência, no lucro e no controle burocrático, deixando de lado qualquer barreira ética ou afetiva para atingir seu objetivo."
+        },
+        {
+          "type": "highlight",
+          "icon": "filme",
+          "title": "Breaking Bad (Série)",
+          "content": "O arco do protagonista Walter White permite trabalhar perfeitamente a transição entre os tipos de ação social. Ele começa agindo para garantir o sustento da família após sua morte (Ação Racional com Relação a Valores), mas ao longo da história suas decisões passam a ser guiadas pelo puro cálculo de poder e sobrevivência (Racional com Relação a Fins) e por forte vaidade e orgulho (Ação Afetiva)."
+        }
+      ]
+    },
+    {
+      "id": "referencias",
+      "title": "Referências bibliográficas",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "KUPPER, Agnaldo; BODART, Cristiano das Neves. Entre Saberes: Sociologia – Ciências Humanas e Sociais Aplicadas. 1. ed. São Paulo: Palavras Projetos Editoriais, 2024. Volume único.",
+            "CASA DO SABER. Max Weber. Disponível em: https://www.casadosaber.com.br/autores/max-weber. Acesso em: 20 mai. 2026.",
+            "OLIVEIRA, Luiz Fernandes de; COSTA, Ricardo Cesar Rocha da. Sociologia para jovens do século XXI: Ciências Humanas e Sociais Aplicadas. 1. ed. São Paulo: Editora do Brasil, 2024. Volume único."
+          ]
+        }
+      ]
+    }
+  ]
+}
