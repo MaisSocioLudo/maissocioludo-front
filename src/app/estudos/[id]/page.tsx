@@ -1,13 +1,13 @@
 // src/app/estudos/[id]/page.tsx
 import Image from "next/image";
+import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
+import { PiArrowUpBold, PiFilmSlateBold, PiBookmarksBold } from "react-icons/pi";
 import { getTemaById, temas } from "@/app/temas/temas";
 import { getTemaContent } from "@/app/temas/tema-content-loader";
 import { TemaBlockRenderer } from "./(components)/tema-render";
-import { PiArrowUpBold, PiFilmSlateBold, PiBookmarksBold } from "react-icons/pi";
 import { TemaMenuModal } from "./(components)/tema-menu-modal";
-import Link from "next/link";
 
 type Props = {
   params: Promise<{ id: string }>;
@@ -63,11 +63,11 @@ export default async function TemaPage({ params }: Props) {
     <main id="top" className="min-h-screen bg-[#f5f5f5]">
       <section className="border-b border-black/10 bg-[#dbe6ec]">
         <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 sm:py-8 lg:px-8">
-          <div className="grid items-center gap-8 lg:grid-cols-[minmax(0,1fr)_320px] lg:gap-10">
+          <div className="grid items-center gap-7 lg:grid-cols-[minmax(0,1fr)_320px] lg:gap-10">
             <div className="flex min-w-0 flex-col items-start text-left">
-              <div className="mt-2 w-fit max-w-1xl">
+              <div className="mt-2 max-w-full">
                 <div
-                  className="mb-5 inline-block max-w-full rotate-[-2deg] px-4 py-3 shadow-md sm:px-6"
+                  className="mb-5 inline-block max-w-full rotate-[-2deg] px-3 py-3 shadow-md sm:px-6"
                   style={{ backgroundColor: tema.cor }}
                 >
                   <h1 className="break-words text-xl font-black uppercase leading-tight text-white sm:text-3xl lg:text-4xl">
@@ -76,23 +76,27 @@ export default async function TemaPage({ params }: Props) {
                 </div>
               </div>
 
-              <div className="mt-5 flex flex-wrap items-center gap-3 sm:mt-6">
-                <TemaMenuModal tema={tema.nome} items={content.menu ?? []} color={tema.cor} />
+              <div className="mt-3 flex w-full flex-col gap-3 sm:mt-6 sm:w-auto sm:flex-row sm:flex-wrap sm:items-center">
+                <TemaMenuModal
+                  tema={tema.nome}
+                  items={content.menu ?? []}
+                  color={tema.cor}
+                />
 
-                <Link href="#indicacoes">
+                <Link href="#indicacoes" className="w-full sm:w-auto">
                   <button
                     type="button"
-                    className="inline-flex items-center gap-2 rounded-full bg-white px-4 py-3 text-sm font-extrabold uppercase tracking-wide text-zinc-800 shadow-sm transition hover:-translate-y-0.5 sm:px-5"
+                    className="inline-flex w-full items-center justify-center gap-2 rounded-full bg-white px-4 py-3 text-sm font-extrabold uppercase tracking-wide text-zinc-800 shadow-sm transition hover:-translate-y-0.5 sm:w-auto sm:px-5"
                   >
                     <PiFilmSlateBold style={{ color: tema.cor }} size={18} />
                     <span>Indicações</span>
                   </button>
                 </Link>
 
-                <Link href="#referencias">
+                <Link href="#referencias" className="w-full sm:w-auto">
                   <button
                     type="button"
-                    className="inline-flex items-center gap-2 rounded-full bg-white px-4 py-3 text-sm font-extrabold uppercase tracking-wide text-zinc-800 shadow-sm transition hover:-translate-y-0.5 sm:px-5"
+                    className="inline-flex w-full items-center justify-center gap-2 rounded-full bg-white px-4 py-3 text-sm font-extrabold uppercase tracking-wide text-zinc-800 shadow-sm transition hover:-translate-y-0.5 sm:w-auto sm:px-5"
                   >
                     <PiBookmarksBold style={{ color: tema.cor }} size={18} />
                     <span>Referências bibliográficas</span>
@@ -102,13 +106,13 @@ export default async function TemaPage({ params }: Props) {
             </div>
 
             <div className="flex justify-center lg:justify-end">
-              <div className="relative h-[180px] w-[180px] overflow-hidden rounded-[22px] shadow-[6px_6px_0px_rgba(0,0,0,1)] sm:h-[220px] sm:w-[220px] sm:shadow-[8px_8px_0px_rgba(0,0,0,1)]">
+              <div className="relative h-[170px] w-[170px] overflow-hidden rounded-[20px] shadow-[5px_5px_0px_rgba(0,0,0,1)] sm:h-[220px] sm:w-[220px] sm:rounded-[22px] sm:shadow-[8px_8px_0px_rgba(0,0,0,1)]">
                 <Image
                   src={`/imagens/cartas/${tema.id}.jpg`}
                   alt={tema.nome}
                   fill
                   className="object-cover"
-                  sizes="(max-width: 640px) 180px, 220px"
+                  sizes="(max-width: 640px) 170px, 220px"
                 />
               </div>
             </div>
@@ -122,16 +126,16 @@ export default async function TemaPage({ params }: Props) {
             <section
               key={section.id}
               id={section.id}
-              className="rounded-[24px] border border-zinc-200 bg-white p-5 shadow-sm sm:rounded-[28px] sm:p-6 md:p-8"
+              className="rounded-[20px] border border-zinc-200 bg-white p-4 shadow-sm sm:rounded-[28px] sm:p-6 md:p-8"
             >
               <h2
-                className="mb-5 text-xl font-black uppercase leading-tight sm:mb-6 sm:text-2xl"
+                className="mb-5 break-words text-xl font-black uppercase leading-tight sm:mb-6 sm:text-2xl"
                 style={{ color: tema.cor }}
               >
                 {section.title}
               </h2>
 
-                <div className={`space-y-2`}>
+              <div className="space-y-3">
                 {section.blocks.map((block, index) => (
                   <TemaBlockRenderer
                     key={block.id ?? `${section.id}-${index}`}
@@ -146,10 +150,10 @@ export default async function TemaPage({ params }: Props) {
           {content.referencias?.length ? (
             <section
               id="referencias"
-              className="rounded-[24px] border border-zinc-200 bg-white p-5 shadow-sm sm:rounded-[28px] sm:p-6 md:p-8"
+              className="rounded-[20px] border border-zinc-200 bg-white p-4 shadow-sm sm:rounded-[28px] sm:p-6 md:p-8"
             >
               <h2
-                className="mb-5 text-xl font-black uppercase leading-tight sm:mb-6 sm:text-2xl"
+                className="mb-5 break-words text-xl font-black uppercase leading-tight sm:mb-6 sm:text-2xl"
                 style={{ color: tema.cor }}
               >
                 Referências bibliográficas

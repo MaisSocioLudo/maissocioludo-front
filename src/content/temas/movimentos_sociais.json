@@ -1,0 +1,96 @@
+{
+  "title": "Movimentos Sociais",
+  "description": "",
+  "sections": [
+    {
+      "id": "inicio",
+      "title": "O que são Movimentos Sociais?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "Os <b>movimentos sociais</b> são formas de organização da sociedade civil que têm como objetivo principal promover transformações políticas, sociais ou culturais, ou ainda resistir a mudanças que prejudiquem determinados grupos. Eles não devem ser confundidos com explosões de revolta temporárias ou meras <b>ações coletivas</b> espontâneas, como um protesto isolado por causa do aumento da passagem de ônibus. Para que um grupo seja considerado um movimento social, ele precisa de continuidade no tempo, planejamento, uma identidade compartilhada entre seus membros e um projeto claro do que deseja mudar ou preservar na sociedade."
+        },
+        {
+          "type": "paragraph",
+          "content": "A atuação desses grupos envolve o confronto político com o Estado ou com setores dominantes, utilizando ferramentas que vão desde passeatas, abaixo-assinados e greves até o uso estratégico das redes sociais. No entanto, a forma como essas demandas chegam ao grande público é profundamente influenciada pelos meios de comunicação. Sociólogos apontam que, historicamente, a <b>mídia tradicional</b> tende a retratar os movimentos sociais de forma criminalizada ou deslegitimada. É comum que as coberturas jornalísticas deem mais destaque aos episódios de violência, bloqueios de vias ou danos ao patrimônio do que às causas profundas, desigualdades e injustiças que motivaram o surgimento daquele protesto, moldando a opinião pública de maneira a enxergar o manifestante como um\"desordeiro\"e não como um cidadão lutando por direitos."
+        },
+        {
+          "type": "heading",
+          "id": "movimentos_sociais_pelo_mundo",
+          "content": "Movimentos Sociais pelo mundo"
+        },
+        {
+          "type": "paragraph",
+          "content": "Para compreender como as ações coletivas moldaram a história, é preciso olhar para marcos internacionais que redefiniram os direitos humanos. O primeiro grande exemplo são as <b>revoltas de escravizados na Roma Antiga</b> (séculos II e I a.C.), lideradas por Espártaco. Embora não fossem movimentos organizados nos moldes modernos, essas insurreições representaram uma das primeiras contestações massivas contra a dominação e a opressão de um Estado, mostrando a força da união dos oprimidos pela liberdade."
+        },
+        {
+          "type": "paragraph",
+          "content": "Muitos séculos depois, na transição do século XIX para o XX, a Inglaterra foi palco do movimento das <i><b>Suffragettes</b></i> <b>(Sufragistas)</b>. Esse grupo de mulheres enfrentou a repressão policial, realizou greves de fome e protestos radicais para exigir o sufrágio (direito ao voto) e a igualdade política. A luta delas desafiou a sociedade patriarcal e abriu caminho para as futuras ondas do feminismo global."
+        },
+        {
+          "type": "paragraph",
+          "content": "Já em meados do século XX, muitos movimentos sociais focaram no combate ao racismo institucional. Nos Estados Unidos das décadas de 1950 e 1960, o <b>Movimento pelos Direitos Civis</b>, liderado por figuras como Martin Luther King Jr., utilizou marchas e a desobediência civil pacífica para derrubar as leis de segregação racial. No mesmo período, na África do Sul, estruturou-se o <b>Movimento contra o</b> <i><b>Apartheid</b></i> que, sob a liderança de Nelson Mandela, organizou greves e protestos de massa para pôr fim ao regime oficial de separação e desumanização da população negra."
+        },
+        {
+          "type": "heading",
+          "id": "movimentos_sociais_no_brasil",
+          "content": "Movimentos Sociais no Brasil"
+        },
+        {
+          "type": "paragraph",
+          "content": "A história do Brasil é marcada por intensas mobilizações populares que desafiaram a exclusão econômica e a opressão política. No final do século XIX e início do XX, as primeiras grandes ações coletivas surgiram no campo, motivadas pela miséria extrema e pelo fanatismo religioso no Nordeste e no Sul. A <b>Guerra de Canudos</b> (1896-1897), na Bahia, e a <b>Guerra do Contestado</b> (1912-1916), na fronteira entre Paraná e Santa Catarina, foram movimentos messiânicos compostos por camponeses empobrecidos que se organizaram em comunidades autônomas para resistir à violência dos grandes latifundiários e do recém-criado Estado republicano."
+        },
+        {
+          "type": "paragraph",
+          "content": "A luta pela terra ganhou contornos mais políticos nas décadas de 1950 e 1960 com as <b>Ligas Camponesas</b>, associações de trabalhadores rurais que exigiam a reforma agrária e direitos trabalhistas no campo. Esse avanço das forças populares foi interrompido pelo Golpe Militar de 1964, que inaugurou um período de forte repressão. Mesmo sob censura, a sociedade civil resistiu. Em 1968, a <b>Passeata dos Cem Mil</b>, no Rio de Janeiro, reuniu estudantes, artistas e intelectuais em um protesto massivo contra a violência da ditadura militar."
+        },
+        {
+          "type": "paragraph",
+          "content": "Na virada para os anos 1980, a contestação ao regime ganhou força operária com as <b>Greves do ABCD Paulista</b>, lideradas por metalúrgicos que paralisaram as indústrias automotivas exigindo reajustes salariais e liberdade sindical. Essa mobilização dos trabalhadores alimentou o maior movimento de massa da história recente do país: o <b>Diretas Já</b> (1983-1984), que uniu milhões de brasileiros nas ruas exigindo o voto direto para a presidência da República e o fim definitivo da ditadura."
+        },
+        {
+          "type": "paragraph",
+          "content": "Paralelamente a essas pautas políticas e econômicas, o <b>Movimento Negro Brasileiro</b> consolidou uma transformação cultural profunda no final da década de 1970. Protagonizado pelo Movimento Negro Unificado (MNU), o grupo alcançou a <b>conquista da ressignificação do termo\"Negro\"</b>. Antes utilizado de forma pejorativa e racista, a palavra foi transformada pelo movimento em um símbolo de orgulho, identidade, ancestralidade e resistência política, unificando pretos e pardos na luta por direitos."
+        },
+        {
+          "type": "paragraph",
+          "content": "Essa transição da luta operária e camponesa para as questões de raça e gênero exemplifica o que a Sociologia chama de <b>Novos Movimentos Sociais</b>. Enquanto os movimentos tradicionais focavam na disputa pelo poder do Estado e na redistribuição de renda, os novos movimentos (como o feminista, o LGBTQIA+, o ambientalista e o próprio movimento negro contemporâneo) centram suas pautas na cultura, na afirmação de identidades, na autonomia individual e no direito à diferença, mostrando que a busca por justiça social hoje vai muito além das paredes das fábricas."
+        }
+      ]
+    },
+    {
+      "id": "indicacoes",
+      "title": "Indicações",
+      "blocks": [
+        {
+          "type": "highlight",
+          "icon": "livro",
+          "title": "Era Uma Vez no Contestado - André Caliman",
+          "content": "A HQ utiliza arte em aquarela para narrar quatro contos entrelaçados. A história mistura personagens reais e fictícios para ilustrar o drama dos posseiros expulsos de suas terras na região da fronteira entre Paraná e Santa Catarina."
+        },
+        {
+          "type": "highlight",
+          "icon": "musica",
+          "title": "Podres Poderes - Caetano Veloso",
+          "content": "Lançada em 1984, no auge do movimento das Diretas Já, a música retrata o descontentamento social com a falta de democracia e a herança da ditadura militar. A letra ajuda a debater o momento em que a sociedade civil foi às ruas exigir o direito de votar."
+        },
+        {
+          "type": "highlight",
+          "icon": "filme",
+          "title": "Eles Não Usam Black-Tie",
+          "content": "O filme ajuda a entender as Greves do ABCD Paulista e a estrutura das ações coletivas. A trama mostra uma família operária dividida entre a organização sindical e o medo de perder o emprego, permitindo debater solidariedade de classe e individualismo econômico."
+        }
+      ]
+    },
+    {
+      "id": "referencias",
+      "title": "Referências bibliográficas",
+      "blocks": [
+        {
+          "type": "list",
+          "items": []
+        }
+      ]
+    }
+  ]
+}

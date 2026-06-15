@@ -16,8 +16,7 @@ type NavbarProps = {
 };
 
 const navItems: NavItem[] = [
-  { label: 'Baixar', href: '/download' },
-  { label: 'Página Inicial', href: '../' },
+  { label: 'Livros didáticos', href: '/livros' },
   { label: 'Contato', href: '/contato' },
 ];
 
@@ -30,90 +29,60 @@ const colorMap: Record<NavbarColor, string> = {
 
 const Navbar: React.FC<NavbarProps> = ({ color = 'azul' }) => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const backgroundColor = colorMap[color];
 
   return (
     <header
-      id={"nav"}
-      style={{
-        backgroundColor: colorMap[color],
-        position: 'relative',
-        zIndex: 1000,
-      }}
+      id="nav"
+      className="relative z-[1000]"
+      style={{ backgroundColor }}
     >
-      <div
-        style={{ display: 'flex', alignItems: 'center', justifyContent: 'flex-end', gap: '20px', backgroundColor: colorMap[color], height: '70px', paddingRight: '40px', position: 'relative', }} >
-
-        {!menuOpen && <>
-          {/* LOGO */} <div style={{ position: 'absolute', left: '20px', top: '-10px', zIndex: 1, }} >
-            <Link href="../"> <Image alt="logo" height={200} width={200} aria-hidden={true} src="/imagens/navlogo.png" />
+      <div className="relative mx-auto flex h-[70px] max-w-7xl items-center justify-end gap-5 px-4 sm:pr-10 lg:px-8">
+        {!menuOpen && (
+          <div className="absolute left-5 top-[-10px] z-10">
+            <Link href="/" aria-label="Ir para a página inicial">
+              <Image
+                alt="SocioLudo"
+                height={200}
+                width={200}
+                priority
+                src="/imagens/navlogo.png"
+              />
             </Link>
           </div>
-        </>}
+        )}
 
-        {/* BOTÃO MOBILE */}
         <button
+          type="button"
           onClick={() => setMenuOpen(!menuOpen)}
-          aria-label="Abrir menu"
-          style={{
-            display: 'none',
-            background: 'transparent',
-            border: 'none',
-            cursor: 'pointer',
-            flexDirection: 'column',
-            gap: '5px',
-          }}
-          className="navbar-mobile-button"
+          aria-label={menuOpen ? 'Fechar menu' : 'Abrir menu'}
+          aria-expanded={menuOpen}
+          className="flex h-11 w-11 flex-col items-center justify-center gap-1.5 rounded-full border border-white/25 bg-white/10 text-white transition hover:bg-white/20 md:hidden"
         >
           <span
-            style={{
-              width: '26px',
-              height: '3px',
-              backgroundColor: 'white',
-              borderRadius: '2px',
-              display: 'block',
-            }}
+            className={`block h-0.5 w-6 rounded-full bg-white transition ${
+              menuOpen ? 'translate-y-2 rotate-45' : ''
+            }`}
           />
           <span
-            style={{
-              width: '26px',
-              height: '3px',
-              backgroundColor: 'white',
-              borderRadius: '2px',
-              display: 'block',
-            }}
+            className={`block h-0.5 w-6 rounded-full bg-white transition ${
+              menuOpen ? 'opacity-0' : ''
+            }`}
           />
           <span
-            style={{
-              width: '26px',
-              height: '3px',
-              backgroundColor: 'white',
-              borderRadius: '2px',
-              display: 'block',
-            }}
+            className={`block h-0.5 w-6 rounded-full bg-white transition ${
+              menuOpen ? '-translate-y-2 -rotate-45' : ''
+            }`}
           />
         </button>
 
-        {/* NAV DESKTOP */}
-        <nav className="navbar-desktop">
-          <ul
-            style={{
-              display: 'flex',
-              listStyle: 'none',
-              margin: 0,
-              padding: 0,
-              gap: '20px',
-            }}
-          >
+        <nav className="hidden md:block">
+          <ul className="flex list-none items-center gap-3 lg:gap-6">
             {navItems.map((item) => (
               <li key={item.href}>
                 <Link
                   href={item.href}
-                  style={{
-                    color: 'white',
-                    textDecoration: 'none',
-                    fontWeight: 'bold',
-                    fontSize: '16px',
-                  }}
+                  className="rounded-full px-3 py-2 text-sm font-bold text-white transition hover:bg-white/15 lg:text-base"
                 >
                   {item.label}
                 </Link>
@@ -123,56 +92,23 @@ const Navbar: React.FC<NavbarProps> = ({ color = 'azul' }) => {
         </nav>
       </div>
 
-      {/* MENU MOBILE */}
       {menuOpen && (
         <nav
-          className="navbar-mobile-menu"
-          style={{
-            display: 'none',
-            flexDirection: 'column',
-            backgroundColor: colorMap[color],
-            padding: '12px 16px 20px',
-            borderTop: '1px solid rgba(255,255,255,0.2)',
-          }}
+          className="border-t border-white/20 px-4 pb-4 pt-2 md:hidden"
+          style={{ backgroundColor }}
         >
           {navItems.map((item) => (
             <Link
               key={item.href}
               href={item.href}
               onClick={() => setMenuOpen(false)}
-              style={{
-                color: 'white',
-                textDecoration: 'none',
-                fontWeight: 'bold',
-                padding: '12px 0',
-                borderBottom: '1px solid rgba(255,255,255,0.15)',
-              }}
+              className="block rounded-2xl px-3 py-3 text-base font-bold text-white transition hover:bg-white/15"
             >
               {item.label}
             </Link>
           ))}
         </nav>
       )}
-
-      <style jsx>{`
-        .navbar-desktop {
-          display: block;
-        }
-
-        @media (max-width: 768px) {
-          .navbar-desktop {
-            display: none;
-          }
-
-          .navbar-mobile-button {
-            display: flex !important;
-          }
-
-          .navbar-mobile-menu {
-            display: flex !important;
-          }
-        }
-      `}</style>
     </header>
   );
 };
