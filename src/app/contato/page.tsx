@@ -60,7 +60,7 @@ export default function Contato() {
 
 
           <p className="mt-5 text-[16px] leading-8 text-zinc-700 sm:text-[17px]">
-            Relate problemas técnicos, dúvidas, sugestões e mais. (Ju ou bia avaliem uma mensagem pra cá)
+            Relate problemas técnicos, dúvidas, sugestões e mais.
           </p>
 
           <div className="mt-7 rounded-2xl border border-zinc-200 bg-zinc-50 p-4">
@@ -71,7 +71,7 @@ export default function Contato() {
 
               <p className="text-sm leading-7 text-zinc-700">
                 Caso tenha interesse nos materiais para impressão do tabuleiro
-                físico, entre em contato conosco. (Ju ou bia avaliem uma mensagem pra cá)
+                físico, entre em contato conosco.
               </p>
             </div>
           </div>

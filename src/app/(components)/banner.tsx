@@ -41,7 +41,7 @@ export default function Banner() {
               Plataforma educativa de Sociologia
             </div>
 
-            <h1 className="mt-4 text-4xl font-black uppercase leading-tight text-[var(--color-cinza)] sm:mt-5 sm:text-5xl lg:text-6xl">
+            <h1 className="mt-4 text-4xl font-black uppercase leading-tight text-[var(--color-cinza)] sm:mt-5 sm:text-5xl lg:text-5xl">
               +SocioLudo
             </h1>
 
@@ -51,6 +51,7 @@ export default function Banner() {
               dinâmico e envolvente.
             </p>
 
+        
             <ul className="mt-6 grid gap-3 sm:mt-8 sm:gap-4">
               {items.map((item) => {
                 const Icon = item.icon;

@@ -1,4 +1,4 @@
-export default function DownloadPage() {
+export default function DownloadComponent() {
   return (
     <section className="w-full rounded-[24px] border border-zinc-200 bg-white p-5 text-center shadow-sm sm:rounded-[32px] sm:p-8">
       <h1 className="text-2xl font-black leading-tight text-zinc-900 sm:text-3xl">
