@@ -1,17 +1,22 @@
 {
   "title": "Ideologia",
   "description": "",
+  "hero": {
+    "title": "Ideologia"
+  },
   "sections": [
     {
       "id": "inicio",
-      "title": "Ideologia",
+      "title": "O que é ideologia?",
       "blocks": [
         {
           "type": "paragraph",
+          "id": "ideologia_p_1",
           "content": "Nem sempre percebemos, mas todos nós interpretamos o mundo a partir de certas ideias, valores e crenças. Essas formas de enxergar a realidade influenciam como entendemos temas como política, trabalho, desigualdade e até mesmo o que consideramos “normal” ou “justo”."
         },
         {
           "type": "paragraph",
+          "id": "ideologia_p_2",
           "content": "Esse conjunto de ideias que orientam a maneira como pensamos e agimos pode ser chamado de <b>ideologia</b>. No entanto, esse conceito não possui um único significado. Ao longo do tempo, diferentes autores desenvolveram interpretações distintas sobre o que é ideologia e qual o seu papel na sociedade."
         },
         {
@@ -21,22 +26,27 @@
         },
         {
           "type": "paragraph",
+          "id": "ideologia_p_3",
           "content": "A primeira definição do termo ideologia foi cunhada pelo filósofo francês <b>Destutt Tracy</b>, em seu livro <i>Eléments d’Idéologie [Elementos de ideologia]</i>. Para ele, ideologia seria o estudo científico das ideias, e as ideias são o resultado das interações dos indivíduos com o seu meio."
         },
         {
           "type": "paragraph",
-          "content": "Em 1846 a dupla <b>Karl Marx e Friedrich Engels</b> ressignificou o termo. Para eles, a ideologia não é apenas um conjunto de ideias, mas u m instrumento de dominação responsável por propagar os interesses das casses dominantes, contribuindo para a manutenção de um sistema em que uma classe explora a outra. Essa dominação acontece através de uma representação distorcida da realidade, que é fomentada pelas instituições, como escola, veículos midiáticos e a religião. Através da naturalização das desigualdades, as instituições difundem ideias que camuflam as diferenças entre as classes. Dessa forma, os indivíduos desenvolvem um sentimento de pertencimento que os leva a se adaptar às condições impostas pelas classes dominantes."
+          "id": "ideologia_p_4",
+          "content": "Em 1846 a dupla <b>Karl Marx e Friedrich Engels</b> ressignificou o termo. Para eles, a ideologia não é apenas um conjunto de ideias, mas um instrumento de dominação responsável por propagar os interesses das casses dominantes, contribuindo para a manutenção de um sistema em que uma classe explora a outra. Essa dominação acontece através de uma representação distorcida da realidade, que é fomentada pelas instituições, como escola, veículos midiáticos e a religião. Através da naturalização das desigualdades, as instituições difundem ideias que camuflam as diferenças entre as classes. Dessa forma, os indivíduos desenvolvem um sentimento de pertencimento que os leva a se adaptar às condições impostas pelas classes dominantes."
         },
         {
           "type": "paragraph",
+          "id": "ideologia_p_5",
           "content": "Dando continuidade a essa discussão, o pensador italiano Antonio Gramsci amplia a compreensão do conceito de ideologia. Para ele, ela não deve ser entendida apenas como um instrumento de dominação, mas também como uma forma de interpretar e dar sentido à realidade. Nesse sentido, a ideologia funciona como uma visão de mundo, formada por ideias, valores e concepções construídas por diferentes grupos sociais."
         },
         {
           "type": "paragraph",
+          "id": "ideologia_p_6",
           "content": "Essas ideias se expressam nas práticas do cotidiano, nas relações sociais e nas formas como os indivíduos compreendem sua própria realidade. Ao mesmo tempo, também são influenciadas por essas vivências, formando um sistema de valores culturais que orienta comportamentos e percepções. Assim, para Gramsci, a ideologia representa a maneira pela qual cada grupo social compreende o mundo e atribui significado às suas experiências."
         },
         {
           "type": "paragraph",
+          "id": "ideologia_p_7",
           "content": "Já a filósofa brasileira <b>Marilena Chauí</b> aprofunda a análise ao destacar o papel da ideologia na manutenção das relações de poder. Para Chauí, a ideologia atua ao ocultar as contradições da sociedade, apresentando uma realidade fragmentada ou distorcida, o que dificulta a percepção crítica dos indivíduos sobre sua própria condição social."
         },
         {
@@ -46,18 +56,22 @@
         },
         {
           "type": "paragraph",
-          "content": "A hegemonia cultural, conceito elaborado pelo filósofo <b>Antonio Gramsci</b>, refere-se a uma forma de dominação ideológica de um grupo sobre a sociedade, tornando seus valores em\"senso comum\"."
+          "id": "ideologia_p_8",
+          "content": "A hegemonia cultural, conceito elaborado pelo filósofo <b>Antonio Gramsci</b>,  refere-se a uma forma de dominação ideológica de um grupo sobre a sociedade, tornando seus valores em \"senso comum\"."
         },
         {
           "type": "paragraph",
+          "id": "ideologia_p_9",
           "content": "Essa forma de dominação não é imposta apenas por meios políticos ou econômicos; em vez disso, é estabelecida e mantida por meio de instituições sociais e culturais. A hegemonia cultural molda percepções, normas e valores, muitas vezes levando à marginalização de perspectivas e estilos de vida alternativos."
         },
         {
           "type": "paragraph",
+          "id": "ideologia_p_10",
           "content": "Dessa forma, as elites configuram como “certos” os padrões e pensamentos que não ameacem a sua existência enquanto classe dominadora."
         },
         {
           "type": "paragraph",
+          "id": "ideologia_p_11",
           "content": "Um exemplo de hegemonia cultural que pode ser observado é a forte influência da cultura estadunidense no mundo. Essa influência se expressa em áreas como o cinema, a música e a tecnologia, contribuindo, por exemplo, para a difusão do inglês como língua amplamente utilizada na comunicação internacional. Como resultado dessa forte influência temos os valores, costumes e estilos de vida sendo amplamente idealizados e naturalizados. Tal fenômeno contribui para a manutenção da posição do poder Estadunidense sobre o cenário global."
         },
         {
@@ -67,14 +81,17 @@
         },
         {
           "type": "paragraph",
-          "content": "A comparação entre ideologia e utopia partiu do sociólogo marxista <b>Karl Mannheim</b>. Na sua obra <i>Ideologia e utopia</i> ele apresenta uma definição de ideologia similar à de Marx, definindo-a como uma ferramenta que orienta os indivíduos para estabilizar, legitimar ou reproduzir a ordem das relações sociais vigentes. Sendo assim, a ideologia é uma forma dos grupos dominantes se manterem no poder."
+          "id": "ideologia_p_12",
+          "content": "A comparação entre ideologia e utopia partiu do sociólogo marxista <b>Karl Mannheim</b>. Na sua obra <i>Ideologia e utopia </i>ele apresenta uma definição de ideologia similar à de Marx, definindo-a como uma ferramenta que orienta os indivíduos para estabilizar, legitimar ou reproduzir a ordem das relações sociais vigentes. Sendo assim, a ideologia é uma forma dos grupos dominantes se manterem no poder."
         },
         {
           "type": "paragraph",
+          "id": "ideologia_p_13",
           "content": "Já a utopia seria completamente o oposto. Ela se trata de um conjunto de ideias, concepções ou teorias que almejam a construção de uma realidade ainda inexistente."
         },
         {
           "type": "paragraph",
+          "id": "ideologia_p_14",
           "content": "Você pode estar se perguntando qual seria o papel da utopia, já que suas idealizações, muitas das vezes, não são atingíveis. Porém, a sua função vai além de alcançar a realidade almejada, ela serve para encorajar os indivíduos a mudar o seu contexto social buscando condições de vida mais justas e igualitárias."
         },
         {
@@ -83,112 +100,33 @@
           "content": "Características da ideologia"
         },
         {
-          "type": "paragraph",
-          "content": "Características"
-        },
-        {
-          "type": "paragraph",
-          "content": "O que faz"
-        },
-        {
-          "type": "paragraph",
-          "content": "Exemplo"
-        },
-        {
-          "type": "paragraph",
-          "content": "Prescrição de normas"
-        },
-        {
-          "type": "paragraph",
-          "content": "Orienta as ações humanas. Modela os interesses humanos. Diz o que se deve fazer, pensar ou expressar."
-        },
-        {
-          "type": "paragraph",
-          "content": "A ideia de monogamia, nas sociedades ocidentais, faz com que homens e mulheres a considerem como a única forma possível de relação existente no mundo."
-        },
-        {
-          "type": "paragraph",
-          "content": "Representação da realidade"
-        },
-        {
-          "type": "paragraph",
-          "content": "Dá sentido à realidade humana. Utiliza-se de símbolos e da criação mental."
-        },
-        {
-          "type": "paragraph",
-          "content": "A crença no “sonho americano” (de que qualquer pessoa pode enriquecer apenas com esforço) molda a forma como muitos enxergam sucesso e fracasso."
-        },
-        {
-          "type": "paragraph",
-          "content": "Generalização do particular"
-        },
-        {
-          "type": "paragraph",
-          "content": "Trata o específico como um fenômeno geral."
-        },
-        {
-          "type": "paragraph",
-          "content": "Ao destacar casos isolados de pessoas pobres que enriqueceram, difunde-se a ideia de que “quem é pobre é porque não se esforça”"
-        },
-        {
-          "type": "paragraph",
-          "content": "Inversão da realidade"
-        },
-        {
-          "type": "paragraph",
-          "content": "Esconde as reais causas de um fenômeno."
-        },
-        {
-          "type": "paragraph",
-          "content": "A ideia de que pessoas em situação de pobreza estão nessa condição apenas por falta de esforço, ignorando fatores como desigualdade social e falta de oportunidades."
-        },
-        {
-          "type": "paragraph",
-          "content": "Naturalização das ações humanas"
-        },
-        {
-          "type": "paragraph",
-          "content": "Torna normal e natural aquilo que é histórico e contingente."
-        },
-        {
-          "type": "paragraph",
-          "content": "A crença de que mulheres são “naturalmente” mais responsáveis pelos cuidados domésticos e familiares."
-        },
-        {
-          "type": "paragraph",
-          "content": "Reificação da realidade"
-        },
-        {
-          "type": "paragraph",
-          "content": "As coisas aparecem com vida própria, ou seja, coisas inertes ganham aspectos naturais, não construídas pelos homens."
-        },
-        {
-          "type": "paragraph",
-          "content": "Os salários não expressam relações desiguais de trabalho."
-        },
-        {
           "type": "heading",
           "id": "industria_cultural",
           "content": "Indústria cultural"
         },
         {
           "type": "paragraph",
-          "content": "A indústria cultural é um conceito formulado pelos filósofos <b>Theodor Adorno e Max Horkheimer</b>, integrantes da chamada <b>Escola de Frankfurt</b> (um grupo de intelectuais que analisava criticamente os impactos do capitalismo na sociedade)."
+          "id": "ideologia_p_15",
+          "content": "A indústria cultural é um conceito formulado pelos filósofos <b>Theodor Adorno e Max Horkheimer</b>, integrantes da chamada<b> Escola de Frankfurt</b> (um grupo de intelectuais que analisava criticamente os impactos do capitalismo na sociedade)."
         },
         {
           "type": "paragraph",
+          "id": "ideologia_p_16",
           "content": "Esses autores observaram que as classes dominantes, ao propagar seus interesses por meio da ideologia, não se limitavam às instituições tradicionais, como a escola ou a religião, mas também utilizavam a cultura e a arte como instrumentos de controle social."
         },
         {
           "type": "paragraph",
+          "id": "ideologia_p_17",
           "content": "Suas análises foram desenvolvidas na primeira metade do século XX, em um contexto de avanço do capitalismo e da industrialização. Nesse cenário, a produção cultural passou a ser organizada de forma semelhante à produção industrial."
         },
         {
           "type": "paragraph",
+          "id": "ideologia_p_18",
           "content": "Assim, a cultura e a arte começaram a ser tratadas como mercadorias, produzidas em larga escala para o consumo. Esse processo deu origem ao que os autores chamaram de <b>cultura de massa</b>, caracterizada pela padronização dos conteúdos e pela busca do lucro."
         },
         {
           "type": "paragraph",
+          "id": "ideologia_p_19",
           "content": "Um exemplo claro disso é a indústria cinematográfica de Hollywood. Por meio de seus filmes, muitas vezes é difundida a ideia do “sonho americano”, que vende a ideia meritocrática de que qualquer pessoa pode alcançar sucesso, riqueza e felicidade por meio do esforço individual. Essa narrativa, amplamente repetida, contribui para reforçar valores ligados ao individualismo, ao mesmo tempo em que oculta desigualdades sociais e estruturais."
         }
       ]
@@ -200,20 +138,23 @@
         {
           "type": "highlight",
           "icon": "filme",
-          "title": "O Show de Truman: O Show da Vida",
-          "content": "A vida de Truman é totalmente construída e manipulada para parecer natural, evidenciando como a ideologia pode atuar de forma invisível no cotidiano. O filme mostra como normas, valores e até relações sociais podem ser artificialmente produzidos e ainda assim aceitos como verdadeiros."
+          "title": "<b>O Show de Truman: O Show da Vida</b>",
+          "content": "A vida de Truman é totalmente construída e manipulada para parecer natural, evidenciando como a ideologia pode atuar de forma invisível no cotidiano. O filme mostra como normas, valores e até relações sociais podem ser artificialmente produzidos e ainda assim aceitos como verdadeiros.",
+          "id": "indicacao_1"
         },
         {
           "type": "highlight",
           "icon": "musica",
-          "title": "Admirável Gado novo - Zé Ramalho",
-          "content": "A música critica a passividade social diante de estruturas de dominação, comparando as pessoas a um “gado” conduzido sem questionamento. Dialoga diretamente com a ideia de ideologia como mecanismo que naturaliza a exploração e impede a consciência crítica."
+          "title": "<b>Admirável Gado novo - Zé Ramalho</b>",
+          "content": "A música critica a passividade social diante de estruturas de dominação, comparando as pessoas a um “gado” conduzido sem questionamento. Dialoga diretamente com a ideia de ideologia como mecanismo que naturaliza a exploração e impede a consciência crítica.",
+          "id": "indicacao_2"
         },
         {
           "type": "highlight",
           "icon": "livro",
-          "title": "1984 - George Orwell",
-          "content": "O livro retrata um regime que controla não apenas as ações, mas também o pensamento e a linguagem. A ideologia é imposta de forma explícita, mostrando como o poder pode moldar a própria realidade por meio da manipulação da verdade."
+          "title": "<b>1984 - George Orwell</b>",
+          "content": "O livro retrata um regime que controla não apenas as ações, mas também o pensamento e a linguagem. A ideologia é imposta de forma explícita, mostrando como o poder pode moldar a própria realidade por meio da manipulação da verdade.",
+          "id": "indicacao_3"
         }
       ]
     },
@@ -223,12 +164,13 @@
       "blocks": [
         {
           "type": "list",
+          "id": "referencias_lista",
           "items": [
-            "“Cultural hegemony – Definition and Explanation”. Oxford Review, 2025. Disponível em: https://oxford-review.com/the-oxford-review-dei-diversity-equity-and-inclusion-dictionary/cultural-hegemony-definition-and-explanation/. Acesso em: 21 abr. 2026",
-            "KUPPER, Agnaldo; BODART, Cristiano das Neves. <i>Entre Saberes</i>: volume único. 1. ed. São Paulo: Palavras, 2024.",
-            "OLIVEIRA, Luiz Fernandes de; COSTA, Ricardo Cesar Rocha da. <i>Sociologia para jovens do século XXI: volume único</i>. 1. ed. São Paulo: Editora do Brasil, 2024.",
-            "SILVA, Afrânio; LOUREIRO, Bruno; MIRANDA, Cássia. <i>Moderna Plus Sociologia em movimento: volume único</i>. 1. ed. São Paulo: Moderna, 2024.",
-            "SILVA, Daniel Neves.\"Hegemonia\"; Brasil Escola. Disponível em: https://brasilescola.uol.com.br/politica/hegemonia.htm. Acesso em 22 de abril de 2026."
+            "<b>Cultural hegemony – Definition and Explanation</b>. Oxford Review, 2025.  Disponível em: https://oxford-review.com/the-oxford-review-dei-diversity-equity-and-inclusion-dictionary/cultural-hegemony-definition-and-explanation/. Acesso em: 21 abr. 2026",
+            "KUPPER, Agnaldo; BODART, Cristiano das Neves. <b><i>Entre Saberes</i></b>: volume único. 1. ed. São Paulo: Palavras, 2024.",
+            "OLIVEIRA, Luiz Fernandes de; COSTA, Ricardo Cesar Rocha da. <b><i>Sociologia para jovens do século XXI: volume único</i></b>. 1. ed. São Paulo: Editora do Brasil, 2024.",
+            "SILVA, Afrânio; LOUREIRO, Bruno; MIRANDA, Cássia. <b><i>Moderna Plus Sociologia em movimento: volume único</i></b>. 1. ed. São Paulo: Moderna, 2024.",
+            "SILVA, Daniel Neves. <b>Hegemonia</b>; Brasil Escola. Disponível em: https://brasilescola.uol.com.br/politica/hegemonia.htm. Acesso em 22 de abril de 2026."
           ]
         }
       ]

@@ -1,0 +1,239 @@
+{
+  "title": "Povos Indígenas",
+  "description": "",
+  "hero": {
+    "title": "Povos Indígenas"
+  },
+  "sections": [
+    {
+      "id": "inicio",
+      "title": "O termo “índio” ou indígena?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "id": "povos_indigenas_p_1",
+          "content": "Durante muito tempo, a palavra <b>“índio”</b> foi utilizada para se referir aos povos originários que habitavam o continente americano antes da chegada dos europeus. Esse termo surgiu no final do século XV, quando Cristóvão Colombo acreditou ter chegado às Índias e, por esse motivo, passou a chamar os povos que encontrou de “índios”."
+        },
+        {
+          "type": "paragraph",
+          "id": "povos_indigenas_p_2",
+          "content": "No entanto, essa denominação é considerada inadequada por muitos pesquisadores e lideranças indígenas, pois generaliza centenas de povos diferentes, ignorando suas línguas, culturas, tradições e formas de organização social. Afinal, não existe um único povo indígena, mas uma grande diversidade de povos com identidades próprias."
+        },
+        {
+          "type": "paragraph",
+          "id": "povos_indigenas_p_3",
+          "content": "Por esse motivo, atualmente, o termo <b>indígena</b> é o mais utilizado. A palavra significa “originário daquele lugar” ou “nativo” e reconhece a diversidade e a identidade desses povos."
+        },
+        {
+          "type": "paragraph",
+          "id": "povos_indigenas_p_4",
+          "content": "Uma frase bastante difundida pelos movimentos indígenas resume essa discussão: “Índio é elemento da tabela periódica. Indígena é gente.”"
+        },
+        {
+          "type": "paragraph",
+          "id": "povos_indigenas_p_5",
+          "content": "Embora a frase tenha um tom provocativo, ela busca chamar atenção para a importância de abandonar termos que homogeneiam e invisibilizam a diversidade dos povos originários."
+        },
+        {
+          "type": "paragraph",
+          "id": "povos_indigenas_p_6",
+          "content": "Ainda assim, é importante destacar que o debate não é unânime. Algumas pessoas indígenas utilizam a palavra “índio” como forma de ressignificação e identidade política. No entanto, em contextos acadêmicos, educacionais e institucionais, o uso do termo indígena é o mais recomendado por reconhecer a pluralidade desses povos."
+        },
+        {
+          "type": "heading",
+          "id": "diversidade_cultural_entre_as_etnias_indigenas",
+          "content": "Diversidade cultural entre as etnias indígenas"
+        },
+        {
+          "type": "paragraph",
+          "id": "povos_indigenas_p_7",
+          "content": "Um dos principais equívocos presentes no senso comum é imaginar que os povos indígenas formam um único grupo homogêneo, com os mesmos costumes, crenças e formas de organização social. Na realidade, existe uma enorme diversidade cultural entre esses povos."
+        },
+        {
+          "type": "paragraph",
+          "id": "povos_indigenas_p_8",
+          "content": "De acordo com dados do Instituto Brasileiro de Geografia e Estatística e da Fundação Nacional dos Povos Indígenas, o Brasil possui centenas de povos indígenas, cada um com sua própria história, língua, tradições, conhecimentos e formas de se relacionar com a natureza e com a sociedade."
+        },
+        {
+          "type": "paragraph",
+          "id": "povos_indigenas_p_9",
+          "content": "Essa diversidade se manifesta em diferentes aspectos, como a alimentação, a organização política, os rituais, as expressões artísticas, as práticas religiosas e os idiomas falados. Atualmente, são registradas mais de 270 línguas indígenas no país, evidenciando a riqueza cultural existente entre esses povos."
+        },
+        {
+          "type": "paragraph",
+          "id": "povos_indigenas_p_10",
+          "content": "Outro ponto importante é a forma como nos referimos a esses grupos. Embora a palavra <b>tribo </b>seja muito utilizada, ela é considerada inadequada por muitos pesquisadores e pelos próprios povos indígenas, pois transmite a ideia de grupos isolados, primitivos e homogêneos. O termo mais adequado é <b>etnia</b>, que se refere a um grupo humano que compartilha elementos culturais, históricos, linguísticos e identitários próprios."
+        },
+        {
+          "type": "paragraph",
+          "id": "povos_indigenas_p_11",
+          "content": "Utilizar o termo etnias indígenas também contribui para reconhecer que não existe uma única cultura indígena, mas diversas culturas que coexistem e possuem suas próprias particularidades. Afinal, quando falamos em povos indígenas, estamos nos referindo a centenas de formas diferentes de viver, produzir conhecimento e compreender o mundo."
+        },
+        {
+          "type": "paragraph",
+          "id": "povos_indigenas_p_12",
+          "content": "Compreender essa diversidade é fundamental para combater estereótipos e superar a visão simplificada construída historicamente sobre os povos indígenas, reconhecendo-os como protagonistas de suas próprias histórias e como parte essencial da formação social, cultural e histórica do Brasil."
+        },
+        {
+          "type": "heading",
+          "id": "apagamento_e_invisibilizacao_historica_dos_povos_indigenas",
+          "content": "Apagamento e invisibilização histórica dos povos indígenas"
+        },
+        {
+          "type": "paragraph",
+          "id": "povos_indigenas_p_13",
+          "content": "O apagamento histórico dos povos indígenas está diretamente relacionado à forma como esses grupos foram representados ao longo da história do Brasil. Durante muito tempo, a própria linguagem utilizada para se referir a eles contribuiu para essa invisibilização. Termos como <b>“índio”</b> e <b>“tribo”</b>, por exemplo, ajudaram a construir uma visão simplificada e homogênea, como se todos os povos indígenas fossem iguais e pertencessem apenas ao passado."
+        },
+        {
+          "type": "paragraph",
+          "id": "povos_indigenas_p_14",
+          "content": "Essa representação equivocada foi reforçada pelos livros didáticos, pelos meios de comunicação e pelas narrativas históricas tradicionais, que frequentemente retratavam os indígenas apenas como personagens do período da colonização. Dessa forma, criou-se a falsa ideia de que esses povos desapareceram ou que permaneceram presos a costumes imutáveis ao longo do tempo."
+        },
+        {
+          "type": "paragraph",
+          "id": "povos_indigenas_p_15",
+          "content": "No entanto, os povos indígenas são contemporâneos e estão presentes em diferentes espaços da sociedade. Atualmente, vivem tanto em territórios indígenas quanto em áreas urbanas e atuam como professores, escritores, artistas, pesquisadores, advogados, médicos, lideranças políticas e defensores dos direitos socioambientais."
+        },
+        {
+          "type": "paragraph",
+          "id": "povos_indigenas_p_16",
+          "content": "Nas últimas décadas, esse cenário começou a se transformar. O fortalecimento dos movimentos indígenas, a ampliação dos debates sobre representatividade e a garantia de direitos previstos na Constituição Federal de 1988 contribuíram para uma maior valorização da identidade indígena."
+        },
+        {
+          "type": "paragraph",
+          "id": "povos_indigenas_p_17",
+          "content": "Esse processo pode ser observado no crescimento da autodeclaração indígena. Segundo o Censo Demográfico de 2022, realizado pelo Instituto Brasileiro de Geografia e Estatística, mais de 1,6 milhão de pessoas se autodeclararam indígenas no Brasil. Esse aumento não significa, necessariamente, um crescimento populacional acelerado, mas reflete uma maior valorização da ancestralidade e uma diminuição do medo e do preconceito associados a essa identificação."
+        },
+        {
+          "type": "paragraph",
+          "id": "povos_indigenas_p_18",
+          "content": "Apesar dos avanços, o apagamento histórico ainda produz consequências. A baixa representatividade em espaços de poder, a disseminação de estereótipos e o desconhecimento sobre a diversidade dos povos indígenas demonstram que ainda existem desafios a serem enfrentados. Por isso, reconhecer a presença, a história e a pluralidade desses povos é fundamental para combater desigualdades históricas e construir uma sociedade mais justa e diversa."
+        },
+        {
+          "type": "paragraph",
+          "id": "povos_indigenas_p_19",
+          "content": "Uma observação: como seus textos têm um caráter didático, eu substituiria a expressão <b>“apagamento histórico”</b> por <b>“apagamento e invisibilização histórica dos povos indígenas”</b>, porque ela deixa mais claro para o estudante do ensino médio o que está sendo discutido."
+        },
+        {
+          "type": "heading",
+          "id": "cultura_indigena_no_cotidiano_brasileiro",
+          "content": "Cultura indígena no cotidiano brasileiro"
+        },
+        {
+          "type": "paragraph",
+          "id": "povos_indigenas_p_20",
+          "content": "A influência dos povos indígenas está presente em diversos aspectos do cotidiano brasileiro, muitas vezes sem que as pessoas percebam. Ao longo de séculos de convivência e trocas culturais, conhecimentos, hábitos, alimentos e palavras de origem indígena foram incorporados à cultura brasileira e permanecem presentes até os dias de hoje."
+        },
+        {
+          "type": "paragraph",
+          "id": "povos_indigenas_p_21",
+          "content": "Um exemplo bastante conhecido é o hábito de tomar banho diariamente. Enquanto, durante o período colonial, muitos europeus não possuíam esse costume, diversos povos indígenas já valorizavam a higiene corporal e mantinham uma forte relação com os rios e com a água como parte de seu cotidiano."
+        },
+        {
+          "type": "paragraph",
+          "id": "povos_indigenas_p_22",
+          "content": "A influência indígena também pode ser observada na alimentação. Alimentos como mandioca, tapioca, açaí, guaraná, milho, castanha-do-pará e diversos tipos de peixes fazem parte da culinária brasileira graças aos conhecimentos desenvolvidos pelos povos originários."
+        },
+        {
+          "type": "paragraph",
+          "id": "povos_indigenas_p_23",
+          "content": "Além disso, inúmeras palavras do português brasileiro têm origem em línguas indígenas, principalmente no tupi-guarani. Essa herança está presente em nomes de pessoas, cidades, rios, animais, plantas e elementos da natureza."
+        },
+        {
+          "type": "paragraph",
+          "id": "povos_indigenas_p_24",
+          "content": "<b>Alguns nomes de origem indígena</b>"
+        },
+        {
+          "type": "heading",
+          "id": "literatura_indigena_e_o_protagonismo_indigena_na_atualidade",
+          "content": "Literatura indígena e o protagonismo indígena na atualidade"
+        },
+        {
+          "type": "paragraph",
+          "id": "povos_indigenas_p_25",
+          "content": "Durante muito tempo, a produção de conhecimento sobre os povos indígenas foi feita por pessoas de fora dessas comunidades. Atualmente, esse cenário vem mudando, e cada vez mais indígenas têm ocupado espaços na literatura, na universidade, na política e em instituições culturais, tornando-se protagonistas na construção e divulgação de suas próprias histórias."
+        },
+        {
+          "type": "paragraph",
+          "id": "povos_indigenas_p_26",
+          "content": "A literatura indígena desempenha um papel importante nesse processo, pois permite que os próprios indígenas compartilhem suas memórias, valorizem suas identidades e combatam estereótipos construídos ao longo da história. Além de uma expressão artística, ela também se tornou uma ferramenta de resistência política e cultural."
+        },
+        {
+          "type": "paragraph",
+          "id": "povos_indigenas_p_27",
+          "content": "Entre os principais nomes da literatura indígena brasileira está Daniel Munduruku, escritor e professor pertencente ao povo Munduruku, autor de diversas obras voltadas para a valorização da cultura indígena e para a educação."
+        },
+        {
+          "type": "paragraph",
+          "id": "povos_indigenas_p_28",
+          "content": "Outro destaque é Eliane Potiguara, pertencente ao povo Potiguara. Ela é escritora, professora e ativista dos direitos indígenas, sendo considerada uma das pioneiras da literatura indígena contemporânea no Brasil."
+        },
+        {
+          "type": "paragraph",
+          "id": "povos_indigenas_p_29",
+          "content": "Também se destaca Márcia Wayna Kambeba, escritora, geógrafa, fotógrafa e ativista do povo Omágua/Kambeba. Suas obras abordam temas como ancestralidade, território, identidade e preservação ambiental."
+        },
+        {
+          "type": "paragraph",
+          "id": "povos_indigenas_p_30",
+          "content": "Um dos nomes mais conhecidos da atualidade é Ailton Krenak, filósofo, escritor, ambientalista e uma das principais lideranças indígenas do país. Sua trajetória ganhou grande destaque por sua atuação na defesa dos direitos indígenas e das questões ambientais."
+        },
+        {
+          "type": "paragraph",
+          "id": "povos_indigenas_p_31",
+          "content": "Em 2023, Krenak se tornou o primeiro indígena a ocupar uma cadeira na Academia Brasileira de Letras, um dos espaços mais tradicionais da produção intelectual brasileira. Sua eleição simboliza um importante avanço no reconhecimento da produção indígena, mas também evidencia como a presença desses povos em espaços de prestígio ainda é recente e resultado de longas lutas por representatividade."
+        },
+        {
+          "type": "paragraph",
+          "id": "povos_indigenas_p_32",
+          "content": "A crescente presença de intelectuais indígenas em universidades, instituições culturais e espaços de decisão demonstra que os povos indígenas não pertencem ao passado. Eles participam ativamente da sociedade contemporânea, produzem conhecimento e contribuem para a construção de novas formas de compreender a história, a cultura e a relação entre sociedade e natureza."
+        }
+      ]
+    },
+    {
+      "id": "indicacoes",
+      "title": "Indicações",
+      "blocks": [
+        {
+          "type": "highlight",
+          "icon": "filme",
+          "title": "<b>A Última Floresta</b>",
+          "content": "O documentário acompanha o cotidiano do povo Yanomami e apresenta sua relação com a natureza, seus saberes ancestrais e os desafios enfrentados diante do avanço das atividades econômicas sobre seus territórios. A obra também evidencia a importância dos povos indígenas na preservação ambiental e na defesa de seus modos de vida.",
+          "id": "indicacao_1"
+        },
+        {
+          "type": "highlight",
+          "icon": "musica",
+          "title": "<b>Um índio - Caetano Veloso</b>",
+          "content": "A música utiliza uma linguagem poética para valorizar os povos indígenas e refletir sobre a forma como suas histórias e conhecimentos foram silenciados ao longo do tempo. A canção também convida à reflexão sobre a importância desses povos para a construção da sociedade brasileira.",
+          "id": "indicacao_2"
+        },
+        {
+          "type": "highlight",
+          "icon": "livro",
+          "title": "<b>A queda do céu - Davi Kopenawa</b>",
+          "content": "Escrito pelo líder indígena Yanomami em parceria com o antropólogo Bruce Albert, o livro apresenta a visão de mundo dos povos Yanomami e denuncia os impactos da exploração ambiental sobre os territórios indígenas. A obra destaca a importância dos conhecimentos tradicionais e propõe uma reflexão sobre a relação da sociedade com a natureza.",
+          "id": "indicacao_3"
+        }
+      ]
+    },
+    {
+      "id": "referencias",
+      "title": "Referências bibliográficas",
+      "blocks": [
+        {
+          "type": "list",
+          "id": "referencias_lista",
+          "items": [
+            "BODART, Cristiano das Neves; KUPPER, Agnaldo. <b><i>Entre Saberes</i></b>. São Paulo: Palavras, 2024.",
+            "GOMES, Tamiris. <b>“Índio” e “tribo”: saiba por que não devemos usar esses termos</b>. Terra. Disponível em: https://www.terra.com.br/nos/indio-e-tribo-saiba-por-que-nao-devemos-usar-esses-termos,7b8d66d37a160a3885f22bfb0620c12a5dkclacb.html. Acesso em 23 de junho de 2026.",
+            "OLIVEIRA, Luiz Fernandes de; COSTA, Ricardo Cesar Rocha da. <b><i>Sociologia para jovens do século XXI</i></b>. São Paulo: Editora do Brasil, 2024.",
+            "PINCER, Pedro. <b>Ailton Krenak é o primeiro indígena eleito para a Academia Brasileira de Letras</b>. Rádio Senado, 9 out. 2023. Disponível em: https://www12.senado.leg.br/radio/1/noticia/2023/10/09/ailton-krenak-e-o-primeiro-indigena-eleito-para-a-academia-brasileira-de-letras. Acesso em: 15 jun. 2026.",
+            "PORFíRIO, Francisco. <b>Cultura indígena</b>; Brasil Escola. Disponível em: https://brasilescola.uol.com.br/sociologia/cultura-indigena.htm. Acesso em 15 de junho de 2026."
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,9 @@
 {
-  "title": "Emile Durkheim",
+  "title": "Émile Durkheim",
   "description": "",
+  "hero": {
+    "title": "Émile Durkheim"
+  },
   "sections": [
     {
       "id": "inicio",
@@ -8,10 +11,12 @@
       "blocks": [
         {
           "type": "paragraph",
+          "id": "emile_durkheim_p_1",
           "content": "Émile Durkheim (1858-1917), nascido na cidade de Épinal, na França, foi um professor, filósofo, antropólogo, sociólogo e cientista político. Como sociólogo, foi tão importante que é considerado o pai da Sociologia acadêmica, pois foi o responsável por consolidar a sociologia como disciplina científica, aplicando-a nas universidades francesas no fim do século XIX. Suas ideias foram fortemente influenciadas pelo filósofo europeu Auguste Comte e seus escritos continuam sendo estudados até hoje."
         },
         {
           "type": "paragraph",
+          "id": "emile_durkheim_p_2",
           "content": "Durkheim se preocupava, principalmente, com a estabilidade da ordem social, uma vez que vivia em um período de grandes transformações. Com isso, ele se interessou por entender como funcionavam os mecanismos da sociedade de sua época, o que o levou a estudar tópicos como religião, divisão social do trabalho e o suicídio. Estudaremos, a seguir, os principais temas do autor."
         },
         {
@@ -21,30 +26,37 @@
         },
         {
           "type": "paragraph",
+          "id": "emile_durkheim_p_3",
           "content": "Émile Durkheim viveu durante a segunda metade do século XIX e início do XX, período marcado pela consolidação da Terceira República Francesa, industrialização acelerada e instabilidade social, fatores que muito preocupavam o autor. Portanto, como sociólogo, seu foco se tornou criar métodos científicos para o estudo da sociedade e da coesão social."
         },
         {
           "type": "paragraph",
+          "id": "emile_durkheim_p_4",
           "content": "Em seus escritos, o autor defendia que a rapidez das mudanças fez com que não houvesse tempo hábil de reorganizar a sociedade. Ele argumenta que quando a sociedade passa por transformações muito aceleradas, as normas, regras e valores tradicionais perdem sua força antes que novas regras possam ser estabelecidas. Esse intervalo de tempo, em que a \"velha\" moral já não funciona e a \"nova\" ainda não se consolidou, configurando um cenário caótico, é o que ele chama de estado anômico ou <b>anomia</b>. A anomia pode ser causada por excesso de individualismo ou, como no caso das mudanças históricas citadas, por algum tipo de desvio e desequilíbrio que abale a ordem social. Nesse contexto, para Durkheim, fazia-se necessário que o objeto de estudo da Sociologia fossem os <b>fatos sociais</b>, a fim de elaborar normas que organizariam a sociedade novamente, solucionando o estado anômico."
         },
         {
           "type": "paragraph",
+          "id": "emile_durkheim_p_5",
           "content": "Os fatos sociais são todos os fenômenos que acontecem dentro da sociedade, são comuns entre as pessoas e têm importância social. Contudo, essas não são suas únicas características, pois, de acordo com Durkheim, assim seria muito fácil confundir com o objeto de estudo de outras disciplinas. Portanto, dentro da Sociologia, o fato social precisa corresponder a três características cruciais:"
         },
         {
           "type": "paragraph",
-          "content": "<b>Generalidade:</b> Os fatos sociais são cumpridos por todos, pois o indivíduo age de acordo com a maioria à sua volta. (Exemplo: atitudes de um grupo em comum.)"
+          "id": "emile_durkheim_p_6",
+          "content": "Generalidade: Os fatos sociais são cumpridos por todos, pois o indivíduo age de acordo com a maioria à sua volta. (Exemplo: atitudes de um grupo em comum.)"
         },
         {
           "type": "paragraph",
-          "content": "<b>Exterioridade:</b> Os fatos sociais são exteriores aos indivíduos, sendo internalizados por eles através da socialização, o que faz com que o indivíduo aja independente de sua vontade. (Exemplo: obedecer às normas jurídicas.)"
+          "id": "emile_durkheim_p_7",
+          "content": "Exterioridade: Os fatos sociais são exteriores aos indivíduos, sendo internalizados por eles através da socialização, o que faz com que o indivíduo aja independente de sua vontade. (Exemplo: obedecer às normas jurídicas.)"
         },
         {
           "type": "paragraph",
-          "content": "<b>Coercitividade:</b> Os fatos sociais são impostos aos indivíduos através de coerção social, ou seja, pressionando o indivíduo a agir de determinada forma. (Exemplo: seguir um padrão de beleza imposto.)"
+          "id": "emile_durkheim_p_8",
+          "content": "Coercitividade: Os fatos sociais são impostos aos indivíduos através de coerção social, ou seja, pressionando o indivíduo a agir de determinada forma. (Exemplo: seguir um padrão de beleza imposto.)"
         },
         {
           "type": "paragraph",
+          "id": "emile_durkheim_p_9",
           "content": "Durkheim, portanto, acredita que os fatos sociais têm existência própria e atuam sobre todos os indivíduos de determinada sociedade. Isto ocorre pois, apesar de cada pessoa ter sua consciência individual, é possível notar padrões de conduta e comportamento dentro de qualquer grupo social, provenientes do que Durkheim vai chamar de consciência coletiva."
         },
         {
@@ -54,34 +66,102 @@
         },
         {
           "type": "paragraph",
+          "id": "emile_durkheim_p_10",
           "content": "Em sua obra “Da Divisão do Trabalho Social” (1893), Durkheim conceitua a <b>consciência coletiva</b>. A consciência coletiva é o conjunto de crenças, valores, sentimentos e normas compartilhados pelos membros de uma sociedade, moldando a conduta dos indivíduos. Ela impõe as regras sociais que deverão ser obedecidas por cada indivíduo, estabelecendo normas de comportamento."
         },
         {
           "type": "paragraph",
+          "id": "emile_durkheim_p_11",
           "content": "Para Durkheim, a consciência coletiva funciona como o \"cimento\" da sociedade. É ela que garante a <b>coesão social</b>, ou seja, a união e a harmonia entre os indivíduos. Quando compartilhamos as mesmas ideias sobre o que é certo ou errado, justo ou injusto, criamos um sentimento de pertencimento. Esse consenso impede que a sociedade desmorone em um caos de interesses puramente individuais, fazendo com que as pessoas ajam de forma integrada."
         },
         {
           "type": "paragraph",
+          "id": "emile_durkheim_p_12",
           "content": "Mas, de que forma essa união se mantém quando a sociedade cresce e muda? É aí que entra a <b>divisão social do trabalho</b>. Ela é a forma como as tarefas e profissões são distribuídas. Durkheim percebeu que a força da consciência coletiva muda dependendo de como o trabalho é organizado. Enquanto em sociedades menores as pessoas se unem por serem muito parecidas, em sociedades complexas a união acontece justamente porque as pessoas são diferentes e dependentes umas das outras para sobreviver."
         },
         {
           "type": "paragraph",
+          "id": "emile_durkheim_p_13",
           "content": "Para explicar essa evolução, Durkheim dividiu a organização social em dois tipos de solidariedade (que, na sociologia, significa o laço de dependência entre as pessoas):"
         },
         {
           "type": "paragraph",
-          "content": "<b>Solidariedade Mecânica</b> - A união ocorre pela semelhança. A consciência coletiva é forte e dita quase todas as regras. Os indivíduos fazem tarefas parecidas e compartilham quase as mesmas tradições e valores. Ela ocorre nas <b>sociedades pré-industriais, feudais e tradicionais</b>, como feudos medievais e tribos antigas."
+          "id": "emile_durkheim_p_14",
+          "content": "<b>Solidariedade Mecânica </b>- A união ocorre pela semelhança. A consciência coletiva é forte e dita quase todas as regras. Os indivíduos fazem tarefas parecidas e compartilham quase as mesmas tradições e valores. Ela ocorre nas <b>sociedades pré-industriais, feudais e tradicionais</b>, como feudos medievais e tribos antigas."
         },
         {
           "type": "paragraph",
-          "content": ""
+          "id": "emile_durkheim_p_15",
+          "content": "<b>Solidariedade Orgânica </b>- A união ocorre pela <b>interdependência</b>. Com a alta divisão do trabalho, cada um tem uma função ultra especializada (o médico precisa do agricultor, que precisa do engenheiro). A consciência coletiva é mais flexível, dando mais espaço para a individualidade. Essa solidariedade é típica de <b>sociedades industriais e modernas</b>, como no sistema capitalista atual."
+        },
+        {
+          "type": "heading",
+          "id": "religiao",
+          "content": "Religião"
+        },
+        {
+          "type": "paragraph",
+          "id": "emile_durkheim_p_16",
+          "content": "Em sua última grande obra, <i>“</i>As Formas Elementares da Vida Religiosa<i>”</i> (1912), Émile Durkheim analisa a religião não pelo lado teológico ou espiritual, mas sim como um <b>fenômeno social</b>. Para ele, a religião é uma das instituições mais poderosas para construir e reforçar a consciência coletiva e garantir a coesão social."
+        },
+        {
+          "type": "paragraph",
+          "id": "emile_durkheim_p_17",
+          "content": "Durkheim define a religião como um sistema coeso de crenças e práticas baseado na divisão fundamental do mundo em duas esferas:"
+        },
+        {
+          "type": "paragraph",
+          "id": "emile_durkheim_p_18",
+          "content": "<b>O Sagrado </b>- Composto por coisas, locais, objetos ou ideias que são separados do cotidiano, considerados especiais e dignos de reverência, como uma cruz, um altar, um livro sagrado ou um rio específico."
+        },
+        {
+          "type": "paragraph",
+          "id": "emile_durkheim_p_19",
+          "content": "<b>O Profano </b>- É o oposto do sagrado. Refere-se às coisas comuns, ordinárias, seculares e ligadas à rotina diária de sobrevivência, como o trabalho, a alimentação comum ou os objetos de uso diário."
+        },
+        {
+          "type": "paragraph",
+          "id": "emile_durkheim_p_20",
+          "content": "Para Durkheim, a força da religião não está apenas no que as pessoas pensam individualmente, mas no que elas fazem juntas. É por meio dos rituais e cerimônias religiosas que os indivíduos se reúnem periodicamente em uma comunidade moral."
+        },
+        {
+          "type": "paragraph",
+          "id": "emile_durkheim_p_21",
+          "content": "Esses momentos de reunião geram uma \"efervescência coletiva\", um sentimento de energia e união tão forte que faz o indivíduo esquecer seus interesses egoístas e focar no bem-estar do grupo. Ao respeitarem os mesmos símbolos sagrados e obedecerem às mesmas normas, os membros da sociedade estão, no fundo, fortalecendo os laços que os unem."
+        },
+        {
+          "type": "paragraph",
+          "id": "emile_durkheim_p_22",
+          "content": "Ou seja, para Durkheim, quando uma comunidade se reúne para adorar uma divindade ou reverenciar um símbolo sagrado, ela está, na verdade, celebrando e adorando a si mesma. A religião serve para lembrar aos indivíduos que eles dependem uns dos outros e que fazem parte de algo muito maior: a própria sociedade."
         }
       ]
     },
     {
       "id": "indicacoes",
       "title": "Indicações",
-      "blocks": []
+      "blocks": [
+        {
+          "type": "highlight",
+          "title": "<b>O Cortiço (Aluísio Azevedo)</b>",
+          "content": "O cortiço funciona como um organismo vivo que molda as ações dos indivíduos, funcionando exatamente como o conceito de Fato Social. Além disso, a  transformação do personagem Jerônimo ilustra o poder da consciência coletiva daquele ambiente sobre o indivíduo.",
+          "icon": "livro",
+          "id": "indicacao_1"
+        },
+        {
+          "type": "highlight",
+          "title": "<b>Tempos Modernos (Filme de Charlie Chaplin)</b>",
+          "content": "O clássico absoluto para explicar a transição das sociedades feudais/tradicionais para as sociedades industriais. O filme foca na divisão do trabalho na fábrica. Para Durkheim, a indústria gera uma solidariedade orgânica, mas se essa divisão for acelerada demais e sem regras justas, gera a anomia, representada pela crise nervosa e o colapso do personagem de Chaplin na engrenagem.",
+          "icon": "filme",
+          "id": "indicacao_2"
+        },
+        {
+          "type": "highlight",
+          "title": "<b>\"Admirável Gado Novo\" — Zé Ramalho</b>",
+          "content": "A letra descreve a vida repetitiva dos trabalhadores nas sociedades industriais. A música expõe como a vida moderna engole a individualidade através de uma consciência coletiva massificante e alienante, onde as pessoas seguem as regras sociais sem questionar, agindo como um \"gado\" que mantém a coesão social pela repetição e submissão.",
+          "icon": "musica",
+          "id": "indicacao_3"
+        }
+      ]
     },
     {
       "id": "referencias",
@@ -89,7 +169,12 @@
       "blocks": [
         {
           "type": "list",
-          "items": []
+          "id": "referencias_lista",
+          "items": [
+            "BODART, Cristiano das Neves; KUPPER, Agnaldo. Entre Saberes. São Paulo: <b>Palavras</b>, 2024.",
+            "MOISÉS, Pedro Callari Trivino. <b>“Émile Durkheim”</b>. In: <i>Enciclopédia de Antropologia. </i>São Paulo: Universidade de São Paulo, Departamento de Antropologia, 2022. Disponível em:  acessado em 23 de maio de 2026",
+            "OLIVEIRA, Luiz Fernandes de; COSTA, Ricardo Cesar Rocha da. Sociologia para jovens do século XXI. São Paulo: <b>Editora do Brasil</b>, 2024."
+          ]
         }
       ]
     }

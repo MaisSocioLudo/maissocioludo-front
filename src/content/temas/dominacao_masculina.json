@@ -1,34 +1,32 @@
 {
-  "title": "Dominação Masculina",
+  "title": "Gênero e Dominação Masculina",
   "description": "",
+  "hero": {
+    "title": "Gênero e Dominação Masculina"
+  },
   "sections": [
     {
       "id": "inicio",
-      "title": "Dominação Masculina",
+      "title": "A construção social do gênero e a dominação masculina",
       "blocks": [
         {
           "type": "paragraph",
-          "content": "Pierre Bourdieu, Gênero, Políticas Públicas, Movimentos Feministas brasil e mundo, Patriarcado, autoras(es) relevantes, sociobiologia, desigualdade de gênero, sororidade, interseccionalidade,"
-        },
-        {
-          "type": "heading",
-          "id": "a_construcao_social_do_genero_e_a_dominacao_masculina",
-          "content": "A construção social do gênero e a dominação masculina"
+          "id": "dominacao_masculina_p_1",
+          "content": "Para a Sociologia, existe uma distinção fundamental entre os conceitos de <b>sexo</b> e <b>gênero</b>. Enquanto o sexo se refere às características biológicas e anatômicas com as quais uma pessoa nasce, o gênero é uma <b>construção social, histórica e cultural</b>. Isso significa que os papéis, comportamentos, expectativas e identidades associados ao \"ser homem\" ou \"ser mulher\" não são determinações da natureza, mas sim memorizados e reforçados pela sociedade ao longo da vida."
         },
         {
           "type": "paragraph",
-          "content": "Para a Sociologia, existe uma distinção fundamental entre os conceitos de <b>sexo</b> e <b>gênero</b>. Enquanto o sexo se refere às características biológicas e anatômicas com as quais uma pessoa nasce, o gênero é uma <b>construção social, histórica e cultural</b>. Isso significa que os papéis, comportamentos, expectativas e identidades associados ao\"ser homem\"ou\"ser mulher\"não são determinações da natureza, mas sim memorizados e reforçados pela sociedade ao longo da vida."
+          "id": "dominacao_masculina_p_2",
+          "content": "Essa perspectiva coloca as Ciências Humanas em rota de colisão com a <b>sociobiologia</b>, uma vertente teórica que tenta utilizar argumentos puramente biológicos e evolucionistas para justificar as desigualdades sociais. Para os sociobiólogos, a divisão sexual do trabalho e a submissão feminina seriam \"naturais\", baseadas em instintos de caça ou cuidado. A Sociologia contemporânea rejeita essa premissa, demonstrando que as disparidades de poder entre homens e mulheres são frutos de estruturas políticas e econômicas, e não do nosso DNA."
         },
         {
           "type": "paragraph",
-          "content": "Essa perspectiva coloca as Ciências Humanas em rota de colisão com a <b>sociobiologia</b>, uma vertente teórica que tenta utilizar argumentos puramente biológicos e evolucionistas para justificar as desigualdades sociais. Para os sociobiólogos, a divisão sexual do trabalho e a submissão feminina seriam\"naturais\", baseadas em instintos de caça ou cuidado. A Sociologia contemporânea rejeita essa premissa, demonstrando que as disparidades de poder entre homens e mulheres são frutos de estruturas políticas e econômicas, e não do nosso DNA."
-        },
-        {
-          "type": "paragraph",
+          "id": "dominacao_masculina_p_3",
           "content": "A engrenagem que sustenta essa hierarquia é o <b>patriarcado</b> — um sistema social e histórico em que os homens detêm o poder primário e predominam em funções de liderança política, autoridade moral, privilégio social e controle das propriedades. O sociólogo francês <b>Pierre Bourdieu</b>, em sua obra clássica <i>A Dominação Masculina</i>, aprofundou essa análise ao explicar como esse sistema se perpetua."
         },
         {
           "type": "paragraph",
+          "id": "dominacao_masculina_p_4",
           "content": "Bourdieu aponta que a dominação masculina é tão violenta justamente por ser invisível. Ela opera por meio da <b>violência simbólica</b>, um mecanismo em que os próprios oprimidos (as mulheres) assimilam os esquemas de pensamento dos opressores (os homens) como algo natural e universal. Através da família, da igreja, da escola e do Estado, a sociedade molda nossos corpos e mentes para aceitar que o masculino é sinônimo de público, força e razão, enquanto o feminino é relegado ao privado, à fragilidade e à emoção. Ao naturalizar essas divisões, o patriarcado esconde que a desigualdade de gênero é, na verdade, uma construção de poder."
         },
         {
@@ -38,26 +36,32 @@
         },
         {
           "type": "paragraph",
-          "content": "A resposta social e histórica à dominação masculina consolidou-se por meio dos <b>movimentos feministas</b>. Para facilitar o estudo, a Sociologia e a História costumam dividir essa trajetória no Ocidente em grandes\"ondas\"de reivindicações:"
+          "id": "dominacao_masculina_p_5",
+          "content": "A resposta social e histórica à dominação masculina consolidou-se por meio dos <b>movimentos feministas</b>. Para facilitar o estudo, a Sociologia e a História costumam dividir essa trajetória no Ocidente em grandes \"ondas\" de reivindicações:"
         },
         {
           "type": "paragraph",
-          "content": "<b>Primeira Onda (Século XIX ao início do XX):</b> O foco total foi a conquista de direitos civis e políticos básicos. O grande marco foi o movimento das <i><b>suffragettes</b></i> <b>(sufragistas)</b>, lideradas por nomes como Emmeline Pankhurst no Reino Unido. Elas enfrentaram violenta repressão estatal para exigir o direito ao voto e ao acesso à educação formal. No Brasil, essa fase culminou na conquista do voto feminino na década de 1930."
+          "id": "dominacao_masculina_p_6",
+          "content": "<b>Primeira Onda (Século XIX ao início do XX):</b> O foco total foi a conquista de direitos civis e políticos básicos. O grande marco foi o movimento das <b><i>suffragettes</i></b><b> (sufragistas)</b>, lideradas por nomes como Emmeline Pankhurst no Reino Unido. Elas enfrentaram violenta repressão estatal para exigir o direito ao voto e ao acesso à educação formal. No Brasil, essa fase culminou na conquista do voto feminino na década de 1930."
         },
         {
           "type": "paragraph",
-          "content": "<b>Segunda Onda (Anos 1960 a 1980):</b> O debate expandiu-se para além das leis, alcançando o cotidiano sob o lema\"o pessoal é político\". As pautas centrais passaram a ser a igualdade no mercado de trabalho, os direitos reprodutivos, a sexualidade e a crítica ao papel compulsório da mulher no ambiente doméstico."
+          "id": "dominacao_masculina_p_7",
+          "content": "<b>Segunda Onda (Anos 1960 a 1980):</b> O debate expandiu-se para além das leis, alcançando o cotidiano sob o lema \"o pessoal é político\". As pautas centrais passaram a ser a igualdade no mercado de trabalho, os direitos reprodutivos, a sexualidade e a crítica ao papel compulsório da mulher no ambiente doméstico."
         },
         {
           "type": "paragraph",
+          "id": "dominacao_masculina_p_8",
           "content": "<b>Terceira e Quarta Ondas (Anos 1990 até a atualidade):</b> Marcadas pela globalização e pelo ambiente digital, essas fases focaram na pluralidade de identidades, no combate à violência sexual e de gênero, e no fortalecimento da <b>sororidade</b> — conceito que prega a união e o apoio mútuo entre as mulheres para romper com as rivalidades incentivadas pelo patriarcado."
         },
         {
           "type": "paragraph",
+          "id": "dominacao_masculina_p_9",
           "content": "Com o avanço dessas discussões, o feminismo contemporâneo percebeu que a experiência de ser mulher não é uniforme. Foi assim que surgiu o conceito de <b>interseccionalidade</b>, formulado por Kimberlé Crenshaw e aprofundado por pensadoras como bell hooks e a brasileira Lélia Gonzalez."
         },
         {
           "type": "paragraph",
+          "id": "dominacao_masculina_p_10",
           "content": "A interseccionalidade demonstra que as opressões de gênero, raça e classe social não funcionam isoladamente, mas sim se cruzam. Isso significa que a <b>desigualdade de gênero</b> afeta uma mulher branca e rica de forma muito diferente de uma mulher negra e periférica. Portanto, a análise sociológica atual deixa claro que a luta contra o machismo só é plena se caminhar de mãos dadas com o combate ao racismo e à desigualdade econômica."
         },
         {
@@ -67,18 +71,22 @@
         },
         {
           "type": "paragraph",
+          "id": "dominacao_masculina_p_11",
           "content": "A compreensão sociológica de que a violência e a desigualdade de gênero são estruturais exige que o Estado intervenha por meio de <b>Políticas Públicas</b> eficazes. No Brasil, embora a Constituição de 1988 garanta formalmente a igualdade entre homens e mulheres, a realidade prática demandou a criação de mecanismos jurídicos específicos para proteger a população feminina e corrigir distorções históricas no mercado de trabalho e na vida privada."
         },
         {
           "type": "paragraph",
+          "id": "dominacao_masculina_p_12",
           "content": "O maior marco nessa trajetória é a <b>Lei Maria da Penha (Lei nº 11.340/2006)</b>. Considerada pela Organização das Nações Unidas (ONU) uma das três melhores legislações do mundo no combate à violência doméstica, a lei não apenas endureceu a punição para os agressores, mas inovou ao tipificar cinco formas de violência: física, psicológica, sexual, patrimonial e moral. Anos mais tarde, em 2015, o ordenamento jurídico brasileiro deu outro passo crucial com a aprovação da <b>Lei do Feminicídio (Lei nº 13.104/2015)</b>, que colocou o assassinato de mulheres motivado por menosprezo ou discriminação à condição de gênero como homicídio qualificado e crime hediondo."
         },
         {
           "type": "paragraph",
+          "id": "dominacao_masculina_p_13",
           "content": "Além do combate à violência direta, as políticas públicas de gênero também miram a autonomia econômica das mulheres. Programas de transferência de renda que priorizam as mulheres como titulares do benefício, a criação de delegacias especializadas (DEAMs) e a implementação de cotas de gênero para candidaturas políticas são exemplos de ações que buscam romper com o ciclo do <b>patriarcado</b>."
         },
         {
           "type": "paragraph",
+          "id": "dominacao_masculina_p_14",
           "content": "Apesar desses avanços inegáveis, o desafio atual do Brasil reside na aplicação plena dessas leis e na mudança cultural. Políticas públicas não se resumem à criação de textos legais; elas dependem de orçamento, fiscalização e, acima de tudo, de um debate educacional contínuo que desconstrua a lógica da dominação masculina na raiz da sociedade."
         }
       ]
@@ -89,21 +97,24 @@
       "blocks": [
         {
           "type": "highlight",
+          "title": "<b>\"Maria da Vila Matilde\" — Elza Soares</b>",
+          "content": "A letra narra a história de uma mulher que decide ligar para o \"180\" (Central de Atendimento à Mulher) para denunciar o agressor. Linhas como <i>\"Cê vai se dar mal, o meu telefone já tá na mão / Se levantar o braço eu grito 'polícia'\"</i> mostram a prática da Lei Maria da Penha e a quebra do silêncio contra a violência doméstica.",
           "icon": "musica",
-          "title": "Maria da Vila Matilde - Elza Soares",
-          "content": "A letra narra a história de uma mulher que decide ligar para o 180, a Central de Atendimento à Mulher, para denunciar o agressor. A música ajuda a discutir a aplicação da Lei Maria da Penha e a quebra do silêncio diante da violência doméstica."
+          "id": "indicacao_1"
         },
         {
           "type": "highlight",
+          "title": "<b>Sejamos Todos Feministas (Livro - Chimamanda Ngozi Adichie)</b>",
+          "content": "Baseado em sua famosa palestra do TED, este livro é curtinho e super acessível. Chimamanda usa exemplos do seu cotidiano na Nigéria para explicar como a criação de meninos e meninas reforça a dominação masculina desde a infância.",
           "icon": "livro",
-          "title": "Sejamos Todos Feministas - Chimamanda Ngozi Adichie",
-          "content": "Baseado em sua palestra no TED, o livro apresenta uma discussão acessível sobre feminismo. Chimamanda usa exemplos do cotidiano na Nigéria para explicar como a criação de meninos e meninas reforça a dominação masculina desde a infância."
+          "id": "indicacao_2"
         },
         {
           "type": "highlight",
+          "title": "<b>Histórias Cruzadas (<i>The Help</i> - Filme)</b>",
+          "content": "Ambientado no Mississippi dos anos 1960, o filme mostra a relação entre mulheres brancas da alta sociedade e suas empregadas domésticas negras. É o melhor exemplo audiovisual para debater interseccionalidade e como a dominação masculina afetava esses dois grupos de formas completamente distintas.",
           "icon": "filme",
-          "title": "Histórias Cruzadas",
-          "content": "Ambientado no Mississippi dos anos 1960, o filme mostra a relação entre mulheres brancas da alta sociedade e empregadas domésticas negras. A obra permite debater interseccionalidade e perceber como a dominação masculina afeta grupos de mulheres de formas distintas."
+          "id": "indicacao_3"
         }
       ]
     },
@@ -113,7 +124,11 @@
       "blocks": [
         {
           "type": "list",
-          "items": []
+          "id": "referencias_lista",
+          "items": [
+            "BODART, Cristiano das Neves; KUPPER, Agnaldo. Entre Saberes. São Paulo: <b>Palavras</b>, 2024.",
+            "OLIVEIRA, Luiz Fernandes de; COSTA, Ricardo Cesar Rocha da. Sociologia para jovens do século XXI. São Paulo: <b>Editora do Brasil</b>, 2024."
+          ]
         }
       ]
     }

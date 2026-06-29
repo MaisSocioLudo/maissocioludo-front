@@ -1,25 +1,32 @@
 {
   "title": "Sociologia Ambiental",
   "description": "",
+  "hero": {
+    "title": "Sociologia Ambiental"
+  },
   "sections": [
     {
       "id": "inicio",
-      "title": "Sociologia Ambiental",
+      "title": "O que é Sociologia Ambiental?",
       "blocks": [
         {
           "type": "paragraph",
+          "id": "sociologia_ambiental_p_1",
           "content": "A Sociologia Ambiental é um ramo da Sociologia responsável por estudar as relações entre a sociedade e o meio ambiente. Seu principal objetivo é compreender como as ações humanas transformam a natureza e como os problemas ambientais afetam a vida das pessoas."
         },
         {
           "type": "paragraph",
+          "id": "sociologia_ambiental_p_2",
           "content": "Durante muito tempo, acreditou-se que a natureza era uma fonte inesgotável de recursos e que o desenvolvimento econômico poderia acontecer sem limites. No entanto, o avanço da industrialização, da urbanização e do consumo demonstrou que as atividades humanas provocam impactos significativos no planeta."
         },
         {
           "type": "paragraph",
+          "id": "sociologia_ambiental_p_3",
           "content": "Por isso, a Sociologia Ambiental não se preocupa apenas em estudar fenômenos naturais, mas também em analisar os fatores sociais, econômicos e políticos que contribuem para problemas como a poluição, o desmatamento, as mudanças climáticas e as desigualdades ambientais."
         },
         {
           "type": "paragraph",
+          "id": "sociologia_ambiental_p_4",
           "content": "Além disso, essa área busca compreender por que determinados grupos sociais sofrem mais intensamente as consequências da degradação ambiental do que outros."
         },
         {
@@ -29,30 +36,37 @@
         },
         {
           "type": "paragraph",
+          "id": "sociologia_ambiental_p_5",
           "content": "A relação entre sociedade e natureza é muito mais próxima do que parece. Todos os seres humanos dependem dos recursos naturais para sobreviver, seja para obter água, alimentos, energia ou matéria-prima para a produção de diversos produtos."
         },
         {
           "type": "paragraph",
+          "id": "sociologia_ambiental_p_6",
           "content": "Ao mesmo tempo, os indivíduos transformam constantemente o meio ambiente por meio do trabalho, da tecnologia e da produção econômica. A expansão das cidades, das indústrias e dos meios de transporte são alguns exemplos de como as ações humanas modificam a natureza."
         },
         {
           "type": "paragraph",
+          "id": "sociologia_ambiental_p_7",
           "content": "O geógrafo e sociólogo David Harvey utiliza o conceito de <b>segunda natureza</b> para explicar como a ação humana transforma o meio natural ao longo da história."
         },
         {
           "type": "paragraph",
-          "content": "Segundo o autor, a primeira <b>natureza</b> corresponde aos elementos naturais que existem independentemente da ação humana, como florestas, rios, oceanos e montanhas. Já a <b>segunda natureza</b> refere-se aos espaços modificados pelas atividades humanas, como cidades, estradas, barragens, áreas agrícolas e complexos industriais."
+          "id": "sociologia_ambiental_p_8",
+          "content": "Segundo o autor, a primeira<b> natureza</b> corresponde aos elementos naturais que existem independentemente da ação humana, como florestas, rios, oceanos e montanhas. Já a <b>segunda natureza</b> refere-se aos espaços modificados pelas atividades humanas, como cidades, estradas, barragens, áreas agrícolas e complexos industriais."
         },
         {
           "type": "paragraph",
+          "id": "sociologia_ambiental_p_9",
           "content": "Um fenômeno que pôde ser observado durante a pandemia da Covid-19 foi que com redução temporária das atividades industriais, da circulação de veículos e do deslocamento de pessoas, diversos lugares do mundo registraram uma diminuição dos níveis de poluição atmosférica. Esse acontecimento evidenciou como as atividades humanas influenciam diretamente as condições ambientais."
         },
         {
           "type": "paragraph",
+          "id": "sociologia_ambiental_p_10",
           "content": "No entanto, é importante destacar que a solução dos problemas ambientais não depende apenas das ações individuais, mas também de mudanças estruturais na forma como a sociedade organiza sua produção e seu consumo."
         },
         {
           "type": "paragraph",
+          "id": "sociologia_ambiental_p_11",
           "content": "Como destaca Harvey, essas transformações não acontecem de forma neutra. Elas são influenciadas pelos interesses econômicos e pelas relações sociais presentes em cada período histórico. Dessa forma, o espaço produzido pela sociedade reflete as desigualdades e as relações de poder existentes."
         },
         {
@@ -62,50 +76,62 @@
         },
         {
           "type": "paragraph",
+          "id": "sociologia_ambiental_p_12",
           "content": "O desenvolvimento do capitalismo ampliou significativamente a capacidade humana de transformar a natureza. A busca constante pelo crescimento econômico, pelo aumento da produção e pela obtenção de lucro intensificou a exploração dos recursos naturais."
         },
         {
           "type": "paragraph",
+          "id": "sociologia_ambiental_p_13",
           "content": "A expansão das atividades industriais, do agronegócio, da mineração e da produção de energia provocou impactos ambientais como o desmatamento, a contaminação dos rios, a perda da biodiversidade e o aumento da emissão de gases de efeito estufa."
         },
         {
           "type": "paragraph",
+          "id": "sociologia_ambiental_p_14",
           "content": "Além disso, o capitalismo estimula padrões de consumo cada vez maiores. Muitos produtos são fabricados para serem rapidamente substituídos, aumentando a geração de resíduos e a pressão sobre os recursos naturais."
         },
         {
           "type": "paragraph",
+          "id": "sociologia_ambiental_p_15",
           "content": "Por isso, diversos sociólogos argumentam que a crise ambiental atual não é resultado apenas das ações individuais, mas também do próprio modelo econômico baseado no crescimento contínuo da produção e do consumo."
         },
         {
           "type": "paragraph",
-          "content": "Um dos principais impactos desse modelo econômico é a intensificação das <b>mudanças climáticas</b>. Desde a Revolução Industrial, a emissão de gases de efeito estufa aumentou significativamente, contribuindo para a elevação da temperatura média do planeta."
+          "id": "sociologia_ambiental_p_16",
+          "content": "Um dos principais impactos desse modelo econômico é a intensificação das<b> mudanças climáticas</b>. Desde a Revolução Industrial, a emissão de gases de efeito estufa aumentou significativamente, contribuindo para a elevação da temperatura média do planeta."
         },
         {
           "type": "paragraph",
+          "id": "sociologia_ambiental_p_17",
           "content": "Como consequência, eventos climáticos extremos, como secas prolongadas, enchentes, ondas de calor e tempestades intensas, tornaram-se cada vez mais frequentes. Embora esses fenômenos afetem toda a população, seus impactos não são distribuídos igualmente."
         },
         {
           "type": "paragraph",
+          "id": "sociologia_ambiental_p_18",
           "content": "A desigualdade na distribuição dos impactos ambientais deu origem ao conceito de <b>justiça ambiental</b>. Esse conceito busca demonstrar que os problemas ambientais não afetam todos os grupos sociais da mesma forma."
         },
         {
           "type": "paragraph",
+          "id": "sociologia_ambiental_p_19",
           "content": "Populações de baixa renda frequentemente vivem em áreas mais expostas à poluição, enchentes, deslizamentos e outros riscos ambientais. Ao mesmo tempo, essas comunidades costumam ter menos acesso a serviços públicos e infraestrutura adequada."
         },
         {
           "type": "paragraph",
+          "id": "sociologia_ambiental_p_20",
           "content": "A justiça ambiental defende que todas as pessoas têm o direito de viver em ambientes saudáveis e de participar das decisões relacionadas à preservação e ao uso dos recursos naturais."
         },
         {
           "type": "paragraph",
-          "content": "Dentro desse debate, surge o conceito de <b>racismo ambiental</b>, que se refere à distribuição desigual dos impactos ambientais sobre grupos racialmente vulnerabilizados."
+          "id": "sociologia_ambiental_p_21",
+          "content": "Dentro desse debate, surge o conceito de<b> racismo ambiental</b>, que se refere à distribuição desigual dos impactos ambientais sobre grupos racialmente vulnerabilizados."
         },
         {
           "type": "paragraph",
+          "id": "sociologia_ambiental_p_22",
           "content": "No Brasil, populações negras, indígenas, quilombolas e comunidades periféricas costumam ser as mais afetadas pela falta de saneamento básico, pela poluição e pelos impactos causados por grandes empreendimentos econômicos."
         },
         {
           "type": "paragraph",
+          "id": "sociologia_ambiental_p_23",
           "content": "Muitas vezes, esse fenômeno não ocorre por meio de ações explicitamente racistas, mas por decisões políticas, econômicas e urbanas que acabam concentrando os riscos ambientais sobre grupos historicamente marginalizados."
         },
         {
@@ -115,18 +141,22 @@
         },
         {
           "type": "paragraph",
+          "id": "sociologia_ambiental_p_24",
           "content": "Diante dos desafios sociais e ambientais enfrentados pela humanidade, a Organização das Nações Unidas (ONU) criou, em 2015, os Objetivos de Desenvolvimento Sustentável (ODS)."
         },
         {
           "type": "paragraph",
+          "id": "sociologia_ambiental_p_25",
           "content": "Os ODS são um conjunto de 17 objetivos que buscam promover o desenvolvimento econômico, a preservação ambiental e a redução das desigualdades sociais até 2030."
         },
         {
           "type": "paragraph",
+          "id": "sociologia_ambiental_p_26",
           "content": "Entre os temas abordados estão o combate à pobreza, a proteção dos ecossistemas, a ampliação do acesso à educação, a redução das desigualdades e o enfrentamento das mudanças climáticas."
         },
         {
           "type": "paragraph",
+          "id": "sociologia_ambiental_p_27",
           "content": "Esses objetivos reforçam a ideia de que o desenvolvimento econômico deve acontecer de forma sustentável, conciliando crescimento, justiça social e preservação ambiental."
         }
       ]
@@ -138,20 +168,23 @@
         {
           "type": "highlight",
           "icon": "filme",
-          "title": "Aruanas",
-          "content": "A série acompanha a atuação de ativistas ambientais que investigam crimes ambientais na Amazônia. Ao longo da narrativa, são discutidos temas como desmatamento, exploração econômica dos recursos naturais e os conflitos entre interesses econômicos e a preservação ambiental."
+          "title": "<b>Aruanas</b>",
+          "content": "A série acompanha a atuação de ativistas ambientais que investigam crimes ambientais na Amazônia. Ao longo da narrativa, são discutidos temas como desmatamento, exploração econômica dos recursos naturais e os conflitos entre interesses econômicos e a preservação ambiental.",
+          "id": "indicacao_1"
         },
         {
           "type": "highlight",
           "icon": "musica",
-          "title": "Fábrica - Legião Urbana",
-          "content": "A música faz uma crítica às consequências da industrialização e à forma como o sistema produtivo pode desumanizar os trabalhadores e gerar impactos negativos para a sociedade e o meio ambiente."
+          "title": "<b>Fábrica - Legião Urbana</b>",
+          "content": "A música faz uma crítica às consequências da industrialização e à forma como o sistema produtivo pode desumanizar os trabalhadores e gerar impactos negativos para a sociedade e o meio ambiente.",
+          "id": "indicacao_2"
         },
         {
           "type": "highlight",
           "icon": "livro",
-          "title": "Água turva - Morgana Kretzmann",
-          "content": "O romance acompanha conflitos ligados à proteção ambiental, à caça exploratória e aos interesses políticos e econômicos que ameaçam o meio ambiente. A obra ajuda a discutir degradação ambiental, poder e responsabilidade coletiva diante da crise ecológica."
+          "title": "<b>Água turva - Morgana Kretzmann</b>",
+          "content": "",
+          "id": "indicacao_3"
         }
       ]
     },
@@ -161,10 +194,11 @@
       "blocks": [
         {
           "type": "list",
+          "id": "referencias_lista",
           "items": [
-            "BODART, Cristiano das Neves; KUPPER, Agnaldo. <i>Entre Saberes</i>. São Paulo: Palavras, 2024.",
-            "OLIVEIRA, Luiz Fernandes de; COSTA, Ricardo Cesar Rocha da. <i>Sociologia para jovens do século XXI</i>. São Paulo: Editora do Brasil, 2024.",
-            "ORGANIZAÇÃO DAS NAÇÕES UNIDAS (ONU). Agenda 2030 para o Desenvolvimento Sustentável."
+            "BODART, Cristiano das Neves; KUPPER, Agnaldo. <b><i>Entre Saberes</i></b>. São Paulo: Palavras, 2024.",
+            "OLIVEIRA, Luiz Fernandes de; COSTA, Ricardo Cesar Rocha da. <b><i>Sociologia para jovens do século XXI</i></b>. São Paulo: Editora do Brasil, 2024.",
+            "ORGANIZAÇÃO DAS NAÇÕES UNIDAS (ONU). <b>Agenda 2030 para o Desenvolvimento Sustentável</b>."
           ]
         }
       ]

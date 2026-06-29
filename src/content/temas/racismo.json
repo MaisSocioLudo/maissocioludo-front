@@ -1,42 +1,42 @@
 {
   "title": "Racismo",
   "description": "",
+  "hero": {
+    "title": "Racismo"
+  },
   "sections": [
     {
       "id": "inicio",
-      "title": "Racismo",
+      "title": "Racismo, discriminação e a ciência",
       "blocks": [
         {
           "type": "paragraph",
-          "content": "O que é, mito da democracia racial brasileira, desigualdade de renda, Projeto Genoma Humano, discriminação racial, mestiçagem no brasil (Casa grande e senzala), como se manifesta (piadas, racismo recreativo), segregação"
-        },
-        {
-          "type": "heading",
-          "id": "racismo_discriminacao_e_a_ciencia",
-          "content": "Racismo, discriminação e a ciência"
-        },
-        {
-          "type": "paragraph",
+          "id": "racismo_p_1",
           "content": "Para compreender as relações sociais modernas, é fundamental diferenciar dois conceitos que frequentemente aparecem juntos, mas possuem significados distintos: o racismo e a discriminação racial."
         },
         {
           "type": "paragraph",
+          "id": "racismo_p_2",
           "content": "O <b>racismo</b> é uma ideologia, ou seja, um sistema de crenças estruturadas que estabelece uma hierarquia entre os seres humanos com base em suas características físicas ou de origem, afirmando falsamente que determinados grupos são superiores a outros."
         },
         {
           "type": "paragraph",
+          "id": "racismo_p_3",
           "content": "Já a <b>discriminação racial</b> é a manifestação prática dessa ideologia. Ela ocorre no comportamento cotidiano, quando uma pessoa ou instituição nega direitos, exclui, violenta ou trata alguém de forma injusta e inferior devido à sua cor ou etnia."
         },
         {
           "type": "paragraph",
-          "content": "Historicamente, o racismo tentou se justificar por meio de teorias científicas distorcidas nos séculos XVIII e XIX, que afirmavam a existência de\"raças biológicas\"humanas isoladas e hierarquizadas. Para isso, a teoria da seleção natural de Darwin foi reformulada no “<b>Darwinismo Social</b>”, em que se defendia a “sobrevivência do mais apto”, com o objetivo de enaltecer apenas as pessoas ricas e brancas."
+          "id": "racismo_p_4",
+          "content": "Historicamente, o racismo tentou se justificar por meio de teorias científicas distorcidas nos séculos XVIII e XIX, que afirmavam a existência de \"raças biológicas\" humanas isoladas e hierarquizadas. Para isso, a teoria da seleção natural de Darwin foi reformulada no “<b>Darwinismo Social</b>”, em que se defendia a “sobrevivência do mais apto”, com o objetivo de enaltecer apenas as pessoas ricas e brancas."
         },
         {
           "type": "paragraph",
+          "id": "racismo_p_5",
           "content": "No entanto, a ciência moderna refutou essa premissa. Na virada para o século XXI, o <b>Projeto Genoma Humano</b> provou que raças biológicas não existem entre os seres humanos. O mapeamento genético demonstrou que a variabilidade genética entre indivíduos da mesma cor de pele pode ser maior do que entre pessoas de cores de pele diferentes, provando que todos os seres humanos pertencem a uma única raça."
         },
         {
           "type": "paragraph",
+          "id": "racismo_p_6",
           "content": "Logo, raça não é uma realidade biológica, mas sim uma <b>construção social</b>. Embora biologicamente as raças não existam, o racismo existe como uma força real e violenta na organização da sociedade, pois a ideia de raça continua sendo inventada e utilizada para distribuir privilégios, poder e justificar a exclusão de grupos minoritários."
         },
         {
@@ -46,15 +46,18 @@
         },
         {
           "type": "paragraph",
+          "id": "racismo_p_7",
           "content": "A formação social do Brasil é marcada por um intenso processo de <b>mestiçagem</b> entre povos indígenas, africanos e europeus. No entanto, a interpretação desse fenômeno mudou drasticamente ao longo da história. No final do século XIX, teorias racistas europeias dominavam o pensamento brasileiro, apontando a mistura de raças como a causa do suposto atraso do país. Essa perspectiva começou a mudar na década de 1930, principalmente com a publicação do livro <i>Casa-Grande &amp; Senzala</i>, do sociólogo Gilberto Freyre. Na contramão das teorias de branqueamento, Freyre passou a exaltar a miscigenação, argumentando que ela era a maior riqueza da identidade nacional e que a colonização portuguesa havia sido mais benevolente e flexível do que as demais."
         },
         {
           "type": "paragraph",
+          "id": "racismo_p_8",
           "content": "O trabalho de Freyre criou a base para o que mais tarde o sociólogo Florestan Fernandes batizou de o <b>mito da democracia racial brasileira</b>. Esse mito consiste na falsa crença de que o Brasil seria uma sociedade harmônica, onde negros, brancos e indígenas convivem em plena igualdade de condições, e onde o racismo e o preconceito seriam praticamente inexistentes devido ao histórico de mestiçagem."
         },
         {
           "type": "paragraph",
-          "content": "Essa narrativa é prejudicial para a veracidade da história do povo negro no Brasil, atuando como uma cortina de fumaça. Ao romantizar o passado colonial e camuflar a violência da escravidão, o mito da democracia racial tenta deslegitimar as denúncias dos movimentos negros. A ideia de que\"somos todos iguais\"impede que a sociedade reconheça que o racismo no Brasil não desapareceu com a miscigenação, mas sim que se tornou velado, estrutural e enraizado nas nossas instituições."
+          "id": "racismo_p_9",
+          "content": "Essa narrativa é prejudicial para a veracidade da história do povo negro no Brasil, atuando como uma cortina de fumaça. Ao romantizar o passado colonial e camuflar a violência da escravidão, o mito da democracia racial tenta deslegitimar as denúncias dos movimentos negros. A ideia de que \"somos todos iguais\" impede que a sociedade reconheça que o racismo no Brasil não desapareceu com a miscigenação, mas sim que se tornou velado, estrutural e enraizado nas nossas instituições."
         },
         {
           "type": "heading",
@@ -63,15 +66,18 @@
         },
         {
           "type": "paragraph",
+          "id": "racismo_p_10",
           "content": "O racismo no Brasil contemporâneo não precisa de leis oficiais de separação para se fazer presente; ele opera de forma estruturada, manifestando-se nas barreiras invisíveis da <b>segregação</b> social e espacial. Embora a legislação brasileira não proíba negros de frequentarem determinados locais, a especulação imobiliária, a desigualdade histórica e o preconceito institucional empurram a maior parte da população negra para as periferias e favelas, desprovidas de saneamento básico, segurança e serviços públicos de qualidade. Essa divisão geográfica das cidades reflete uma segregação social evidente, onde espaços de poder, de prestígio e de consumo de elite continuam sendo majoritariamente ocupados por pessoas brancas."
         },
         {
           "type": "paragraph",
+          "id": "racismo_p_11",
           "content": "Essa assimetria fica explícita quando analisamos a <b>desigualdade de renda</b> no mercado de trabalho. Dados históricos de institutos de pesquisa como o IBGE apontam de forma sistemática que, mesmo quando possuem a mesma escolaridade e exercem as mesmas funções, trabalhadores negros recebem salários significativamente menores do que trabalhadores brancos. Além disso, a população negra ocupa a imensa maioria dos postos de trabalho informais, precários e terceirizados, enfrentando tetos de vidro que dificultam o acesso a cargos de gerência, direção e liderança nas grandes empresas."
         },
         {
           "type": "paragraph",
-          "content": "No campo cultural e cotidiano, o preconceito frequentemente se camufla para evitar punições judiciais ou o julgamento social. É dentro dessa lógica que o jurista Adilson Moreira definiu o conceito de <b>racismo recreativo</b>. Trata-se do uso do humor, de piadas, de apelidos e de esquetes cômicas que utilizam estereótipos racistas para inferiorizar e ridicularizar pessoas negras. Ao transformar o preconceito em entretenimento, o agressor tenta se blindar sob a justificativa de que\"era apenas uma brincadeira\"ou que a vítima\"não tem senso de humor\". O racismo recreativo é uma tática violenta de dominação, pois normaliza a opressão na rotina social, anula a responsabilidade de quem discrimina e perpetua a associação histórica do corpo negro ao ridículo e à subalternidade."
+          "id": "racismo_p_12",
+          "content": "No campo cultural e cotidiano, o preconceito frequentemente se camufla para evitar punições judiciais ou o julgamento social. É dentro dessa lógica que o jurista Adilson Moreira definiu o conceito de <b>racismo recreativo</b>. Trata-se do uso do humor, de piadas, de apelidos e de esquetes cômicas que utilizam estereótipos racistas para inferiorizar e ridicularizar pessoas negras. Ao transformar o preconceito em entretenimento, o agressor tenta se blindar sob a justificativa de que \"era apenas uma brincadeira\" ou que a vítima \"não tem senso de humor\". O racismo recreativo é uma tática violenta de dominação, pois normaliza a opressão na rotina social, anula a responsabilidade de quem discrimina e perpetua a associação histórica do corpo negro ao ridículo e à subalternidade."
         }
       ]
     },
@@ -81,21 +87,24 @@
       "blocks": [
         {
           "type": "highlight",
+          "title": "<b>Medida Provisória (Filme brasileiro - Dirigido por Lázaro Ramos)</b>",
+          "content": "Ambientado em um futuro distópico, o governo brasileiro ordena que todos os cidadãos de \"melanina acentuada\" sejam deportados para a África. O filme é uma metáfora poderosa para discutir segregação espacial, o passado colonial e como o mito da democracia racial desaba diante de medidas extremas.",
           "icon": "filme",
-          "title": "Medida Provisória",
-          "content": "Ambientado em um futuro distópico, o filme dirigido por Lázaro Ramos apresenta uma metáfora potente para discutir segregação, passado colonial e o enfraquecimento do mito da democracia racial diante de medidas extremas."
+          "id": "indicacao_1"
         },
         {
           "type": "highlight",
+          "title": "<b>\"Movimento\" — BK</b>",
+          "content": "Muitas músicas do álbum “O Líder em Movimento” são inspiradas em discursos de líderes negros como Malcolm X e Martin Luther King. Em <b>\"</b>Movimento<b>\"</b>, BK rima sobre a necessidade de organização coletiva e consciência social.",
           "icon": "musica",
-          "title": "Movimento - BK",
-          "content": "A música dialoga com a necessidade de organização coletiva e consciência social. Ela pode ser relacionada aos debates sobre movimento negro, resistência política e enfrentamento do racismo."
+          "id": "indicacao_2"
         },
         {
           "type": "highlight",
+          "title": "<b>Quarto de Despejo</b>",
+          "content": "<b> Diário de uma Favelada (Carolina Maria de Jesus):</b> O diário real de uma catadora de papel na favela do Canindé nos anos 1950. É a personificação literária da segregação espacial e da desigualdade de renda. Mostra como o racismo e a pobreza limitam o acesso aos direitos mais básicos, como a alimentação.",
           "icon": "livro",
-          "title": "Quarto de Despejo - Carolina Maria de Jesus",
-          "content": "O diário de uma catadora de papel na favela do Canindé, nos anos 1950, permite discutir segregação espacial e desigualdade de renda. A obra mostra como racismo e pobreza limitam o acesso a direitos básicos, como a alimentação."
+          "id": "indicacao_3"
         }
       ]
     },
@@ -105,7 +114,11 @@
       "blocks": [
         {
           "type": "list",
-          "items": []
+          "id": "referencias_lista",
+          "items": [
+            "BODART, Cristiano das Neves; KUPPER, Agnaldo. Entre Saberes. São Paulo: <b>Palavras</b>, 2024.",
+            "OLIVEIRA, Luiz Fernandes de; COSTA, Ricardo Cesar Rocha da. Sociologia para jovens do século XXI. São Paulo: <b>Editora do Brasil</b>, 2024."
+          ]
         }
       ]
     }

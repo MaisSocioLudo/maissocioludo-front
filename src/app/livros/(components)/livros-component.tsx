@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { PiBookBold, PiCaretLeftBold, PiCaretRightBold } from "react-icons/pi";
+import { PiBookBold } from "react-icons/pi";
 
 export default function LivrosComponent() {
   const livros = [
@@ -12,12 +12,22 @@ export default function LivrosComponent() {
     {
       nome: "Sociologia para jovens do século XXI (2018-2020)",
       imagem: "sociologia_jovens.jpg",
-      link: "https://drive.google.com/file/d/1oskz2GM1kE-HMPQ-vcb-uo_GCgd4g50b/view"
+      link: "https://drive.google.com/file/d/1oskz2GM1kE-HMPQ-vcb-uo_GCgd4g50b/view",
     },
-     {
+    {
       nome: "Sociologia para jovens do século XXI",
       imagem: "sociologia_jovens2.jpg",
-      link: "https://drive.google.com/file/d/1OoiARC1kFRHk9aqOFAGc8JzqJiXt1tfo/view"
+      link: "https://drive.google.com/file/d/1OoiARC1kFRHk9aqOFAGc8JzqJiXt1tfo/view",
+    },
+    {
+      nome: "Ser protagonista",
+      imagem: "ser_protagonista.jpg",
+      link: "https://drive.google.com/file/d/1ddVKGvq1PJ7btoRZGV37uMX6d_BRAZxF/view",
+    },
+    {
+      nome: "Sociologia em movimento",
+      imagem: "sociologia_em_movimento.jpg",
+      link: "https://drive.google.com/file/d/12qKqKiEQlabFmcek2m8H-NahBNFJ2yqY/view",
     },
   ];
 
@@ -26,30 +36,30 @@ export default function LivrosComponent() {
       id="livros"
       className="scroll-mt-24 rounded-[24px] border border-white/70 bg-white/80 p-4 shadow-[0_15px_50px_rgba(0,0,0,0.06)] backdrop-blur-md sm:p-6 md:rounded-[32px] md:p-8"
     >
-      <div className="mb-8 flex items-end justify-between">
+      <div className="mb-8 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
         <div>
           <div className="mb-3 flex items-center gap-3">
-            <div className="flex h-10 w-10 items-center justify-center rounded-2xl bg-[#C02A3A]/10 text-[#C02A3A] sm:h-12 sm:w-12">
+            <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-[#C02A3A]/10 text-[#C02A3A] sm:h-12 sm:w-12">
               <PiBookBold className="text-[22px] sm:text-[24px]" />
             </div>
 
-            <div>
-              <p className="text-xs font-semibold uppercase tracking-[0.16em] text-[#C02A3A]">
+            <div className="min-w-0">
+              <p className="text-xs font-semibold uppercase tracking-[0.16em] text-[#C02A3A] sm:text-sm sm:tracking-[0.18em]">
                 ACESSO GRATUITO
               </p>
-              <h1 className="text-xl font-black text-zinc-900 sm:text-2xl md:text-3xl">
+              <h1 className="text-xl font-black leading-tight text-zinc-900 sm:text-2xl md:text-3xl">
                 <a href="#livros">Livros didáticos</a>
               </h1>
             </div>
           </div>
 
-          <p className="max-w-2xl text-[15px] leading-7 text-zinc-600">
+          <p className="max-w-2xl text-[15px] leading-7 text-zinc-600 sm:text-[16px] md:text-[17px]">
             Explore nossa seleção de <strong>{livros.length} livros</strong> indicados.
           </p>
         </div>
       </div>
 
-      <div className="grid grid-cols-2 gap-6 sm:grid-cols-3 lg:grid-cols-3">
+      <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 sm:gap-5 lg:grid-cols-5 lg:gap-6">
         {livros.map((livro) => (
           <Link
             key={livro.nome}
@@ -64,9 +74,9 @@ export default function LivrosComponent() {
                     src={"/imagens/livros/" + livro.imagem}
                     alt={livro.nome}
                     fill
-                    className="object-cover"
+                    className="object-cover transition duration-500 group-hover:scale-110"
                     quality={100}
-                    sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 140px"
+                    sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 230px"
                   />
 
                   <div className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-black/55 via-black/10 to-transparent" />

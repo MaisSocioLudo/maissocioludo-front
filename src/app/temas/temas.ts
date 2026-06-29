@@ -78,12 +78,12 @@ export const temas: Tema[] = [
   },
   {
     id: "diversidade_sexual",
-    nome: "Diversidade Sexual",
+    nome: "Gênero e Diversidade Sexual",
     cor: "#0267B2"
   },
   {
     id: "dominacao_masculina",
-    nome: "Dominação Masculina",
+    nome: "Gênero e Dominação Masculina",
     cor: "#0267B2"
   },
   {

@@ -1,6 +1,9 @@
 {
   "title": "Antropologia",
   "description": "",
+  "hero": {
+    "title": "Antropologia"
+  },
   "sections": [
     {
       "id": "inicio",
@@ -8,27 +11,32 @@
       "blocks": [
         {
           "type": "paragraph",
-          "content": "A palavra <b>Antropologia</b> tem origem grega: deriva da junção de <i>anthropos</i> (ser humano) e logos (razão, estudo ou ciência). Portanto, em sua definição mais literal, ela é a ciência que estuda o ser humano."
+          "id": "antropologia_p_1",
+          "content": "A palavra <b>Antropologia</b> tem origem grega: deriva da junção de <i>anthropos</i> (ser humano) e <i>logos</i> (razão, estudo ou ciência). Portanto, em sua definição mais literal, ela é a ciência que estuda o ser humano."
         },
         {
           "type": "paragraph",
+          "id": "antropologia_p_2",
           "content": "No entanto, para as Ciências Sociais, o seu objetivo vai muito além da biologia. A Antropologia é a ciência que busca a compreensão da diversidade das manifestações culturais humanas, investigando como diferentes povos, em diferentes épocas e lugares, organizam suas vidas, criam seus valores e dão sentido ao mundo."
         },
         {
           "type": "heading",
-          "id": "Conceitos",
+          "id": "conceitos",
           "content": "Conceitos"
         },
         {
           "type": "paragraph",
+          "id": "antropologia_p_3",
           "content": "Para decifrar a riqueza das culturas humanas sem qualquer tipo de discriminação, a Antropologia desenvolveu uma série de conceitos e métodos fundamentais. O ponto de partida é a <b>alteridade</b>, que significa o exercício de reconhecer, respeitar e se colocar no lugar do outro, percebendo que a diferença não é um defeito, mas apenas outra forma de existir. Ligado a ela está o <b>relativismo cultural</b>, uma postura teórica e moral que defende que nenhuma cultura possui valores universais e superiores; cada hábito ou crença só pode ser julgado e compreendido dentro do seu próprio contexto."
         },
         {
           "type": "paragraph",
-          "content": "Toda essa engrenagem funciona por meio de <b>símbolos</b>, que são os significados abstratos que uma sociedade atribui às coisas, como uma bandeira, um idioma ou um gesto, e que dão sentido à vida coletiva. "
+          "id": "antropologia_p_4",
+          "content": "Toda essa engrenagem funciona por meio de <b>símbolos</b>, que são os significados abstratos que uma sociedade atribui às coisas, como uma bandeira, um idioma ou um gesto, e que dão sentido à vida coletiva."
         },
         {
           "type": "paragraph",
+          "id": "antropologia_p_5",
           "content": "Quando olhamos para a formação dos grupos humanos, a Antropologia substitui o antigo e incorreto conceito biológico de \"raça\" pelos termos <b>etnia</b> e <b>etnicidade</b>. Enquanto a etnia refere-se a um grupo de pessoas que compartilham uma mesma história, língua, território e tradições culturais, a etnicidade é o sentimento de pertencimento e a identidade política que surge desse compartilhamento."
         },
         {
@@ -38,18 +46,72 @@
         },
         {
           "type": "paragraph",
+          "id": "antropologia_p_6",
           "content": "Para estudar essas dinâmicas sociais de perto, os cientistas utilizam o <b>método etnográfico</b> (ou etnografia). O antropólogo realiza o \"trabalho de campo\": ele viaja, mora com a comunidade estudada, observa o cotidiano e participa de suas atividades (a chamada observação participante) para registrar a cultura sob o ponto de vista dos próprios nativos."
         },
         {
           "type": "paragraph",
+          "id": "antropologia_p_7",
           "content": "Um dos frutos mais fascinantes desse método na América do Sul foi o conceito de <b>perspectivismo ameríndio</b>, desenvolvido por antropólogos como Eduardo Viveiros de Castro. Ao estudar povos indígenas da Amazônia, percebeu-se que, para muitas dessas culturas, os animais, as plantas e os espíritos também possuem uma alma humana e sua própria \"cultura\". A diferença entre nós e eles não estaria no espírito, mas no corpo. Esse conceito revoluciona a ciência ao mostrar que a própria divisão ocidental entre \"Natureza\" e \"Cultura\" não é universal, abrindo nossa mente para formas completamente novas de enxergar o universo."
+        },
+        {
+          "type": "heading",
+          "id": "identidade_e_juventude",
+          "content": "Identidade e juventude"
+        },
+        {
+          "type": "paragraph",
+          "id": "antropologia_p_8",
+          "content": "Para a Sociologia contemporânea, a juventude vai muito além de um simples dado biológico ou de uma faixa etária de transição entre a infância e a vida adulta. Pesquisadores brasileiros como Juarez Dayrell defendem o conceito de <b>condição juvenil</b>, que compreende a juventude como uma construção social, histórica e cultural. Isso significa que o modo como os jovens vivem, pensam e se expressam depende diretamente do contexto em que estão inseridos, das oportunidades econômicas a que têm acesso e do território onde vivem. Por essa razão, a sociologia prefere falar em \"juventudes\", no plural, reconhecendo que a experiência de ser jovem no Brasil varia profundamente de acordo com marcadores como classe social, raça e gênero."
+        },
+        {
+          "type": "paragraph",
+          "id": "antropologia_p_9",
+          "content": "No centro dessa fase da vida está a busca pela construção da <b>identidade</b>. Os jovens não apenas recebem a cultura de seus pais, mas a reinterpretam e produzem suas próprias manifestações por meio das chamadas culturas juvenis ou culturas urbanas. É através do pertencimento a grupos, sejam eles ligados à música (como o funk, o rock ou o rap), ao estilo de se vestir, ao esporte ou ao ativismo digital, que os indivíduos exercitam sua autonomia e dão sentido ao mundo. Essas redes de sociabilidade funcionam como espaços fundamentais de acolhimento e expressão, onde os jovens deixam de ser vistos apenas como \"o futuro da sociedade\" e passam a ser reconhecidos como sujeitos de direitos e atores sociais ativos no presente."
+        },
+        {
+          "type": "heading",
+          "id": "grandes_pensadores_da_antropologia",
+          "content": "Grandes pensadores da Antropologia"
+        },
+        {
+          "type": "paragraph",
+          "id": "antropologia_p_10",
+          "content": "Para compreender como as Ciências Sociais avançaram no estudo da diversidade e da identidade, é fundamental conhecer os autores que moldaram essas disciplinas no mundo e no Brasil. No cenário internacional, um dos nomes mais importantes é o do francês <b>Claude Lévi-Strauss</b>, um dos pais da antropologia moderna, que lecionou na Universidade de São Paulo (USP) na década de 1930 e desenvolveu pesquisas de campo fundamentais com povos indígenas no país. Outra grande referência global é <b>Clifford Geertz</b>, famoso por sua obra <i>\"A Interpretação das Culturas\"</i>, na qual definiu a cultura como uma \"teia de significados\" tecida pelo próprio ser humano, cabendo ao cientista interpretar essas práticas como se fossem um texto. Ainda no plano internacional, o psicólogo social e filósofo <b>George Herbert Mead</b> contribuiu ao estudar a construção da identidade através do conceito de <i>self</i> (o si mesmo), demonstrando que nossa consciência individual só se desenvolve a partir da interação social e do contato com o outro."
+        },
+        {
+          "type": "paragraph",
+          "id": "antropologia_p_11",
+          "content": "No contexto brasileiro, a antropologia destaca-se pelo combate ao racismo e pela compreensão de nossas populações. O antropólogo <b>Kabengele Munanga</b> é uma das vozes mais importantes no debate sobre as relações raciais no país, criticando como o conceito de mestiçagem foi historicamente utilizado para tentar apagar a identidade negra e mascarar o preconceito sob o mito da democracia racial. Na análise dos povos originários, o antropólogo <b>Eduardo Viveiros de Castro</b> transformou a teoria contemporânea com o conceito de perspectivismo ameríndio, mostrando como os indígenas da Amazônia constroem uma relação única onde animais e espíritos também possuem uma alma humana. Por fim, abrindo caminho para os estudos sobre as novas gerações, pesquisadores como <b>Juarez Dayrell</b> e <b>Letícia Reis</b> dedicam-se a compreender a \"condição juvenil\", defendendo que a juventude não é apenas uma fase biológica de transição, mas sim uma construção social e cultural diversa."
         }
       ]
     },
     {
       "id": "indicacoes",
       "title": "Indicações",
-      "blocks": []
+      "blocks": [
+        {
+          "type": "highlight",
+          "title": "<b>\"Invisível\" — BaianaSystem</b>",
+          "content": "Uma crítica ao etnocentrismo urbano. A música e o clipe discutem como os trabalhadores invisibilizados no dia a dia (como garis e ambulantes) só são percebidos pelo sistema quando \"atrapalham\" o fluxo, gerando um debate riquíssimo sobre quem tem o direito de ser visto como sujeito na sociedade.",
+          "icon": "musica",
+          "id": "indicacao_1"
+        },
+        {
+          "type": "highlight",
+          "title": "<b>Avatar (Filme)</b>",
+          "content": "O primeiro filme é um exemplo cirúrgico de alteridade e perspectivismo ameríndio. O protagonista precisa \"vestir o corpo\" do outro para entender que a natureza ali não é um recurso a ser explorado, mas uma teia de sujeitos com perspectiva própria.",
+          "icon": "filme",
+          "id": "indicacao_2"
+        },
+        {
+          "type": "highlight",
+          "title": "<b>Discurso de Chimamanda Ngozi Adichie: \"O Perigo de uma História Única\" (TED Talk - Disponível no YouTube)</b>",
+          "content": "Discurso em que Chimamanda explica, através de suas vivências, o que acontece quando reduzimos um povo ou uma cultura a apenas um estereótipo. É a melhor introdução prática ao conceito de relativismo culturale crítica ao etnocentrismo disponível hoje.",
+          "icon": "filme",
+          "id": "indicacao_3"
+        }
+      ]
     },
     {
       "id": "referencias",
@@ -57,7 +119,11 @@
       "blocks": [
         {
           "type": "list",
-          "items": []
+          "id": "referencias_lista",
+          "items": [
+            "BODART, Cristiano das Neves; KUPPER, Agnaldo. Entre Saberes. São Paulo: <b>Palavras</b>, 2024.",
+            "OLIVEIRA, Luiz Fernandes de; COSTA, Ricardo Cesar Rocha da. Sociologia para jovens do século XXI. São Paulo: <b>Editora do Brasil</b>, 2024."
+          ]
         }
       ]
     }

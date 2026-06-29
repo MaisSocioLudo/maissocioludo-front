@@ -1,22 +1,28 @@
 {
   "title": "Karl Marx",
   "description": "",
+  "hero": {
+    "title": "Karl Marx"
+  },
   "sections": [
     {
       "id": "inicio",
-      "title": "Quem foi Karl Marx?",
+      "title": "Karl Marx",
       "blocks": [
         {
           "type": "paragraph",
-          "content": "Karl Marx nasceu na Alemanha e faleceu em Londres, na Inglaterra, aos 65 anos. Seu principal objeto de estudo foi a <b>sociedade capitalista</b> de sua época. Diferentemente de outros pensadores, Marx não se preocupava apenas em compreender a sociedade, mas também em <b>transformá-la</b>, buscando analisar as desigualdades e propor mudanças estruturais."
+          "id": "karl_marx_p_1",
+          "content": "Karl Marx nasceu na Alemanha e faleceu em Londres, na Inglaterra, aos 65 anos. Seu principal objeto de estudo foi a sociedade capitalista de sua época. Diferentemente de outros pensadores, Marx não se preocupava apenas em compreender a sociedade, mas também em transformá-la, buscando analisar as desigualdades e propor mudanças estruturais."
         },
         {
           "type": "paragraph",
-          "content": "É importante destacar que Marx não foi o criador do socialismo, já que esse modelo já existia antes dele. No entanto, juntamente com Friedrich Engels, desenvolveu o chamado <b>socialismo científico</b>. Diferentemente do <b>socialismo utópico</b> - que defendia mudanças baseadas na boa vontade das classes dominantes - o socialismo científico utiliza um método de análise chamado <b>materialismo histórico</b> para compreender as leis que regem a história humana e a economia."
+          "id": "karl_marx_p_2",
+          "content": "É importante destacar que Marx não foi o criador do socialismo, já que esse modelo já existia antes dele. No entanto, juntamente com Friedrich Engels, desenvolveu o chamado <b>socialismo científico.</b> Diferentemente do <b>socialismo utópico</b> - que defendia mudanças baseadas na boa vontade das classes dominantes - o socialismo científico utiliza um método de análise chamado <b>materialismo histórico</b> para compreender as leis que regem a história humana e a economia."
         },
         {
           "type": "paragraph",
-          "content": "Entre suas principais obras, destacam-se o livro <b>O Capital</b>, no qual analisa o funcionamento do sistema capitalista e a exploração do trabalho, e o <b>Manifesto Comunista</b>, que apresenta as ideias centrais do comunismo e convoca a classe trabalhadora à luta por seus direitos. Essas obras são fundamentais para a compreensão das desigualdades sociais e das dinâmicas do capitalismo."
+          "id": "karl_marx_p_3",
+          "content": "Entre suas principais obras, destacam-se o livro <b>O Capital</b>, no qual analisa o funcionamento do sistema capitalista e a exploração do trabalho, e o<b> </b><b>Manifesto Comunista</b>, que apresenta as ideias centrais do comunismo e convoca a classe trabalhadora à luta por seus direitos. Essas obras são fundamentais para a compreensão das desigualdades sociais e das dinâmicas do capitalismo."
         },
         {
           "type": "heading",
@@ -25,23 +31,28 @@
         },
         {
           "type": "paragraph",
-          "content": "Um dos principais pilares da teoria marxista é a ideia de que a sociedade capitalista está dividida em duas classes sociais fundamentais: a <b>burguesia</b> e o <b>proletariado</b>."
+          "id": "karl_marx_p_4",
+          "content": "Um dos principais pilares da teoria marxista é a ideia de que a sociedade capitalista está dividida em duas classes sociais fundamentais: a <b>burguesia </b>e o <b>proletariado</b>."
         },
         {
           "type": "paragraph",
-          "content": "A <b>burguesia</b> é a classe detentora dos <b>meios de produção</b>; por isso, Marx a denominou como a classe dos proprietários, responsável por controlar a produção material da sociedade. No entanto, essa produção material é realizada pelos não proprietários, o <b>proletariado</b> - classe composta pelos trabalhadores que vendem sua força de trabalho para garantir sua sobrevivência."
+          "id": "karl_marx_p_5",
+          "content": "A burguesia é a classe detentora dos meios de produção; por isso, Marx a denominou como a classe dos proprietários, responsável por controlar a produção material da sociedade. No entanto, essa produção material é realizada pelos não proprietários, o proletariado - classe composta pelos trabalhadores que vendem sua força de trabalho para garantir sua sobrevivência."
         },
         {
           "type": "paragraph",
-          "content": "Marx analisa essa relação como uma forma de <b>exploração</b>, visto que a riqueza produzida pelos trabalhadores é apropriada pela burguesia na forma de <b>lucro</b>."
+          "id": "karl_marx_p_6",
+          "content": "Marx analisa essa relação como uma forma de exploração, visto que a riqueza produzida pelos trabalhadores é apropriada pela burguesia na forma de lucro."
         },
         {
           "type": "paragraph",
-          "content": "A partir da análise dessa exploração, ele desenvolveu conceitos importantes que buscam explicar o funcionamento do sistema capitalista, bem como as desigualdades e contradições nele presentes, como a <b>mais-valia</b>, a <b>luta de classes</b> e a <b>consciência de classe</b>, entre outros."
+          "id": "karl_marx_p_7",
+          "content": "A partir da análise dessa exploração, ele desenvolveu conceitos importantes que buscam explicar o funcionamento do sistema capitalista, bem como as desigualdades e contradições nele presentes, como a mais-valia, a luta de classes e a consciência de classe, entre outros."
         },
         {
           "type": "paragraph",
-          "content": "Ao perceber essa desigualdade entre as classes, ele defendeu que a superação da exploração só seria possível por meio da ação coletiva do proletariado, que deveria se organizar para transformar as relações de produção existentes. Assim, seria possível a construção de uma <b>sociedade igualitária</b>, na qual os meios de produção deixariam de ser <b>propriedade privada</b> e passariam a ser coletivos, eliminando a divisão em classes sociais e, consequentemente, as formas de exploração."
+          "id": "karl_marx_p_8",
+          "content": "Ao perceber essa desigualdade entre as classes, ele defendeu que a superação da exploração só seria possível por meio da ação coletiva do proletariado, que deveria se organizar para transformar as relações de produção existentes. Assim, seria possível a construção de uma sociedade igualitária, na qual os meios de produção deixariam de ser propriedade privada e passariam a ser coletivos, eliminando a divisão em classes sociais e, consequentemente, as formas de exploração."
         },
         {
           "type": "heading",
@@ -50,7 +61,8 @@
         },
         {
           "type": "paragraph",
-          "content": "O <b>materialismo marxista</b> (<b>materialismo histórico-dialético</b>) é a teoria que defende que a produção material dos indivíduos molda suas histórias e constrói suas relações sociais, ou seja, toda a nossa história e nossas relações sociais são fruto do <b>trabalho</b>. Sendo assim, Karl Marx identificou o trabalho como a <b>essência da vida humana</b>, pois é por meio dele que os indivíduos transformam a natureza, produzem sua existência e estabelecem relações sociais."
+          "id": "karl_marx_p_9",
+          "content": "O materialismo marxista (materialismo histórico-dialético) é a teoria que defende que a produção material dos indivíduos molda suas histórias e constrói suas relações sociais, ou seja, toda a nossa história e nossas relações sociais são fruto do trabalho. Sendo assim, Karl Marx identificou o trabalho como a essência da vida humana, pois é por meio dele que os indivíduos transformam a natureza, produzem sua existência e estabelecem relações sociais."
         },
         {
           "type": "heading",
@@ -59,7 +71,8 @@
         },
         {
           "type": "paragraph",
-          "content": "Em todas as sociedades, por meio do trabalho, os indivíduos se relacionam entre si e, coletivamente, constroem a vida em sociedade, no que Marx chamou de <b>relações sociais de produção</b>. Segundo ele, essas relações possuem características específicas que variam ao longo da história e de acordo com cada tipo de sociedade. Além disso, são estabelecidas em meio a <b>contradições</b> e <b>conflitos</b> entre os diferentes grupos sociais."
+          "id": "karl_marx_p_10",
+          "content": "Em todas as sociedades, por meio do trabalho, os indivíduos se relacionam entre si e, coletivamente, constroem a vida em sociedade, no que Marx chamou de relações sociais de produção. Segundo ele, essas relações possuem características específicas que variam ao longo da história e de acordo com cada tipo de sociedade. Além disso, são estabelecidas em meio a contradições e conflitos entre os diferentes grupos sociais."
         },
         {
           "type": "heading",
@@ -68,15 +81,18 @@
         },
         {
           "type": "paragraph",
-          "content": "A divisão em <b>classes sociais</b> é uma característica da sociedade capitalista. Para Marx, esses grupos são diferenciados, principalmente, pela sua relação com os <b>meios de produção</b>."
+          "id": "karl_marx_p_11",
+          "content": "A divisão em classes sociais é uma característica da sociedade capitalista. Para Marx, esses grupos são diferenciados, principalmente, pela sua relação com os meios de produção."
         },
         {
           "type": "paragraph",
-          "content": "A classe dos proprietários, os <b>burgueses</b>, sempre estarão em busca do <b>lucro</b>, que para obtê-lo será necessário explorar a mão de obra da classe não proprietária. Já a classe trabalhadora, o <b>proletariado</b>, buscará melhores condições de vida e salários dignos para garantir a sua sobrevivência."
+          "id": "karl_marx_p_12",
+          "content": "A classe dos proprietários, os burgueses, sempre estarão em busca do lucro, que para obtê-lo será necessário explorar a mão de obra da classe não proprietária. Já a classe trabalhadora, o proletariado, buscará melhores condições de vida e salários dignos para garantir a sua sobrevivência."
         },
         {
           "type": "paragraph",
-          "content": "Dessa forma, Karl Marx define que os interesses dessas classes são <b>antagônicos</b>. Isto é, os objetivos das classes são tão distintos que entram em conflito, pois a estrutura capitalista se baseia na exploração de uma classe pela outra."
+          "id": "karl_marx_p_13",
+          "content": "Dessa forma, Karl Marx define que os interesses dessas classes são antagônicos. Isto é, os objetivos das classes são tão distintos que entram em conflito, pois a estrutura capitalista se baseia na exploração de uma classe pela outra."
         },
         {
           "type": "heading",
@@ -85,15 +101,18 @@
         },
         {
           "type": "paragraph",
-          "content": "A <b>mais-valia</b> representa a parte não paga do trabalho que é apropriada pela burguesia na forma de lucro. O proletariado vende sua força de trabalho e é remunerado por meio de <b>salário</b>. No entanto, o valor que recebe não corresponde à totalidade da riqueza que produz."
+          "id": "karl_marx_p_14",
+          "content": "A mais-valia representa a parte não paga do trabalho que é apropriada pela burguesia na forma de lucro. O proletariado vende sua força de trabalho e é remunerado por meio de salário. No entanto, o valor que recebe não corresponde à totalidade da riqueza que produz."
         },
         {
           "type": "paragraph",
-          "content": "Por isso, a mais-valia não é apenas o trabalho mal pago nem o lucro total dos empresários, mas sim a <b>parte do valor produzido que não é repassada ao trabalhador</b>."
+          "id": "karl_marx_p_15",
+          "content": "Por isso, a mais-valia não é apenas o trabalho mal pago nem o lucro total dos empresários, mas sim a parte do valor produzido que não é repassada ao trabalhador."
         },
         {
           "type": "paragraph",
-          "content": "<b>Exemplo:</b> uma costureira trabalha em uma fábrica onde produz dez blusas por dia, mas recebe apenas o valor correspondente a uma, enquanto o lucro das outras nove fica com o empresário."
+          "id": "karl_marx_p_16",
+          "content": "Exemplo: uma costureira trabalha em uma fábrica onde produz dez blusas por dia, mas recebe apenas o valor correspondente a uma, enquanto o lucro das outras nove fica com o empresário."
         },
         {
           "type": "heading",
@@ -102,15 +121,13 @@
         },
         {
           "type": "paragraph",
-          "content": "A <b>luta de classes</b> representa o antagonismo entre as classes. Para Marx, as condições econômicas e a luta de classes são <b>agentes transformadores da sociedade</b>."
+          "id": "karl_marx_p_17",
+          "content": "A luta de classes representa o antagonismo entre as classes. Para Marx, as condições econômicas e a luta de classes são agentes transformadores da sociedade."
         },
         {
           "type": "paragraph",
-          "content": "A classe dominante nunca deseja que a situação mude, pois se encontra em uma situação privilegiada. Já os trabalhadores têm que lutar por melhores condições de vida. Segundo Marx, é essa luta que transformaria a história e a estrutura da sociedade. Sendo assim, a ascensão do proletariado faria surgir uma <b>sociedade sem classes</b> e livre de desigualdades."
-        },
-        {
-          "type": "paragraph",
-          "content": "Isto seria alcançado pela união da classe trabalhadora organizada em torno de um <b>projeto político revolucionário</b>."
+          "id": "karl_marx_p_18",
+          "content": "A classe dominante nunca deseja que a situação mude, pois se encontra em uma situação privilegiada. Já os trabalhadores têm que lutar por melhores condições de vida. Segundo Marx, é essa luta que transformaria a história e a estrutura da sociedade. Sendo assim, a ascensão do proletariado faria surgir uma sociedade sem classes e livre de desigualdades. Isto seria alcançado pela união da classe trabalhadora organizada em torno de um projeto político revolucionário."
         },
         {
           "type": "heading",
@@ -119,11 +136,13 @@
         },
         {
           "type": "paragraph",
-          "content": "A <b>consciência de classe</b> é a percepção de um indivíduo sobre sua posição na estrutura social, ou seja, é a identificação do proletariado como <b>classe explorada</b>. Assim que o indivíduo se dá conta dessa exploração, ele percebe que seus problemas e dificuldades fazem parte de <b>questões coletivas</b>, e não de limitações individuais."
+          "id": "karl_marx_p_19",
+          "content": "A consciência de classe é a percepção de um indivíduo sobre sua posição na estrutura social, ou seja, é a identificação do proletariado como classe explorada. Assim que o indivíduo se dá conta dessa exploração, ele percebe que seus problemas e dificuldades fazem parte de questões coletivas, e não de limitações individuais."
         },
         {
           "type": "paragraph",
-          "content": "A exploração é a marca que une os proletários em torno de um objetivo comum: <b>acabar com o sistema de exploração vigente</b> e transformar a organização da sociedade, superando as divisões de classe."
+          "id": "karl_marx_p_20",
+          "content": "A exploração é a marca que une os proletários em torno de um objetivo comum: acabar com o sistema de exploração vigente e transformar a organização da sociedade, superando as divisões de classe."
         },
         {
           "type": "heading",
@@ -132,15 +151,18 @@
         },
         {
           "type": "paragraph",
-          "content": "Para Karl Marx e Friedrich Engels, a <b>ideologia</b> é um <b>instrumento de dominação</b> utilizado por uma classe sobre a outra. Ela se manifesta por meio da cultura, dos valores e das instituições, com o objetivo de propagar os interesses da <b>classe dominante</b>, gerando uma <b>falsa consciência da realidade</b>."
+          "id": "karl_marx_p_21",
+          "content": "Para Karl Marx e Friedrich Engels, a ideologia é um instrumento de dominação utilizado por uma classe sobre a outra. Ela se manifesta por meio da cultura, dos valores e das instituições, com o objetivo de propagar os interesses da classe dominante, gerando uma falsa consciência da realidade."
         },
         {
           "type": "paragraph",
-          "content": "Dessa forma, por meio da ideologia, a classe dominante consegue dificultar que o proletariado desenvolva <b>consciência de classe</b>. Assim, os trabalhadores podem acabar defendendo interesses que não os favorecem, contribuindo para a manutenção do poder da burguesia."
+          "id": "karl_marx_p_22",
+          "content": "Dessa forma, por meio da ideologia, a classe dominante consegue dificultar que o proletariado desenvolva consciência de classe. Assim, os trabalhadores podem acabar defendendo interesses que não os favorecem, contribuindo para a manutenção do poder da burguesia."
         },
         {
           "type": "paragraph",
-          "content": "Podemos citar como exemplo os debates sobre o fim da escala de trabalho <b>6x1</b>, em que muitos trabalhadores se posicionam contra mudanças que poderiam beneficiá-los, muitas vezes influenciados por discursos que priorizam os interesses empresariais. Nesse caso, é possível observar como a ideologia atua ao fazer com que indivíduos defendam ideias que reforçam sua própria condição de exploração."
+          "id": "karl_marx_p_23",
+          "content": "Podemos citar como exemplo os debates sobre o fim da escala de trabalho 6x1, em que muitos trabalhadores se posicionam contra mudanças que poderiam beneficiá-los, muitas vezes influenciados por discursos que priorizam os interesses empresariais. Nesse caso, é possível observar como a ideologia atua ao fazer com que indivíduos defendam ideias que reforçam sua própria condição de exploração."
         }
       ]
     },
@@ -151,20 +173,23 @@
         {
           "type": "highlight",
           "icon": "filme",
-          "title": "Que horas ela volta?",
-          "content": "O filme aborda as desigualdades sociais e as relações de classe presentes na sociedade brasileira, evidenciando diferenças de oportunidades e privilégios entre grupos sociais distintos. A obra possibilita reflexões sobre as divisões de classe analisadas por Karl Marx."
+          "title": "<b>Que horas ela volta?</b>",
+          "content": "O filme aborda as desigualdades sociais e as relações de classe presentes na sociedade brasileira, evidenciando diferenças de oportunidades e privilégios entre grupos sociais distintos. A obra possibilita reflexões sobre as divisões de classe analisadas por Karl Marx.",
+          "id": "indicacao_1"
         },
         {
           "type": "highlight",
           "icon": "musica",
-          "title": "Até quando esperar - Plebe Rude",
-          "content": "A letra questiona a má distribuição de riqueza e a resignação popular diante das desigualdades sociais, sintetizada no refrão “até quando esperar a plebe ajoelhar esperando a ajuda de Deus?”. A música expressa indignação diante das injustiças sociais e pode ser relacionada aos conceitos marxistas de luta de classes e consciência de classe."
+          "title": "<b>Até quando esperar - Plebe Rude</b>",
+          "content": "A letra questiona a má distribuição de riqueza e a resignação popular diante das desigualdades sociais, sintetizada no refrão “até quando esperar a plebe ajoelhar esperando a ajuda de Deus?”. A música expressa indignação diante das injustiças sociais e pode ser relacionada aos conceitos marxistas de luta de classes e consciência de classe.",
+          "id": "indicacao_2"
         },
         {
           "type": "highlight",
           "icon": "livro",
-          "title": "O manifesto comunista - Karl Marx e Friedrich Engels",
-          "content": "Publicado em 1848, o livro apresenta os principais fundamentos do pensamento marxista, abordando temas como a luta de classes, a exploração do trabalho e a crítica ao capitalismo. A obra defende a organização da classe trabalhadora para a transformação da sociedade."
+          "title": "<b>O manifesto comunista - Karl Marx e Friedrich Engels</b>",
+          "content": "Publicado em 1848, o livro apresenta os principais fundamentos do pensamento marxista, abordando temas como a luta de classes, a exploração do trabalho e a crítica ao capitalismo. A obra defende a organização da classe trabalhadora para a transformação da sociedade.",
+          "id": "indicacao_3"
         }
       ]
     },
@@ -174,12 +199,13 @@
       "blocks": [
         {
           "type": "list",
+          "id": "referencias_lista",
           "items": [
-            "COSTA, Ricardo Cesar Rocha da; OLIVEIRA, Luís Fernando de. Sociologia para jovens do século XXI. 4. ed. São Paulo: Imperial Novo Milênio, 2016.",
-            "OLIVEIRA, Luiz Fernandes de; COSTA, Ricardo Cesar Rocha da. Sociologia para jovens do século XXI. 1. ed. São Paulo: Editora do Brasil, 2024.",
-            "PORFÍRIO, Francisco. \"Karl Marx\"; Brasil Escola. Disponível em: https://brasilescola.uol.com.br/sociologia/karl-marx.htm. Acesso em 29 de março de 2026.",
-            "PORFÍRIO, Francisco. \"Consciência de classe\"; Brasil Escola. Disponível em: https://brasilescola.uol.com.br/sociologia/consciencia-de-classe.htm. Acesso em 30 de março de 2026.",
-            "GODOY, William. \"A ideologia para Marx\"; Filosofia na Escola. Disponível em: https://filosofianaescola.com/politica/a-ideologia-para-marx/. Acesso em 30 de março de 2026."
+            "OLIVEIRA, Luiz Fernandes de; COSTA, Ricardo Cesar Rocha da. <b><i>Sociologia para jovens do século XXI.</i></b> 1. ed. São Paulo: Editora do Brasil, 2024.",
+            "OLIVEIRA, Luís Fernando de; COSTA, Ricardo Cesar Rocha da. <b><i>Sociologia para jovens do século XXI</i></b>. 4. ed. São Paulo: Imperial Novo Milênio, 2016.",
+            "PORFÍRIO, Francisco. <b>Karl Marx</b>; Brasil Escola. Disponível em: https://brasilescola.uol.com.br/sociologia/karl-marx.htm. Acesso em 29 de março de 2026.",
+            "PORFÍRIO, Francisco. <b>Consciência de classe</b>; Brasil Escola. Disponível em: https://brasilescola.uol.com.br/sociologia/consciencia-de-classe.htm. Acesso em 30 de março de 2026.",
+            "GODOY, William. <b>A</b><b> ideologia para Marx</b>; Filosofia na Escola. Disponível em: . Acesso em 30 de março de 2026."
           ]
         }
       ]

@@ -1,6 +1,9 @@
 {
   "title": "Capitalismo",
   "description": "",
+  "hero": {
+    "title": "Capitalismo"
+  },
   "sections": [
     {
       "id": "inicio",
@@ -8,26 +11,32 @@
       "blocks": [
         {
           "type": "paragraph",
+          "id": "capitalismo_p_1",
           "content": "Antes da consolidação do capitalismo, a principal forma de organização econômica e social da Europa era o feudalismo, sistema que predominou aproximadamente entre os séculos V e XV. Nesse modelo, a sociedade era organizada em feudos, grandes propriedades rurais controladas pelos senhores feudais. A economia era essencialmente agrária e voltada para a subsistência, ou seja, a maior parte da produção destinava-se ao próprio consumo dos habitantes do feudo."
         },
         {
           "type": "paragraph",
+          "id": "capitalismo_p_2",
           "content": "A sociedade feudal era marcada por uma rígida divisão social. No topo encontravam-se a nobreza e o clero, enquanto a maior parte da população era composta por servos, que trabalhavam nas terras dos senhores feudais em troca de proteção e do direito de utilizar pequenas parcelas de terra para sua sobrevivência."
         },
         {
           "type": "paragraph",
+          "id": "capitalismo_p_3",
           "content": "A partir da Baixa Idade Média, especialmente entre os séculos XI e XV, diversas transformações começaram a enfraquecer o sistema feudal. O crescimento populacional, o aumento da produção agrícola, a expansão das rotas comerciais e o surgimento das cidades contribuíram para o fortalecimento das atividades mercantis."
         },
         {
           "type": "paragraph",
+          "id": "capitalismo_p_4",
           "content": "Nesse contexto, surgiu e ganhou destaque uma nova classe social: a burguesia. Formada principalmente por comerciantes, banqueiros e artesãos enriquecidos, essa classe acumulava riqueza por meio do comércio e das atividades urbanas. Diferentemente da nobreza feudal, cuja riqueza estava associada à posse da terra, a burguesia obtinha seu poder econômico por meio da circulação de mercadorias e do acúmulo de capital."
         },
         {
           "type": "paragraph",
+          "id": "capitalismo_p_5",
           "content": "O fortalecimento econômico da burguesia também contribuiu para importantes transformações políticas. Um dos acontecimentos mais marcantes desse processo foi a Revolução Francesa, iniciada em 1789. A revolução contestou os privilégios da nobreza e do clero, defendendo princípios como liberdade, igualdade jurídica e participação política. Embora seus resultados tenham sido complexos, ela é frequentemente associada à ascensão política da burguesia e ao enfraquecimento das estruturas do Antigo Regime."
         },
         {
           "type": "paragraph",
+          "id": "capitalismo_p_6",
           "content": "Com o crescimento do comércio, o fortalecimento da burguesia e as transformações políticas ocorridas na Europa, as relações econômicas passaram a se modificar gradualmente. A economia deixou de ser predominantemente rural e voltada para a subsistência, tornando-se cada vez mais orientada para a produção de mercadorias e para a obtenção de lucro. Esse longo processo de mudanças contribuiu para o declínio do feudalismo e criou as condições necessárias para o surgimento e a consolidação do capitalismo."
         },
         {
@@ -37,62 +46,77 @@
         },
         {
           "type": "paragraph",
+          "id": "capitalismo_p_7",
           "content": "A Revolução Industrial teve início na Inglaterra durante a segunda metade do século XVIII e representou uma profunda transformação na forma de produzir mercadorias. Até então, grande parte dos produtos era fabricada manualmente por artesãos ou em pequenas oficinas. Com a introdução das máquinas e o surgimento das fábricas, a produção tornou-se mais rápida, padronizada e eficiente."
         },
         {
           "type": "paragraph",
+          "id": "capitalismo_p_8",
           "content": "Esse processo foi fundamental para a consolidação do capitalismo. A utilização de máquinas permitiu aumentar significativamente a produtividade, ampliar os lucros da burguesia e intensificar a produção em larga escala. A fábrica tornou-se o principal espaço de produção econômica, enquanto o trabalho assalariado passou a ocupar uma posição central nas relações de trabalho."
         },
         {
           "type": "paragraph",
+          "id": "capitalismo_p_9",
           "content": "Além das transformações econômicas, a Revolução Industrial também provocou profundas mudanças sociais. A sociedade passou a ser marcada pela crescente importância da burguesia industrial, proprietária das fábricas e dos meios de produção, e pela expansão do proletariado, composto pelos trabalhadores que vendiam sua força de trabalho em troca de um salário."
         },
         {
-          "type": "paragraph",
+          "type": "subheading",
+          "id": "exodo_rural_e_crescimento_das_cidades",
           "content": "Êxodo rural e crescimento das cidades"
         },
         {
           "type": "paragraph",
+          "id": "capitalismo_p_10",
           "content": "O avanço da industrialização alterou profundamente a dinâmica populacional. A mecanização das atividades agrícolas reduziu a necessidade de trabalhadores no campo, enquanto as fábricas ofereciam oportunidades de emprego nas cidades."
         },
         {
           "type": "paragraph",
+          "id": "capitalismo_p_11",
           "content": "Esse movimento de migração da população rural para os centros urbanos ficou conhecido como êxodo rural. Milhares de pessoas deixaram o campo em busca de trabalho e melhores condições de vida, contribuindo para o rápido crescimento das cidades industriais."
         },
         {
           "type": "paragraph",
+          "id": "capitalismo_p_12",
           "content": "Entretanto, esse crescimento ocorreu de forma acelerada e sem planejamento adequado. Como consequência, muitas cidades passaram a enfrentar problemas como moradias precárias, falta de saneamento básico, poluição e superlotação. Os bairros operários eram frequentemente marcados por condições de vida insalubres, refletindo as desigualdades produzidas pela nova sociedade industrial."
         },
         {
-          "type": "paragraph",
+          "type": "subheading",
+          "id": "trabalho_e_exploracao_na_sociedade_industrial",
           "content": "Trabalho e exploração na sociedade industrial"
         },
         {
           "type": "paragraph",
+          "id": "capitalismo_p_13",
           "content": "Embora a industrialização tenha aumentado a capacidade produtiva da sociedade, seus benefícios não foram distribuídos de maneira igualitária. Nos primeiros momentos da Revolução Industrial, os trabalhadores enfrentavam jornadas extremamente longas, salários baixos e condições de trabalho precárias."
         },
         {
           "type": "paragraph",
+          "id": "capitalismo_p_14",
           "content": "Mulheres e crianças também eram amplamente empregadas nas fábricas, muitas vezes recebendo salários inferiores aos dos homens e submetidas às mesmas condições desgastantes de trabalho. Além disso, não existiam direitos trabalhistas que garantissem férias, descanso semanal, aposentadoria ou limites para a jornada de trabalho."
         },
         {
           "type": "paragraph",
+          "id": "capitalismo_p_15",
           "content": "A introdução constante de novas máquinas também contribuiu para substituir parte da mão de obra humana. Com um grande número de trabalhadores disputando vagas, os proprietários das fábricas conseguiam impor salários baixos e ampliar seus lucros."
         },
         {
           "type": "paragraph",
+          "id": "capitalismo_p_16",
           "content": "Essas condições contribuíram para o aumento das desigualdades sociais e estimularam o surgimento de movimentos operários e organizações de trabalhadores que passaram a reivindicar melhores condições de trabalho, redução da jornada e ampliação dos direitos sociais."
         },
         {
-          "type": "paragraph",
+          "type": "subheading",
+          "id": "as_consequencias_da_industrializacao",
           "content": "As consequências da industrialização"
         },
         {
           "type": "paragraph",
+          "id": "capitalismo_p_17",
           "content": "A Revolução Industrial transformou profundamente a sociedade. Ela impulsionou o desenvolvimento tecnológico, ampliou a produção de riquezas e consolidou o capitalismo como principal sistema econômico do mundo. Ao mesmo tempo, intensificou problemas sociais relacionados à exploração do trabalho, à concentração de renda e ao crescimento desordenado das cidades."
         },
         {
           "type": "paragraph",
+          "id": "capitalismo_p_18",
           "content": "Muitas das questões sociais observadas atualmente, como desigualdades econômicas, problemas urbanos e conflitos relacionados ao trabalho, possuem raízes históricas nas transformações iniciadas durante a Revolução Industrial. Por isso, compreender esse processo é fundamental para entender a formação da sociedade contemporânea."
         },
         {
@@ -102,82 +126,102 @@
         },
         {
           "type": "paragraph",
+          "id": "capitalismo_p_19",
           "content": "Com o avanço da industrialização, a produção de mercadorias aumentou de forma significativa. As fábricas passaram a produzir em larga escala, exigindo quantidades cada vez maiores de matérias-primas, energia e mão de obra."
         },
         {
           "type": "paragraph",
+          "id": "capitalismo_p_20",
           "content": "Ao mesmo tempo, o crescimento da produção gerou a necessidade de ampliar os mercados consumidores. Em diversos momentos, a capacidade produtiva das indústrias cresceu mais rapidamente do que o consumo da população, provocando crises de superprodução. Nessas situações, havia mais mercadorias disponíveis do que consumidores com condições de comprá-las."
         },
         {
           "type": "paragraph",
+          "id": "capitalismo_p_21",
           "content": "Diante desse cenário, as potências capitalistas passaram a buscar novos mercados, fontes de matérias-primas e oportunidades de investimento em outras regiões do mundo. Esse processo contribuiu para a expansão global do capitalismo e para a intensificação das relações econômicas entre diferentes países."
         },
         {
-          "type": "paragraph",
+          "type": "subheading",
+          "id": "imperialismo",
           "content": "Imperialismo"
         },
         {
           "type": "paragraph",
+          "id": "capitalismo_p_22",
           "content": "No final do século XIX e início do século XX, as grandes potências industrializadas da Europa, além dos Estados Unidos e do Japão, intensificaram sua expansão sobre diversas regiões da África, Ásia e América Latina. Esse processo ficou conhecido como imperialismo."
         },
         {
           "type": "paragraph",
+          "id": "capitalismo_p_23",
           "content": "A expansão imperialista ocorreu porque o desenvolvimento industrial aumentou a necessidade de matérias-primas para abastecer as fábricas, como algodão, borracha, petróleo e minérios. Além disso, as indústrias produziam cada vez mais mercadorias e precisavam encontrar novos mercados consumidores para vender seus produtos. As grandes empresas também buscavam locais onde pudessem investir seu capital e obter maiores lucros."
         },
         {
           "type": "paragraph",
+          "id": "capitalismo_p_24",
           "content": "Para alcançar esses objetivos, as potências imperialistas passaram a exercer controle sobre outros territórios. Em alguns casos, esse domínio ocorreu por meio da colonização direta, como aconteceu em grande parte da África. Em outros, ocorreu através da influência econômica, política e militar, sem a necessidade de ocupação formal do território."
         },
         {
           "type": "paragraph",
+          "id": "capitalismo_p_25",
           "content": "As justificativas para essa expansão frequentemente utilizavam argumentos racistas e etnocêntricos. Muitos governos europeus defendiam a ideia de que possuíam uma suposta missão civilizatória, alegando que estavam levando progresso, desenvolvimento e cultura para os povos dominados. Na prática, porém, o imperialismo esteve associado à exploração econômica dos territórios conquistados e à submissão de suas populações."
         },
         {
           "type": "paragraph",
+          "id": "capitalismo_p_26",
           "content": "Segundo o revolucionário russo Vladimir Lênin, o imperialismo representa uma nova fase do capitalismo. Em sua obra Imperialismo: fase superior do capitalismo, ele argumenta que o capitalismo havia se transformado profundamente. Pequenas empresas passaram a ser substituídas por grandes monopólios, enquanto os bancos adquiriram enorme poder econômico. Como resultado, os países mais industrializados passaram a disputar mercados, matérias-primas e áreas de influência em escala global."
         },
         {
           "type": "paragraph",
+          "id": "capitalismo_p_27",
           "content": "Para Lênin, portanto, o imperialismo não era apenas uma escolha política dos governantes, mas uma consequência do próprio desenvolvimento do capitalismo. À medida que as empresas cresciam e acumulavam capital, tornava-se necessário expandir continuamente seus negócios para além das fronteiras nacionais."
         },
         {
           "type": "paragraph",
+          "id": "capitalismo_p_28",
           "content": "Um dos exemplos mais marcantes desse processo foi a chamada Partilha da África, quando as potências europeias dividiram grande parte do continente africano entre si, sem considerar as fronteiras culturais, étnicas ou históricas dos povos que ali viviam. Muitos dos conflitos e problemas políticos observados atualmente em alguns países africanos possuem relação com esse período de dominação imperialista."
         },
         {
-          "type": "paragraph",
+          "type": "subheading",
+          "id": "socialismo",
           "content": "Socialismo"
         },
         {
           "type": "paragraph",
+          "id": "capitalismo_p_29",
           "content": "O avanço do capitalismo e as desigualdades produzidas por ele estimularam o surgimento de diversas críticas e propostas alternativas de organização social."
         },
         {
           "type": "paragraph",
+          "id": "capitalismo_p_30",
           "content": "Entre elas destaca-se o socialismo, que defende uma sociedade baseada na redução das desigualdades econômicas e na propriedade coletiva ou social dos meios de produção."
         },
         {
           "type": "paragraph",
+          "id": "capitalismo_p_31",
           "content": "Os primeiros pensadores socialistas ficaram conhecidos como socialistas utópicos. Eles acreditavam ser possível construir uma sociedade mais justa por meio da cooperação, da conscientização e de reformas sociais pacíficas."
         },
         {
           "type": "paragraph",
+          "id": "capitalismo_p_32",
           "content": "Posteriormente, Karl Marx e Friedrich Engels desenvolveram o chamado socialismo científico. Diferentemente dos utópicos, eles buscavam explicar as transformações sociais por meio da análise das relações econômicas e da luta de classes. Para esses autores, a superação do capitalismo dependeria da ação política organizada da classe trabalhadora."
         },
         {
-          "type": "paragraph",
+          "type": "subheading",
+          "id": "globalizacao",
           "content": "Globalização"
         },
         {
           "type": "paragraph",
+          "id": "capitalismo_p_33",
           "content": "Nas últimas décadas, a expansão do capitalismo tornou-se ainda mais intensa por meio da globalização. Esse processo é caracterizado pelo aumento da integração econômica, política, cultural e tecnológica entre diferentes regiões do planeta."
         },
         {
           "type": "paragraph",
+          "id": "capitalismo_p_34",
           "content": "A globalização ampliou a circulação de mercadorias, capitais, informações e pessoas, permitindo que empresas organizassem suas atividades em escala mundial."
         },
         {
           "type": "paragraph",
+          "id": "capitalismo_p_35",
           "content": "Muitos estudiosos apontam que existe uma relação entre imperialismo e globalização. Enquanto o imperialismo esteve associado ao controle direto ou indireto de territórios por grandes potências, a globalização representa uma forma mais complexa de integração econômica mundial, marcada pela atuação de empresas transnacionais, organismos internacionais e mercados financeiros globais."
         },
         {
@@ -187,42 +231,52 @@
         },
         {
           "type": "paragraph",
-          "content": "A <b>urbanização</b> é o processo de crescimento das cidades e do aumento da população que vive em áreas urbanas. Embora cidades existam há milhares de anos, a urbanização se intensificou a partir da <b>Revolução Industrial</b>, quando milhões de pessoas deixaram o campo em direção aos centros urbanos em busca de trabalho nas fábricas."
+          "id": "capitalismo_p_36",
+          "content": "A <b>urbanização</b> é o processo de crescimento das cidades e do aumento da população que vive em áreas urbanas. Embora cidades existam há milhares de anos, a urbanização se intensificou a partir da<b> Revolução Industrial</b>, quando milhões de pessoas deixaram o campo em direção aos centros urbanos em busca de trabalho nas fábricas."
         },
         {
           "type": "paragraph",
+          "id": "capitalismo_p_37",
           "content": "Com o avanço do capitalismo e da industrialização, as cidades passaram a concentrar atividades econômicas, serviços, indústrias e oportunidades de emprego. Esse processo contribuiu para o crescimento acelerado dos centros urbanos em diversas partes do mundo."
         },
         {
           "type": "paragraph",
+          "id": "capitalismo_p_38",
           "content": "Entretanto, o crescimento das cidades nem sempre ocorreu de forma planejada. Em muitos casos, a expansão urbana aconteceu mais rapidamente do que a capacidade dos governos de oferecer moradia, transporte, saneamento básico e outros serviços essenciais à população. Como consequência, surgiram diversos problemas sociais que ainda marcam as cidades contemporâneas."
         },
         {
           "type": "paragraph",
+          "id": "capitalismo_p_39",
           "content": "Um dos principais problemas relacionados à urbanização é a <b>segregação socioespacial</b>. Esse conceito refere-se à distribuição desigual dos diferentes grupos sociais dentro do espaço urbano."
         },
         {
           "type": "paragraph",
+          "id": "capitalismo_p_40",
           "content": "Nas cidades capitalistas, o acesso à moradia, à infraestrutura e aos serviços urbanos costuma estar diretamente relacionado à condição econômica dos indivíduos. Dessa forma, grupos com maior renda tendem a ocupar regiões mais valorizadas, com melhor acesso a transporte, educação, saúde e lazer, enquanto a população de baixa renda frequentemente é empurrada para áreas periféricas ou com infraestrutura mais precária."
         },
         {
           "type": "paragraph",
+          "id": "capitalismo_p_41",
           "content": "A segregação socioespacial demonstra que as desigualdades econômicas também se manifestam no espaço urbano, influenciando diretamente a qualidade de vida da população."
         },
         {
           "type": "paragraph",
+          "id": "capitalismo_p_42",
           "content": "Esse processo é reforçado pela especulação imobiliária, prática em que imóveis e terrenos são tratados como investimentos voltados à obtenção de lucro. Como consequência, determinadas áreas tornam-se cada vez mais valorizadas, dificultando o acesso das camadas populares aos espaços mais centrais da cidade."
         },
         {
           "type": "paragraph",
-          "content": "Nas últimas décadas, alguns sociólogos passaram a utilizar o conceito de <b>cidade-empresa</b> para analisar a forma como determinadas cidades são administradas. Nesse modelo, a cidade passa a ser tratada como um produto que precisa atrair investimentos, empresas, turistas e grandes eventos."
+          "id": "capitalismo_p_43",
+          "content": "Nas últimas décadas, alguns sociólogos passaram a utilizar o conceito de <b>cidade-empresa </b>para analisar a forma como determinadas cidades são administradas. Nesse modelo, a cidade passa a ser tratada como um produto que precisa atrair investimentos, empresas, turistas e grandes eventos."
         },
         {
           "type": "paragraph",
+          "id": "capitalismo_p_44",
           "content": "Para alcançar esse objetivo, é comum que governos e empresas realizem investimentos em áreas consideradas estratégicas para a valorização econômica da cidade. Embora essas iniciativas possam gerar crescimento econômico, muitas vezes as necessidades da população são colocadas em segundo plano."
         },
         {
           "type": "paragraph",
+          "id": "capitalismo_p_45",
           "content": "Como resultado, determinados bairros recebem melhorias urbanas e valorização imobiliária, enquanto outras regiões continuam enfrentando problemas relacionados à moradia, transporte, saneamento básico e acesso aos serviços públicos."
         }
       ]
@@ -234,14 +288,16 @@
         {
           "type": "highlight",
           "icon": "filme",
-          "title": "Germinal",
-          "content": "O romance acompanha a vida de trabalhadores de uma mina de carvão na França do século XIX. A obra retrata as condições precárias de trabalho durante a industrialização, os conflitos entre patrões e operários e o surgimento das primeiras formas de organização da classe trabalhadora."
+          "title": "<b>Germinal</b>",
+          "content": "O romance acompanha a vida de trabalhadores de uma mina de carvão na França do século XIX. A obra retrata as condições precárias de trabalho durante a industrialização, os conflitos entre patrões e operários e o surgimento das primeiras formas de organização da classe trabalhadora.",
+          "id": "indicacao_1"
         },
         {
           "type": "highlight",
           "icon": "musica",
-          "title": "Construção - Chico Buarque",
-          "content": "A música retrata como os trabalhadores podem ser reduzidos a meras peças da engrenagem produtiva. Ao narrar o cotidiano e a morte de um operário, a canção evidencia a falta de preocupação com a vida do trabalhador, cuja existência parece ser valorizada apenas por sua função econômica. No desfecho da música, sua morte é tratada principalmente como um acontecimento que interrompeu a rotina da cidade e atrapalhou o tráfego, revelando uma crítica à desumanização presente na sociedade moderna.<br>"
+          "title": "<b>Construção - Chico Buarque</b>",
+          "content": "A música retrata como os trabalhadores podem ser reduzidos a meras peças da engrenagem produtiva. Ao narrar o cotidiano e a morte de um operário, a canção evidencia a falta de preocupação com a vida do trabalhador, cuja existência parece ser valorizada apenas por sua função econômica. No desfecho da música, sua morte é tratada principalmente como um acontecimento que interrompeu a rotina da cidade e atrapalhou o tráfego, revelando uma crítica à desumanização presente na sociedade moderna.",
+          "id": "indicacao_2"
         }
       ]
     },
@@ -251,9 +307,10 @@
       "blocks": [
         {
           "type": "list",
+          "id": "referencias_lista",
           "items": [
-            "Bezerra, Juliana.”Imperialsmo na África”.Toda matéria. Acesso disponível em: https://www.todamateria.com.br/imperialismo-na-africa/",
-            "OLIVEIRA, Luiz Fernandes de; COSTA, Ricardo Cesar Rocha da. <i>Sociologia para jovens do século XXI</i>. São Paulo: Editora do Brasil, 2024."
+            "Bezerra, Juliana. <b>Imperialismo na África</b>. Toda matéria. Acesso disponível em: https://www.todamateria.com.br/imperialismo-na-africa/",
+            "OLIVEIRA, Luiz Fernandes de; COSTA, Ricardo Cesar Rocha da. <b><i>Sociologia para jovens do século XXI</i></b>. São Paulo: Editora do Brasil, 2024."
           ]
         }
       ]

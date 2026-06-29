@@ -1,0 +1,94 @@
+{
+  "title": "Religiosidade",
+  "description": "",
+  "hero": {
+    "title": "Religiosidade"
+  },
+  "sections": [
+    {
+      "id": "inicio",
+      "title": "O Estudo Sociológico da Religião",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "id": "religiosidade_p_1",
+          "content": "A religião acompanha a história da humanidade desde os seus primeiros registros, exercendo um papel fundamental na organização social, na formulação de leis e na criação de visões de mundo. Para além de uma dimensão estritamente individual ou espiritual, as crenças e os rituais sagrados configuram o que as ciências sociais chamam de religiosidade: uma força coletiva capaz de moldar comportamentos econômicos, justificar estruturas de poder, unir comunidades e desencadear conflitos históricos. No cenário das ciências humanas, a análise desse fenômeno não busca julgar a verdade teológica de cada fé, mas sim compreender como as instituições e as práticas religiosas interferem na vida social."
+        },
+        {
+          "type": "paragraph",
+          "id": "religiosidade_p_2",
+          "content": "Os fundamentos desse estudo residem nas teorias desenvolvidas pelos pensadores clássicos da sociologia, cujas abordagens oferecem as ferramentas teóricas necessárias para interpretar os enigmas da dinâmica social. O primeiro grande modelo de análise sistemática do fenômeno religioso provém das investigações de <b>Émile Durkheim</b>, que se dedicou a entender o papel integrador das crenças na estabilidade das comunidades. Para Durkheim, a característica essencial da religião é a divisão do mundo em duas esferas opostas e complementares: o sagrado e o profano. O profano abrange as atividades cotidianas, utilitárias e comuns do indivíduo, enquanto o sagrado engloba as coisas separadas, proibidas e que exigem reverência. Ao se reunirem em torno de símbolos e rituais sagrados, os membros de um grupo não estão apenas cultuando uma divindade, mas sim expressando sua própria unidade e dependência mútua, transformando a religião em uma espécie de cimento social que previne o isolamento e garante a coesão coletiva."
+        },
+        {
+          "type": "paragraph",
+          "id": "religiosidade_p_3",
+          "content": "Uma perspectiva radicalmente distinta foi elaborada por <b>Karl Marx</b>, que situou a análise da religiosidade dentro das condições materiais de existência e das relações de produção. Para Marx, a religião não cumpre um papel de harmonia social natural, mas funciona como um reflexo das contradições e das opressões geradas pela divisão de classes no sistema capitalista. Ao cunhar a famosa metáfora de que a religião é o ópio do povo, o autor argumentava que o discurso religioso atua como uma anestesia social diante das dores provocadas pela exploração econômica. A promessa de uma vida justa e recompensadora no plano celestial operaria como um mecanismo de alienação, desviando a atenção da classe trabalhadora das injustiças materiais presentes no mundo terreno e desmobilizando o ímpeto de transformação revolucionária, o que frequentemente servia aos interesses das classes dominantes para justificar a manutenção do <i>status quo</i>."
+        },
+        {
+          "type": "paragraph",
+          "id": "religiosidade_p_4",
+          "content": "Por outro lado, <b>Max Weber</b> recusou tanto a visão de que a religião era apenas um fator de união quanto a ideia de que ela seria um mero reflexo da economia, propondo que as ideias religiosas possuem a capacidade de atuar como motores autônomos de transformação histórica. Em sua obra seminal, Weber demonstrou que as transformações culturais promovidas pela Reforma Protestante — especialmente através da vertente calvinista — desempenharam um papel crucial na formação do sistema econômico moderno, processo sintetizado no conceito da ética protestante e o espírito do capitalismo. Segundo a doutrina da predestinação calvinista, o destino da alma de cada indivíduo já estava previamente traçado por Deus, gerando uma intensa angústia nos fiéis. A busca por sinais de salvação divina levou os indivíduos a adotarem uma conduta de vida extremamente disciplinada, racional e voltada ao trabalho árduo, onde o sucesso profissional e o acúmulo de riquezas eram vistos como indícios do favor divino, desde que acompanhados pela recusa ao luxo e ao desperdício. Esse conjunto de valores baseados no poupar, trabalhar e reinvestir forneceu o suporte moral e o comportamento psicossocial ideais para o florescimento e a consolidação do capitalismo."
+        },
+        {
+          "type": "heading",
+          "id": "transformacoes_religiosas_na_modernidade",
+          "content": "Transformações Religiosas na Modernidade"
+        },
+        {
+          "type": "paragraph",
+          "id": "religiosidade_p_5",
+          "content": "À medida que as sociedades se industrializaram e adotaram o pensamento científico como principal norteador da realidade, a presença da religião na vida pública passou por reconfigurações profundas, descritas pela sociologia por meio do processo de secularização. A secularização caracteriza-se pela perda gradual da centralidade das instituições e explicações religiosas na esfera pública, no ordenamento político e nas decisões governamentais. Com o advento da modernidade, áreas antes monopolizadas pelo poder eclesiástico, como a educação, a ciência e a formulação de leis civis, ganharam autonomia e passaram a ser geridas sob a ótica da racionalidade laica. Esse fenômeno, associado ao que Weber denominou de desencantamento do mundo, transferiu a religiosidade para o âmbito das escolhas privadas dos indivíduos, retirando o caráter mágico e sagrado que anteriormente ordenava a totalidade das esferas sociais."
+        },
+        {
+          "type": "paragraph",
+          "id": "religiosidade_p_6",
+          "content": "Como uma reação direta e defensiva ao avanço da secularização, do pluralismo de ideias e dos costumes liberais da modernidade, emergiu nas últimas décadas o fenômeno do fundamentalismo religioso. Longe de ser uma característica exclusiva de uma única fé, o fundamentalismo manifesta-se em diversas matrizes religiosas, como no cristianismo, no islamismo e no judaísmo, definindo-se pelo apego dogmático, rígido e literal aos textos sagrados considerados fundamentais. Os movimentos fundamentalistas repudiam a separação entre Estado e religião e buscam frequentemente reinstituir os preceitos divinos como leis civis universais para toda a sociedade. Esse posicionamento intransigente rejeita o diálogo com a diversidade e com as liberdades individuais contemporâneas, tornando-se, em diversos contextos históricos globais, uma fonte geradora de intolerância e de violentos conflitos políticos e territoriais."
+        },
+        {
+          "type": "paragraph",
+          "id": "religiosidade_p_7",
+          "content": "Simultaneamente às reações conservadoras, a religiosidade também deu origem a movimentos de engajamento social voltados para a emancipação política e econômica das populações marginalizadas, tendo como maior exemplo a Teologia da Libertação. Surgido na América Latina durante a segunda metade do século XX, esse movimento teológico e social representou uma profunda renovação no interior da Igreja Católica ao propor uma leitura dos Evangelhos fundamentada na opção preferencial pelos pobres. Em vez de pregar a resignação pacífica diante do sofrimento terreno ou focar a salvação exclusivamente na vida após a morte, os teólogos e as comunidades eclesiais de base utilizaram categorias de análise das ciências sociais para combater as injustiças estruturais, a miséria e as ditaduras militares na região. Dessa maneira, a fé religiosa transformou-se em uma ferramenta ativa de conscientização política e de mobilização popular em prol dos direitos humanos e da justiça social."
+        },
+        {
+          "type": "paragraph",
+          "id": "religiosidade_p_8",
+          "content": "Em paralelo às grandes correntes institucionais e ideológicas, a experiência religiosa prática de diversos povos desenvolveu-se por vias marcadas pela mistura de tradições, resultando no sincretismo religioso. O sincretismo ocorre quando elementos simbólicos, rituais e conceituais originários de diferentes matrizes culturais e religiosas se fundem, gerando novas formas de expressão da fé. No contexto histórico brasileiro, esse processo manifestou-se com grande força em decorrência do encontro assimétrico entre o catolicismo dos colonizadores portugueses, o xamanismo das populações indígenas e as religiões de matriz africana trazidas pelos povos escravizados. Diante da violenta imposição do catolicismo oficial e da proibição de seus cultos nativos, os africanos escravizados associaram seus Orixás aos santos católicos correspondentes em suas virtudes, como a correlação estabelecida entre Ogum e São Jorge. Essa reinterpretação cultural não representou apenas uma assimilação passiva, mas constituiu uma sofisticada estratégia de resistência, sobrevivência e preservação da identidade cultural e espiritual desses povos frente à opressão colonial."
+        }
+      ]
+    },
+    {
+      "id": "indicacoes",
+      "title": "Indicações",
+      "blocks": [
+        {
+          "type": "highlight",
+          "icon": "filme",
+          "title": "<b>Os Deuses Devem Estar Loucos</b>",
+          "content": "A comédia satírica aborda o choque cultural entre uma tribo isolada de caçadores-coletores e a sociedade industrializada ocidental a partir da queda de uma garrafa de vidro em seu território. A obra possibilita refletir sobre o conceito durkheimiano de sagrado e profano, demonstrando como objetos cotidianos de uma cultura racionalizada e secular podem receber uma atribuição mística e ritualística quando inseridos em um universo simbólico tradicional e comunitário.",
+          "id": "indicacao_1"
+        },
+        {
+          "type": "highlight",
+          "icon": "musica",
+          "title": "<b>Reisado - Cátia de França</b>",
+          "content": "A canção evoca o universo das festas populares do Nordeste brasileiro, onde elementos das celebrações católicas tradicionais se entrelaçam com ritmos, coreografias e tradições de matrizes africanas e indígenas. A composição musical traduz esteticamente a riqueza do sincretismo religioso, ilustrando como as práticas de fé cotidianas reinventam as fronteiras teológicas e criam novas manifestações de identidade coletiva.",
+          "id": "indicacao_2"
+        }
+      ]
+    },
+    {
+      "id": "referencias",
+      "title": "Referências bibliográficas",
+      "blocks": [
+        {
+          "type": "list",
+          "id": "referencias_lista",
+          "items": [
+            "BODART, Cristiano das Neves; KUPPER, Agnaldo. <b><i>Entre Saberes</i></b>. São Paulo: Palavras, 2024.",
+            "OLIVEIRA, Luiz Fernandes de; COSTA, Ricardo Cesar Rocha da. <b><i>Sociologia para jovens do século XXI</i></b>. São Paulo: Editora do Brasil, 2024."
+          ]
+        }
+      ]
+    }
+  ]
+}

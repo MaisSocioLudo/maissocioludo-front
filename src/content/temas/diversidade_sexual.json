@@ -1,0 +1,226 @@
+{
+  "title": "Gênero e Diversidade Sexual",
+  "description": "",
+  "hero": {
+    "title": "Gênero e Diversidade Sexual"
+  },
+  "sections": [
+    {
+      "id": "inicio",
+      "title": "O que é gênero e diversidade sexual?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "id": "diversidade_sexual_p_1",
+          "content": "As discussões sobre gênero e diversidade sexual buscam compreender a pluralidade das experiências humanas e a forma como a sociedade constrói expectativas sobre os indivíduos. Esses estudos analisam como normas, valores e relações de poder influenciam a maneira como as pessoas vivenciam sua identidade, expressam seus afetos e ocupam determinados espaços sociais."
+        },
+        {
+          "type": "paragraph",
+          "id": "diversidade_sexual_p_2",
+          "content": "Apesar dos avanços na garantia de direitos, pessoas que fogem dos padrões socialmente estabelecidos ainda enfrentam preconceitos, discriminações e desigualdades. Por isso, compreender esses conceitos é fundamental para promover o respeito à diversidade e combater diferentes formas de violência."
+        },
+        {
+          "type": "heading",
+          "id": "sexo_biologico_e_genero",
+          "content": "Sexo biológico e gênero"
+        },
+        {
+          "type": "paragraph",
+          "id": "diversidade_sexual_p_3",
+          "content": "Embora muitas vezes sejam utilizados como sinônimos, sexo biológico e gênero possuem significados diferentes."
+        },
+        {
+          "type": "paragraph",
+          "id": "diversidade_sexual_p_4",
+          "content": "O <b>sexo biológico</b> refere-se às características físicas e biológicas dos indivíduos, como órgãos reprodutivos, cromossomos e características hormonais. Geralmente, as pessoas são classificadas ao nascer como do sexo masculino ou feminino."
+        },
+        {
+          "type": "paragraph",
+          "id": "diversidade_sexual_p_5",
+          "content": "Já o <b>gênero</b> é uma construção social e cultural relacionada aos papéis, comportamentos e expectativas que a sociedade atribui às pessoas. Isso significa que as ideias sobre o que é considerado “masculino” ou “feminino” não são naturais ou universais, mas construídas historicamente e podem variar entre diferentes sociedades e períodos históricos."
+        },
+        {
+          "type": "paragraph",
+          "id": "diversidade_sexual_p_6",
+          "content": "Por exemplo, determinadas atividades, cores, profissões e comportamentos costumam ser associados a um gênero específico. Entretanto, essas associações são construções sociais e não características biológicas."
+        },
+        {
+          "type": "heading",
+          "id": "identidade_de_genero",
+          "content": "Identidade de gênero"
+        },
+        {
+          "type": "paragraph",
+          "id": "diversidade_sexual_p_7",
+          "content": "A identidade de gênero corresponde à forma como cada indivíduo se reconhece e se identifica em relação ao gênero."
+        },
+        {
+          "type": "paragraph",
+          "id": "diversidade_sexual_p_8",
+          "content": "Uma pessoa <b>cisgênero</b> é aquela cuja identidade de gênero corresponde ao sexo atribuído ao nascimento. Já uma pessoa <b>transgênero</b> possui uma identidade de gênero diferente daquela que lhe foi atribuída ao nascer."
+        },
+        {
+          "type": "paragraph",
+          "id": "diversidade_sexual_p_9",
+          "content": "Também existem pessoas <b>não binárias</b>, que não se identificam exclusivamente com as categorias masculina ou feminina."
+        },
+        {
+          "type": "paragraph",
+          "id": "diversidade_sexual_p_10",
+          "content": "É importante destacar que a identidade de gênero é uma experiência individual e deve ser respeitada, independentemente da aparência física ou das expectativas sociais."
+        },
+        {
+          "type": "heading",
+          "id": "orientacao_sexual",
+          "content": "Orientação sexual"
+        },
+        {
+          "type": "paragraph",
+          "id": "diversidade_sexual_p_11",
+          "content": "A orientação sexual refere-se à atração afetiva, romântica e/ou sexual que uma pessoa sente por outras pessoas."
+        },
+        {
+          "type": "paragraph",
+          "id": "diversidade_sexual_p_12",
+          "content": "Existem diferentes orientações sexuais, entre elas:"
+        },
+        {
+          "type": "paragraph",
+          "id": "diversidade_sexual_p_13",
+          "content": "Heterossexualidade: atração por pessoas de um gênero diferente do seu;"
+        },
+        {
+          "type": "paragraph",
+          "id": "diversidade_sexual_p_14",
+          "content": "Homossexualidade: atração por pessoas do mesmo gênero;"
+        },
+        {
+          "type": "paragraph",
+          "id": "diversidade_sexual_p_15",
+          "content": "Bissexualidade: atração por mais de um gênero;"
+        },
+        {
+          "type": "paragraph",
+          "id": "diversidade_sexual_p_16",
+          "content": "Pansexualidade: atração por pessoas independentemente de seu gênero;"
+        },
+        {
+          "type": "paragraph",
+          "id": "diversidade_sexual_p_17",
+          "content": "Assexualidade: ausência ou pouca atração sexual."
+        },
+        {
+          "type": "paragraph",
+          "id": "diversidade_sexual_p_18",
+          "content": "É importante destacar que orientação sexual e identidade de gênero são conceitos distintos. Enquanto a identidade de gênero está relacionada à forma como a pessoa se identifica, a orientação sexual diz respeito às suas relações afetivas e/ou sexuais."
+        },
+        {
+          "type": "heading",
+          "id": "heteronormatividade",
+          "content": "Heteronormatividade"
+        },
+        {
+          "type": "paragraph",
+          "id": "diversidade_sexual_p_19",
+          "content": "A heteronormatividade é um conceito utilizado para descrever a ideia de que a heterossexualidade seria a única forma considerada natural, normal ou desejável de viver a sexualidade."
+        },
+        {
+          "type": "paragraph",
+          "id": "diversidade_sexual_p_20",
+          "content": "Essa lógica também pressupõe que todas as pessoas devam se enquadrar em papéis de gênero tradicionais, associando homens à masculinidade e mulheres à feminilidade."
+        },
+        {
+          "type": "paragraph",
+          "id": "diversidade_sexual_p_21",
+          "content": "A heteronormatividade está presente em diversos espaços da sociedade, como na escola, nos meios de comunicação, na publicidade e nas relações sociais. Muitas vezes, ela contribui para a exclusão e a discriminação de pessoas que não se encaixam nesses padrões."
+        },
+        {
+          "type": "paragraph",
+          "id": "diversidade_sexual_p_22",
+          "content": "Além disso, a heteronormatividade afeta diretamente pessoas LGBT+ ao reforçar a ideia de que relacionamentos só são “válidos” quando seguem o modelo homem + mulher com papéis bem definidos. Isso faz com que relações entre pessoas do mesmo gênero sejam constantemente questionadas ou tratadas como algo “incompleto” ou “fora do padrão”."
+        },
+        {
+          "type": "paragraph",
+          "id": "diversidade_sexual_p_23",
+          "content": "Um exemplo disso são perguntas como “quem é o homem da relação?”. Essa fala parece simples, mas carrega uma suposição problemática: a de que todo relacionamento precisa reproduzir a lógica heterossexual, em que o homem é “ativo”, “dominante” ou “provedor”, e a mulher é “passiva” ou “sensível”. Em relações LGBT+, isso não faz sentido, porque não existem esses papéis fixos baseados no gênero."
+        },
+        {
+          "type": "paragraph",
+          "id": "diversidade_sexual_p_24",
+          "content": "Esse tipo de pergunta acaba sendo invasiva e reducionista, porque tenta encaixar pessoas em estereótipos que não correspondem à realidade delas. Além disso, reforça a ideia de que um relacionamento só é compreensível ou legítimo se for traduzido para padrões heteronormativos, apagando a diversidade de formas de amar e se relacionar."
+        },
+        {
+          "type": "paragraph",
+          "id": "diversidade_sexual_p_25",
+          "content": "Na prática, isso pode gerar constrangimento, invisibilização e até discriminação, já que coloca casais LGBT+ constantemente na posição de terem que “explicar” ou justificar suas relações. Por isso, questionar essas falas é importante para desconstruir a heteronormatividade e reconhecer que não existe um único jeito certo de viver o gênero ou a sexualidade."
+        },
+        {
+          "type": "heading",
+          "id": "homofobia_e_transfobia",
+          "content": "Homofobia e transfobia"
+        },
+        {
+          "type": "paragraph",
+          "id": "diversidade_sexual_p_26",
+          "content": "A homofobia corresponde ao preconceito, à discriminação ou à violência direcionada a pessoas homossexuais ou àquelas que fogem dos padrões heteronormativos."
+        },
+        {
+          "type": "paragraph",
+          "id": "diversidade_sexual_p_27",
+          "content": "Já a transfobia refere-se ao preconceito, à discriminação e à violência praticados contra pessoas transgênero e travestis."
+        },
+        {
+          "type": "paragraph",
+          "id": "diversidade_sexual_p_28",
+          "content": "Essas violências podem se manifestar de diferentes formas, como ofensas, exclusão social, agressões físicas, negação de direitos e dificuldades de acesso à educação, ao mercado de trabalho e aos serviços de saúde."
+        },
+        {
+          "type": "paragraph",
+          "id": "diversidade_sexual_p_29",
+          "content": "Combater a homofobia e a transfobia é uma forma de garantir o respeito aos direitos humanos e promover uma sociedade mais justa e inclusiva."
+        }
+      ]
+    },
+    {
+      "id": "indicacoes",
+      "title": "Indicações",
+      "blocks": [
+        {
+          "type": "highlight",
+          "icon": "filme",
+          "title": "<b>Nunca fui santa</b>",
+          "content": "O filme aborda questões relacionadas à identidade, ao preconceito e à busca por aceitação em uma sociedade marcada por normas e expectativas sobre como as pessoas devem agir e se expressar. A obra convida à reflexão sobre diversidade, respeito e liberdade individual.",
+          "id": "indicacao_1"
+        },
+        {
+          "type": "highlight",
+          "icon": "musica",
+          "title": "<b>Flutua - Johnny Hooker, Liniker e os Caramelows</b>",
+          "content": "A música transmite uma mensagem de amor, afeto e resistência diante do preconceito. A letra reforça a importância de viver a própria identidade sem medo e denuncia as violências enfrentadas por pessoas que desafiam os padrões sociais impostos.",
+          "id": "indicacao_2"
+        },
+        {
+          "type": "highlight",
+          "icon": "livro",
+          "title": "<b>Heartstopper - Alice Oseman</b>",
+          "content": "A obra acompanha a construção de relações afetivas e o processo de autoconhecimento vivido por seus personagens. Ao abordar temas como identidade, orientação sexual, amizade e pertencimento, a história em quadrinhos contribui para ampliar a representatividade e promover reflexões sobre respeito à diversidade.",
+          "id": "indicacao_3"
+        }
+      ]
+    },
+    {
+      "id": "referencias",
+      "title": "Referências bibliográficas",
+      "blocks": [
+        {
+          "type": "list",
+          "id": "referencias_lista",
+          "items": [
+            "COSTA, Ricardo Cesar Rocha da; OLIVEIRA, Luís Fernando de. <b><i>Sociologia para jovens do século XXI</i></b>. 4. ed. São Paulo: Imperial Novo Milênio, 2016.",
+            "OLIVEIRA, Luiz Fernandes de; COSTA, Ricardo Cesar Rocha da. <b><i>Sociologia para jovens do século XXI: volume único</i></b>. 1. ed. São Paulo: Editora do Brasil, 2024."
+          ]
+        }
+      ]
+    }
+  ]
+}
