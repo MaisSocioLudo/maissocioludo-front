@@ -145,6 +145,48 @@
           "content": "<b>Alguns nomes de origem indígena</b>"
         },
         {
+          "type": "table",
+          "id": "povos_indigenas_tabela_nomes",
+          "headers": [
+            "<b>Nome </b>",
+            "<b>Significado</b>"
+          ],
+          "rows": [
+            [
+              "Kauã",
+              "Gavião"
+            ],
+            [
+              "Lara",
+              "Senhora das águas"
+            ],
+            [
+              "Jaci",
+              "Lua"
+            ],
+            [
+              "Araci",
+              "Mãe do dia"
+            ],
+            [
+              "Ubirajara",
+              "Senhor da lança"
+            ],
+            [
+              "Moara",
+              "Aquela que auxilia"
+            ],
+            [
+              "Janaína",
+              "Rainha das águas"
+            ],
+            [
+              "Taiane",
+              "Estrela"
+            ]
+          ]
+        },
+        {
           "type": "heading",
           "id": "literatura_indigena_e_o_protagonismo_indigena_na_atualidade",
           "content": "Literatura indígena e o protagonismo indígena na atualidade"

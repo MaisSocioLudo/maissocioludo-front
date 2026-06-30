@@ -2,6 +2,8 @@ import { readFile } from "fs/promises";
 import path from "path";
 import type { TemaContent } from "@/types/tema-content";
 
+const contentCache = new Map<string, Promise<TemaContent>>();
+
 function stripHtml(html: string) {
   return html.replace(/<[^>]+>/g, "").trim();
 }
@@ -35,9 +37,7 @@ function buildMenuFromContent(content: TemaContent) {
   return menu;
 }
 
-export async function getTemaContent(id: string): Promise<TemaContent> {
-  const safeId = id.replace(/[^a-z0-9_-]/gi, "");
-
+async function loadTemaContent(safeId: string): Promise<TemaContent> {
   const filePath = path.join(
     process.cwd(),
     "src",
@@ -68,4 +68,21 @@ export async function getTemaContent(id: string): Promise<TemaContent> {
     ...content,
     menu: buildMenuFromContent(content),
   };
+}
+
+export async function getTemaContent(id: string): Promise<TemaContent> {
+  const safeId = id.replace(/[^a-z0-9_-]/gi, "");
+
+  if (process.env.NODE_ENV !== "production") {
+    return loadTemaContent(safeId);
+  }
+
+  let content = contentCache.get(safeId);
+
+  if (!content) {
+    content = loadTemaContent(safeId);
+    contentCache.set(safeId, content);
+  }
+
+  return content;
 }

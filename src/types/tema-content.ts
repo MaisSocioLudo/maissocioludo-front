@@ -27,6 +27,14 @@ export type TemaContentBlock =
   }
   | {
     icon?: string;
+    type: "table";
+    id: string;
+    caption?: string;
+    headers: string[];
+    rows: string[][];
+  }
+  | {
+    icon?: string;
     type: "highlight";
     id: string;
     title: string;

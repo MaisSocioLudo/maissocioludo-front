@@ -100,6 +100,47 @@
           "content": "Características da ideologia"
         },
         {
+          "type": "table",
+          "id": "ideologia_tabela_caracteristicas",
+          "headers": [
+            "Características",
+            "O que faz",
+            "Exemplo"
+          ],
+          "rows": [
+            [
+              "Prescrição de normas",
+              "Orienta as ações humanas. Modela os interesses humanos. Diz o que se deve fazer, pensar ou expressar.",
+              "A ideia de monogamia, nas sociedades ocidentais, faz com que homens e mulheres a considerem como a única forma possível de relação existente no mundo."
+            ],
+            [
+              "Representação da realidade",
+              "Dá sentido à realidade humana. Utiliza-se de símbolos e da criação mental.",
+              "A crença no “sonho americano” (de que qualquer pessoa pode enriquecer apenas com esforço) molda a forma como muitos enxergam sucesso e fracasso."
+            ],
+            [
+              "Generalização do particular",
+              "Trata o específico como um fenômeno geral.",
+              "Ao destacar casos isolados de pessoas pobres que enriqueceram, difunde-se a ideia de que “quem é pobre é porque não se esforça”"
+            ],
+            [
+              "Inversão da realidade",
+              "Esconde as reais causas de um fenômeno.",
+              "A ideia de que pessoas em situação de pobreza estão nessa condição apenas por falta de esforço, ignorando fatores como desigualdade social e falta de oportunidades."
+            ],
+            [
+              "Naturalização das ações humanas",
+              "Torna normal e natural aquilo que é histórico e contingente.",
+              "A crença de que mulheres são “naturalmente” mais responsáveis pelos cuidados domésticos e familiares."
+            ],
+            [
+              "Reificação da realidade",
+              "As coisas aparecem com vida própria, ou seja, coisas inertes ganham aspectos naturais, não construídas pelos homens.",
+              "Os salários não expressam relações desiguais de trabalho."
+            ]
+          ]
+        },
+        {
           "type": "heading",
           "id": "industria_cultural",
           "content": "Indústria cultural"

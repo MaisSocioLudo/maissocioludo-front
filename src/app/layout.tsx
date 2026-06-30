@@ -3,6 +3,10 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 
+const metadataBase = new URL(
+  process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000"
+);
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -13,13 +17,10 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-
-export async function generateMetadata({
-}): Promise<Metadata> {
-  return {
-    title: `Conheça o SocioLudo | +SocioLudo`,
-  };
-}
+export const metadata: Metadata = {
+  metadataBase,
+  title: "Conheça o SocioLudo | +SocioLudo",
+};
 
 export default function RootLayout({
   children,
@@ -27,7 +28,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pt">
+    <html lang="pt" data-scroll-behavior="smooth">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

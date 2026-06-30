@@ -92,6 +92,50 @@ export function TemaBlockRenderer({ block, color }: Props) {
         </ul>
       );
 
+    case "table":
+      return (
+        <div id={block.id} className="overflow-hidden rounded-2xl border border-zinc-200 bg-white">
+          {block.caption ? (
+            <p
+              className="border-b border-zinc-200 bg-zinc-50 px-4 py-3 text-sm font-black uppercase tracking-wide"
+              style={{ color }}
+              dangerouslySetInnerHTML={renderFormattedContent(block.caption)}
+            />
+          ) : null}
+
+          <div className="overflow-x-auto">
+            <table className="min-w-full border-collapse text-left text-sm text-zinc-700 sm:text-[15px]">
+              <thead>
+                <tr style={{ backgroundColor: color }}>
+                  {block.headers.map((header, index) => (
+                    <th
+                      key={`${header}-${index}`}
+                      scope="col"
+                      className="min-w-[150px] border-r border-white/20 px-4 py-3 align-middle font-black leading-snug text-white last:border-r-0"
+                      dangerouslySetInnerHTML={renderFormattedContent(header)}
+                    />
+                  ))}
+                </tr>
+              </thead>
+
+              <tbody>
+                {block.rows.map((row, rowIndex) => (
+                  <tr key={`${block.id}-row-${rowIndex}`} className="odd:bg-white even:bg-zinc-50">
+                    {row.map((cell, cellIndex) => (
+                      <td
+                        key={`${block.id}-${rowIndex}-${cellIndex}`}
+                        className="min-w-[150px] border-r border-t border-zinc-200 px-4 py-3 align-top leading-6 last:border-r-0"
+                        dangerouslySetInnerHTML={renderFormattedContent(cell)}
+                      />
+                    ))}
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      );
+
     case "highlight":
       return (
         <div className="rounded-2xl border border-zinc-200 bg-zinc-50 p-4 sm:rounded-3xl sm:p-5">

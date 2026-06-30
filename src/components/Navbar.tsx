@@ -47,6 +47,7 @@ const Navbar: React.FC<NavbarProps> = ({ color = 'azul' }) => {
                 width={200}
                 priority
                 src="/imagens/navlogo.png"
+                style={{ height: 'auto' }}
               />
             </Link>
           </div>

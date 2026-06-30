@@ -13,6 +13,8 @@ type Props = {
   params: Promise<{ id: string }>;
 };
 
+export const dynamicParams = false;
+
 export async function generateStaticParams() {
   return temas.map((tema) => ({ id: tema.id }));
 }
